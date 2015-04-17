@@ -1,4 +1,4 @@
 UKTIA
 ========
 
-Responsive website templates for UKTIA
+Responsive rework of the UKTIA members intranet
