@@ -1,0 +1,90 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #666666;
+  background: url("../images/background.jpeg") 0 0 repeat-x white;
+  font-size: small;
+  -webkit-text-size-adjust: none;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* resets */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0 0 12px 0;
+  line-height: 130%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.cboth {
+  clear: both;
+}
+
+.cleft {
+  clear: left;
+}
+
+img {
+  border: none;
+}
+
+* {
+  outline: none;
+}
+
+.page {
+  background: url("../images/background-page.jpeg") 0 0 repeat-x white;
+  width: 920px;
+  margin: 0 auto;
+  min-height: 600px;
+}
+
+.logo {
+  margin: 10px 0 0 -11px;
+  float: left;
+}
+.logo a {
+  display: block;
+}
+
+.aux-navigation {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 2px 20px 0 0;
+  font-size: 0.80em;
+}
+.aux-navigation li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  border-left: 1px solid #ddd4d4;
+  border-right: 1px solid #c1b8b8;
+}
+.aux-navigation li a {
+  color: #926641;
+  text-decoration: none;
+  padding: 12px 10px 2px 8px;
+  display: block;
+}
+.aux-navigation li a:hover {
+  text-decoration: underline;
+}
+.aux-navigation li.last {
+  border: none;
+}
+.aux-navigation .tw {
+  text-indent: -9000px;
+  background: url("../images/twitter.png") bottom left no-repeat;
+  width: 40px;
+  height: 44px;
+  padding: 0 0 0 0;
+  display: block;
+  margin: 15px 0 0 0;
+  border: none;
+}
