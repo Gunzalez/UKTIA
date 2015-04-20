@@ -3,7 +3,7 @@ Detailed Timesheet breakdown (Estimation: 66 hours)
 
 Sets up project and starts on homepage                                                  3.0 hrs
 Responsive header, 65%                                                                  5.0 hrs
-
+Responsive header, 100%                                                                 2.0 hrs
 
 
 Todos
