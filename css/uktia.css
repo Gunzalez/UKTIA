@@ -34,13 +34,6 @@ img {
   outline: none;
 }
 
-.page {
-  background: url("../images/background-page.jpeg") 0 0 repeat-x white;
-  width: 920px;
-  margin: 0 auto;
-  min-height: 600px;
-}
-
 .logo {
   margin: 10px 0 0 -11px;
   float: left;
@@ -95,6 +88,23 @@ img {
   font-size: 1.1em;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+}
+.back-to-top a {
+  color: #444444;
+  display: block;
+  font-size: 1.4em;
+}
+
+.page {
+  background: url("../images/background-page.jpeg") 0 0 repeat-x white;
+  width: 920px;
+  margin: 0 auto;
+}
 .page .aux-navigation {
   float: right;
   list-style: none;
@@ -166,7 +176,7 @@ img {
   border: none;
   outline: none;
 }
-.page .navigation {
+.page .header .navigation {
   margin-top: -30px;
   float: right;
   height: 49px;
@@ -175,20 +185,20 @@ img {
   background: url("../images/corner-brown-left.png") bottom left no-repeat;
   z-index: 900;
 }
-.page .navigation ul {
+.page .header .navigation ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.page .navigation > ul {
+.page .header .navigation > ul {
   float: left;
   padding-bottom: 9px;
   background: url("../images/corner-brown-right.png") bottom right no-repeat;
 }
-.page .navigation .has-dropdown > a {
+.page .header .navigation .has-dropdown > a {
   background: url("../images/dropdown-indicator.png") center right no-repeat #926641;
 }
-.page .navigation li {
+.page .header .navigation li {
   float: left;
   position: relative;
   border-left: 1px solid #a88567;
@@ -197,13 +207,13 @@ img {
   padding: 0;
   height: 40px;
 }
-.page .navigation li.first {
+.page .header .navigation li.first {
   border-left: none;
 }
-.page .navigation li.last {
+.page .header .navigation li.last {
   border-right: none;
 }
-.page .navigation li a {
+.page .header .navigation li a {
   font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
   color: #ffffff;
   background-color: #926641;
@@ -216,13 +226,13 @@ img {
   font-size: 1.2em;
   width: 100%;
 }
-.page .navigation li a:hover {
+.page .header .navigation li a:hover {
   background-color: #514841;
 }
-.page .navigation li.open > a {
+.page .header .navigation li.open > a {
   background-color: #514841;
 }
-.page .navigation li ul {
+.page .header .navigation li ul {
   position: absolute;
   left: -1px;
   right: -1px;
@@ -230,14 +240,14 @@ img {
   border-top: 1px solid #755234;
   display: none;
 }
-.page .navigation li ul li {
+.page .header .navigation li ul li {
   width: 100%;
   border: 0;
   border-bottom: 1px solid #755234;
   border-top: 1px solid #a88567;
   height: 36px;
 }
-.page .navigation li ul li a {
+.page .header .navigation li ul li a {
   font-size: 1.1em;
   width: 100%;
   line-height: 36px;
@@ -246,26 +256,79 @@ img {
   -o-transition: all 0.25s;
   transition: all 0.25s;
 }
-.page .navigation li ul li a:hover {
+.page .header .navigation li ul li a:hover {
   -webkit-transition: all 0.25s;
   -moz-transition: all 0.25s;
   -o-transition: all 0.25s;
   transition: all 0.25s;
 }
-.page .navigation li.first ul {
+.page .header .navigation li.first ul {
   left: 0;
 }
-.page .navigation .option-one {
-  width: 200px;
+.page .header .navigation .option-one {
+  width: 213px;
 }
-.page .navigation .option-two {
-  width: 200px;
+.page .header .navigation .option-two {
+  width: 213px;
 }
-.page .navigation .option-three {
-  width: 336px;
+.page .header .navigation .option-three {
+  width: 340px;
 }
-.page .navigation .option-four {
-  width: 200px;
+.page .header .navigation .option-four {
+  width: 170px;
+}
+
+.body {
+  height: 700px;
+  background: #4bd963;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background: url("../images/pile-of-leaves.jpg") top left no-repeat;
+  padding: 70px 0 25px 0;
+}
+.footer .navigation {
+  float: left;
+  width: 480px;
+}
+.footer .navigation ul {
+  list-style: none;
+  margin: 0 0 0 4px;
+  padding: 0;
+}
+.footer .navigation ul li {
+  float: left;
+  border-right: 1px solid #666666;
+}
+.footer .navigation ul li a {
+  display: block;
+  padding: 0 6px;
+  color: #926641;
+  text-decoration: none;
+}
+.footer .navigation ul li a:hover {
+  text-decoration: underline;
+  color: #514841;
+}
+.footer .navigation ul li.last {
+  border-right: none;
+}
+.footer .company-info {
+  float: right;
+  width: 400px;
+  text-align: right;
+  margin-right: 10px;
+}
+.footer .company-info p {
+  font-size: 0.85em;
+  line-height: 140%;
+}
+.footer .company-info a {
+  color: #444444;
+}
+.footer .company-info a:hover {
+  text-decoration: none;
 }
 
 /* responsive break points */
@@ -307,6 +370,17 @@ img {
     color: #ffffff;
     font-size: 2.0em;
   }
+
+  .footer .company-info {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 5px 20px 0 20px;
+    box-sizing: border-box;
+  }
+  .footer .company-info p {
+    font-size: 0.9em;
+  }
 }
 @media only screen and (max-width: 719px) {
   .page {
@@ -342,5 +416,9 @@ img {
 @media only screen and (max-width: 600px) {
   .page .logo img {
     height: 65px;
+  }
+
+  .footer .company-info p {
+    font-size: 0.85em;
   }
 }

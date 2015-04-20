@@ -16,15 +16,23 @@
             return check;
         },
 
+        isTouchDevice : function() {
+            return (('ontouchstart' in window)
+            || (navigator.MaxTouchPoints > 0)
+            || (navigator.msMaxTouchPoints > 0));
+        },
+
         resize : function(){
             console.log(uktia.properties.windowWidth);
-            uktia.siteNavigation.reszie();
+            uktia.navigation.reszie();
         },
 
         init: function(){
             var self = uktia;
+
             // window size
             self.properties.windowWidth = $(window).width();
+
             // device type
             if(self.environment.mobileCheck()){
                 self.environment.isMobile = true;
@@ -33,16 +41,38 @@
                 self.environment.isDesktop = true;
                 $('html').addClass('desktop');
             }
-        },
 
-        isTouchDevice : function() {
-            return (('ontouchstart' in window)
-            || (navigator.MaxTouchPoints > 0)
-            || (navigator.msMaxTouchPoints > 0));
+            if(uktia.environment.isTouchDevice()){
+
+                $('body').on('click', function(){
+                    uktia.navigation.closeDropdowns();
+                });
+
+                $(window).on('scroll', function(){
+                    self.navigation.closeDropdowns();
+                });
+            }
+
+            // sets up back to top button
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 100) {
+                    $('.back-to-top').fadeIn();
+                } else {
+                    $('.back-to-top').fadeOut();
+                }
+            });
+
+            // click event to scroll to top
+            $('.back-to-top').click(function(evt){
+                evt.preventDefault();
+                $('html, body').animate({scrollTop : 0},800);
+                return false;
+            });
+
         }
     };
 
-    uktia.siteNavigation = {
+    uktia.navigation = {
         $html: $('#navigation-list'),
         $htmlMobile: $('nav#mobile-navigation'),
 
@@ -54,7 +84,7 @@
 
         mobile: {
             init: function(){
-                uktia.siteNavigation.$htmlMobile.mmenu({
+                uktia.navigation.$htmlMobile.mmenu({
                     offCanvas: {
                         position: "right"
                     }
@@ -140,7 +170,10 @@
 
         // Other init
         uktia.environment.init();
-        uktia.siteNavigation.init();
+        uktia.navigation.init();
+
+
+
 
         // Resize triggers
 		$(window).on('resize',function(){

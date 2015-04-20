@@ -75,18 +75,40 @@
                             <li class="last"><a href="/operating-groups">Operating Groups &amp; Mandates</a></li>
                         </ul>
                     </li>
-                    <li class="last option-four"><a href="/actions-updates">Actions &amp; Updates</a></li>
+                    <li class="last option-four"><a href="/circulars">Circulars</a></li>
                 </ul>
             </div>
 
             <div class="cboth"></div>
         </div><!-- .header -->
 
+        <div class="body">
 
+        </div>
 
+        <div class="footer">
+            <div class="navigation">
+                <ul>
+                    <li class="first"><a href="/about">About UKTIA</a></li>
+                    <li><a href="/pulse">The Pulse</a></li>
+                    <li><a href="/members-reference" class="active">Membership Reference Info</a></li>
+                    <li><a href="/circulars">Circulars</a></li>
+                    <li class="last"><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="company-info">
+                <p>&copy; Copyright 2015 – Privacy Policy<br>
+                    UK Tea &amp; Infusions Association Ltd, Suite&nbsp;10 Fourth Floor, Crown&nbsp;House,<br>
+                    One Crown Square, Woking, GU21&nbsp;6HR<br>
+                    <a href="/contact">Contact&nbsp;Us</a> or view our <a href="/faqs">Frequently&nbsp;Asked&nbsp;Questions</a> (FAQ)</p>
+            </div>
+            <div class="cboth"></div>
+        </div><!-- .page -->
 
     </div><!-- .page -->
 
+
+    <div class="back-to-top"><a href="#"><i class="fa fa-chevron-up"></i></a></div>
 
     <div class="mobile-navigation">
         <nav id="mobile-navigation" class="mobile-navigation-list">
@@ -127,7 +149,8 @@
                         <li><a href="/operating-groups">Operating Groups &amp; Mandates</a></li>
                     </ul>
                 </li>
-                <li><a href="/actions-updates">Actions &amp; Updates</a></li>
+                <li><a href="/circulars">Circulars</a></li>
+                <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>
     </div>
