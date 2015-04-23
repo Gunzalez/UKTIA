@@ -5,6 +5,7 @@ Sets up project and starts on homepage                                          
 Responsive header, 65%                                                                  5.0 hrs
 Responsive header, 100%                                                                 2.0 hrs
 Responsive footer, 100%                                                                 1.0 hr
+Homepage begins, 40%                                                                    4.0 hrs
 
 
 Todos

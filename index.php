@@ -83,6 +83,42 @@
         </div><!-- .header -->
 
         <div class="body">
+            <div class="section">
+                <div class="wide left">
+
+                    <div class="banner">
+                        <h2>What is the UKTIA?</h2>
+                        <p>The UK Tea &amp; Infusions Association (UKTIA) is an independent non-profit making body dedicated to promoting tea and herbal infusions and their unique story for the benefit of those who produce, sell and enjoy tea and infusions.</p>
+                        <p>We represent the world's major tea producing and exporting countries, UK tea packers and brokers and UK companies providing services to the tea and infusions industry.</p>
+                    </div>
+
+                </div>
+                <div class="narrow right fixed-267px">
+
+                    <div class="news-feed">
+                        <h3>Tea in the Press:</h3>
+                        <ul>
+                            <li>
+                                <img src="uploaded/icon-guardian.png" alt="" width="45" height="45">
+                                <p><strong>Nullam et nisl ut nulla tristique mattis</strong> Curabitur semti stique mator vitae odio tincidunt egestas. <a href="/press/">More</a></p>
+                            </li>
+                            <li>
+                                <img src="uploaded/icon-bbc-news.png" alt="" width="45" height="45">
+                                <p><strong>13/12/2014 Beats to the mix</strong> Nullam et nisl ut nulla tristique mattisnt egestas. <a href="/press/">More</a></p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="banner-register">
+                        <h3>Register for membership</h3>
+                        <a href="/register" class="button">
+                            <span>Register now</span>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="cboth"></div>
+            </div>
 
         </div>
 
