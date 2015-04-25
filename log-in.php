@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>UK Tea &amp; Infusions Association - What is the UKTIA?</title>
+    <title>UK Tea &amp; Infusions Association - Members Log-in</title>
     <meta name="keywords" content="Keywords go here" />
     <meta name="description" content="Description goes here" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
@@ -13,7 +13,7 @@
     <link href="js/vendors/jquery.mmenu/jquery.mmenu.all.css" rel="stylesheet">
     <script src="js/vendors/modernizr-2.6.1.min.js" type="text/javascript"></script>
 </head>
-<body class="home">
+<body class="log-in">
 
     <div class="page">
 
@@ -53,7 +53,7 @@
                         <ul>
                             <li class="first"><a href="/members-benefits">Members Benefits</a></li>
                             <li><a href="/register">Registration</a></li>
-                            <li class="last"><a href="log-in.php">Members Log-in</a></li>
+                            <li class="last active"><a href="log-in.php">Members Log-in</a></li>
                         </ul>
                     </li>
                     <li class="option-two"><a href="log-in.php">The Pulse</a></li>
@@ -74,14 +74,36 @@
             <div class="section">
                 <div class="wide left">
 
-                    <div class="banner">
-                        <h2>What is the UKTIA?</h2>
-                        <p>The UK Tea &amp; Infusions Association (UKTIA) is an independent non-profit making body dedicated to promoting tea and herbal infusions and their unique story for the benefit of those who produce, sell and enjoy tea and infusions.</p>
-                        <p>We represent the world's major tea producing and exporting countries, UK tea packers and brokers and UK companies providing services to the tea and infusions industry.</p>
+                    <div class="copy-padding">
+
+
+                        <h2>Members Log-in</h2>
+                        <p>Log-in to the UK Tea &amp; Infusions Association Members Extranet to gain access to the information on this site. If you have not registered already, please <a href="/register" title="Click here to register for access to the UK Tea Council Members Extranet website...">register here</a>.</p>
+                        <p>If you have forgotten your login details, please <a href="/log-in/password-reminder" title="Click here to go to the password reminder page...">click here to retrieve your password</a>.</p>
+
+                        <form id="login-form" name="login-form" action="pulse.php" method="post" class="form validator" novalidate="novalidate">
+                            <h3>Please login to access Members info:</h3>
+                            <div class="row">
+                                <label for="email">Email</label>
+                                <input type="email" class="input" name="email" id="email" placeholder="Email" value="" required="required">
+                            </div>
+                            <div class="row">
+                                <label for="phrase">Password</label>
+                                <input type="password" class="input" name="phrase" id="phrase" placeholder="Password" value="" required="required">
+                            </div>
+                            <div class="row last">
+                                <input type="submit" id="go" value="submit" class="go-button">
+                            </div>
+                        </form>
+
+                        <p><a href="/log-in/password-reminder">Forgot password?</a></p>
+
+
+                        <div class="cboth"></div>
                     </div>
 
                 </div>
-                <div class="narrow right fixed-267px">
+                <div class="narrow right">
 
                     <div class="listings news-feed">
                         <h3>Tea in the Press:</h3>
@@ -97,69 +119,16 @@
                         </ul>
                     </div>
 
-                    <div class="banner-register">
-                        <h3>Register for membership</h3>
-                        <a href="/register" class="button">
-                            <span>Register now</span>
-                        </a>
-                    </div>
-
-                </div>
-                <div class="cboth"></div>
-            </div>
-
-            <div class="section">
-                <div class="form-login">
-                    <h3>Members Area <span></span></h3>
-                    <form id="login-form" name="login-form" action="pulse.php" method="post" class="form validator" novalidate="novalidate">
-                        <h4>Please login to access Members info:</h4>
-                        <label for="email">Email</label>
-                        <input type="email" class="input" name="email" id="email" placeholder="Email" value="" required="required">
-                        <label for="phrase">Password</label>
-                        <input type="password" class="input" name="phrase" id="phrase" placeholder="Password" value="" required="required">
-                        <label for="go">&nbsp;</label>
-                        <input type="submit" id="go" value="submit" class="go-button">
-                    </form>
-                    <div class="cboth"></div>
-                </div>
-                <div class="cboth"></div>
-            </div>
-
-            <div class="section">
-
-                <div class="wide right">
-
-                    <div class="video-catchup">
-                        <div class="details">
-                            <h3>Video Catchup:</h3>
-                            <p>Tea Advisory Panel (TAP) 2014 update</p>
-                            <p>Please login to view the video and check back for updates.</p>
-                        </div>
-                        <div class="video">
-                            <img src="http://i.vimeocdn.com/video/475065153_640.jpg" width="360">
-                            <a href="log-in.php" title="Please log-in to view this article"><span>Log-in to view</span></a>
-                        </div>
-                        <div class="cboth"></div>
-                    </div>
-
-                </div>
-
-                <div class="narrow left">
-
-                    <div class="listings member-updates">
-                        <h3>Latest members updates:</h3>
+                    <div class="listings essential-reading">
+                        <h3>Essential Reading:</h3>
                         <ul>
                             <li>
-                                <img src="uploaded/icon-update.png" alt="" width="45" height="45">
-                                <p><strong>UKTIA Executive Board Meeting</strong> - 09/12/2015 <a href="log-in.php" title="Please log-in to view this article">Log-in to view</a></p>
+                                <img src="uploaded/icon-guardian.png" alt="" width="45" height="45">
+                                <p><strong>Nullam et nisl ut nulla tristique mattis</strong> Curabitur semti stique mator vitae odio tincidunt egestas. <a href="/press/">More</a></p>
                             </li>
                             <li>
-                                <img src="uploaded/icon-update.png" alt="" width="45" height="45">
-                                <p><strong>UKTIA Technical Operating Group &amp; RSWG...</strong> - 20/11/201 <a href="log-in.php" title="Please log-in to view this article">Log-in to view</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-update.png" alt="" width="45" height="45">
-                                <p><strong>Conference Call</strong> - 10/11/2015 <a href="log-in.php" title="Please log-in to view this article">Log-in to view</a></p>
+                                <img src="uploaded/icon-bbc-news.png" alt="" width="45" height="45">
+                                <p><strong>13/12/2014 Beats to the mix</strong> Nullam et nisl ut nulla tristique mattisnt egestas. <a href="/press/">More</a></p>
                             </li>
                         </ul>
                     </div>
@@ -169,7 +138,6 @@
             </div>
 
         </div><!-- .body -->
-
 
 
 
