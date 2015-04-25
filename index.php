@@ -43,7 +43,7 @@
                 <div class="row">
                     <label class="label" for="term">Search</label>
                     <input class="term" type="text" id="term" name="term" value="">
-                    <input class="button" type="submit" value="submit">
+                    <input class="go-button" type="submit" value="submit">
                 </div>
             </form>
 
@@ -82,7 +82,12 @@
             <div class="cboth"></div>
         </div><!-- .header -->
 
+
+
+
+
         <div class="body">
+
             <div class="section">
                 <div class="wide left">
 
@@ -120,7 +125,30 @@
                 <div class="cboth"></div>
             </div>
 
-        </div>
+            <div class="section">
+                <div class="form-login">
+                    <h3>Members Area <span></span></h3>
+                    <form id="login-form" name="login-form" action="/log-in" method="post" class="login validator" novalidate="novalidate">
+                        <h4>Please login to access Members info:</h4>
+                        <label for="email">Email</label>
+                        <input type="email" class="input" name="email" id="email" placeholder="Email" value="" required="required">
+                        <label for="phrase">Password</label>
+                        <input type="password" class="input" name="phrase" id="phrase" placeholder="Password" value="" required="required">
+                        <label for="go">&nbsp;</label>
+                        <input type="submit" id="go" value="submit" class="go-button">
+                    </form>
+                </div>
+                <div class="cboth"></div>
+            </div>
+
+        </div><!-- .body -->
+
+
+
+
+
+
+
 
         <div class="footer">
             <div class="navigation">
@@ -139,13 +167,15 @@
                     <a href="/contact">Contact&nbsp;Us</a> or view our <a href="/faqs">Frequently&nbsp;Asked&nbsp;Questions</a> (FAQ)</p>
             </div>
             <div class="cboth"></div>
-        </div><!-- .page -->
+        </div><!-- .footer -->
+
+
+
+
 
     </div><!-- .page -->
 
-
     <div class="back-to-top"><a href="#"><i class="fa fa-chevron-up"></i></a></div>
-
     <div class="mobile-navigation">
         <nav id="mobile-navigation" class="mobile-navigation-list">
             <ul>

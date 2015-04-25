@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0 0 12px 0;
   line-height: 130%;
   -webkit-font-smoothing: antialiased;
+  font-weight: normal;
 }
 
 .cboth {
@@ -32,6 +33,13 @@ img {
 
 * {
   outline: none;
+}
+
+input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 .logo {
@@ -68,9 +76,9 @@ img {
   width: 100%;
   border: none;
   margin-right: 60px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
   font-size: 1.1em;
   box-sizing: border-box;
@@ -98,6 +106,16 @@ img {
   color: #444444;
   display: block;
   font-size: 1.4em;
+}
+
+.go-button {
+  text-indent: -9000px;
+  background: url("../images/submit.png") 0 0 no-repeat;
+  width: 38px;
+  height: 35px;
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 .page {
@@ -167,15 +185,6 @@ img {
   font-size: 1.2em;
   color: #926641;
 }
-.page .search .button {
-  text-indent: -9000px;
-  background: url("../images/submit.png") 0 0 no-repeat;
-  width: 38px;
-  height: 35px;
-  cursor: pointer;
-  border: none;
-  outline: none;
-}
 .page .header {
   position: relative;
   z-index: 2;
@@ -232,9 +241,6 @@ img {
   font-size: 1.2em;
   width: 100%;
 }
-.page .header .navigation li a:hover {
-  background-color: #514841;
-}
 .page .header .navigation li.open > a {
   background-color: #514841;
 }
@@ -267,6 +273,7 @@ img {
   -moz-transition: all 0.25s;
   -o-transition: all 0.25s;
   transition: all 0.25s;
+  background-color: #514841;
 }
 .page .header .navigation li.first ul {
   left: 0;
@@ -285,14 +292,16 @@ img {
 }
 
 .body {
-  margin: 25px 0;
+  margin-top: 25px;
   font-family: "Arial", "Helvetica", "Verdana", "sans-serif";
   color: #444444;
+}
+.body .section {
+  margin-bottom: 20px;
 }
 .body h2, .body h3 {
   font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
   font-size: 2.0em;
-  font-weight: normal;
   line-height: 120%;
   color: #6a9433;
 }
@@ -314,7 +323,7 @@ img {
 .body .narrow {
   width: 255px;
 }
-.body .narrow.fixed-267px {
+.body .fixed-267px {
   height: 267px;
   position: relative;
 }
@@ -338,7 +347,7 @@ img {
   padding-top: 7px;
   margin-top: 7px;
   border-top: 2px dotted #e9e9e9;
-  min-height: 55px;
+  min-height: 60px;
   position: relative;
   box-sizing: border-box;
   font-size: 0.9em;
@@ -354,6 +363,7 @@ img {
 }
 .body .news-feed p {
   padding-bottom: 0;
+  padding-top: 2px;
 }
 .body .news-feed a {
   text-decoration: none;
@@ -373,7 +383,7 @@ img {
   bottom: 0;
   width: 100%;
 }
-.body .button {
+.body .banner-register .button {
   float: right;
   margin-right: -21px;
   background: url("../images/corner-brown-right.png") bottom right no-repeat;
@@ -382,7 +392,7 @@ img {
   font-family: "Arial", "Helvetica", "Verdana", "sans-serif";
   padding-bottom: 9px;
 }
-.body .button span {
+.body .banner-register .button span {
   padding: 8px 15px;
   width: 160px;
   background-color: #926641;
@@ -392,12 +402,60 @@ img {
   -o-transition: background 0.2s;
   transition: background 0.2s;
 }
-.body .button:hover span {
+.body .banner-register .button:hover span {
   background-color: #514841;
   -webkit-transition: background 0.2s;
   -moz-transition: background 0.2s;
   -o-transition: background 0.2s;
   transition: background 0.2s;
+}
+.body .form-login {
+  height: 46px;
+  float: left;
+  width: 942px;
+  margin-left: -11px;
+  background: #6a9433;
+}
+.body .form-login h3 {
+  float: left;
+  background: url("../images/corner-green-left.png") bottom left no-repeat;
+  height: 55px;
+  padding: 0 20px;
+  line-height: 46px;
+  color: #ffffff;
+}
+.body .form-login h3 span {
+  float: right;
+  background: url("../images/arrow-white.png") 0 0 no-repeat;
+  width: 16px;
+  height: 17px;
+  margin: 15px 18px;
+}
+.body .form-login .login {
+  float: right;
+  height: 55px;
+  background: url("../images/corner-green-right.png") bottom right no-repeat;
+}
+.body .form-login h4 {
+  float: left;
+  color: #ffffff;
+  line-height: 46px;
+}
+.body .form-login label {
+  display: none;
+}
+.body .form-login .input {
+  border: none;
+  padding: 3px 4px;
+  font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+  float: left;
+  margin-top: 12px;
+  margin-left: 10px;
+  font-size: 0.9em;
+  width: 140px;
+}
+.body .form-login .go-button {
+  margin: 8px 5px 0 10px;
 }
 
 .footer {
@@ -488,7 +546,7 @@ img {
   }
 
   .body {
-    margin: -10px 0 0 0;
+    margin: 5px 0 0 0;
   }
   .body .wide,
   .body .narrow {
@@ -508,6 +566,15 @@ img {
   }
   .body .news-feed p {
     padding-top: 6px;
+  }
+  .body .form-login {
+    width: 666px;
+  }
+  .body .form-login h4 {
+    display: none;
+  }
+  .body .form-login .login {
+    width: 370px;
   }
 
   .footer .company-info {
@@ -576,7 +643,7 @@ img {
     width: auto;
     margin: 0 15px;
   }
-  .body .button {
+  .body .banner-register .button {
     float: none;
     display: block;
     margin-right: 0;
@@ -584,15 +651,72 @@ img {
     padding-bottom: 10px;
     margin-left: 60px;
   }
-  .body .button span {
+  .body .banner-register .button span {
     padding: 8px 20px 8px 15px;
     display: block;
     background: url("../images/button-indicator.png") right center no-repeat #926641;
   }
+  .body .form-login {
+    height: auto;
+    float: none;
+    width: auto;
+    margin: 0 15px;
+    padding: 7px 10px;
+    box-sizing: border-box;
+  }
+  .body .form-login h3 {
+    float: none;
+    background: none;
+    height: auto;
+    padding: 0 0 12px 0;
+    line-height: 120%;
+  }
+  .body .form-login h3 span {
+    display: none;
+  }
+  .body .form-login .login {
+    float: none;
+    height: auto;
+    background: none;
+    width: auto;
+  }
+  .body .form-login h4 {
+    display: block;
+    float: none;
+    line-height: 120%;
+    margin-top: -5px;
+  }
+  .body .form-login .input {
+    margin: 0 12px 0 0;
+    width: 140px;
+    display: block;
+  }
+  .body .form-login .go-button {
+    margin: -5px 0 0 0;
+  }
 }
 @media only screen and (max-width: 600px) {
   .page .logo img {
-    height: 65px;
+    height: 70px;
+  }
+
+  .body .form-login .login {
+    text-align: right;
+  }
+  .body .form-login h4 {
+    text-align: left;
+  }
+  .body .form-login .input {
+    float: none;
+    margin: 0 0 12px 0;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    font-size: 1.0em;
+    padding: 4px 5px;
+  }
+  .body .form-login .go-button {
+    margin: 0;
   }
 
   .footer .company-info p {

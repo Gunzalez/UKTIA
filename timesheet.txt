@@ -6,7 +6,7 @@ Responsive header, 65%                                                          
 Responsive header, 100%                                                                 2.0 hrs
 Responsive footer, 100%                                                                 1.0 hr
 Homepage begins, 40%                                                                    4.0 hrs
-
+Homepage begins 65%, Member login form                                                  3.0 hrs
 
 Todos
 ==================================================================================================
