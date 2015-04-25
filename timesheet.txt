@@ -8,7 +8,7 @@ Responsive footer, 100%                                                         
 Homepage begins, 40%                                                                    4.0 hrs
 Homepage begins 65%, Member login form                                                  3.0 hrs
 Homepage begins 85%, members updates list + video                                       3.0 hrs
-
+Homepage begins 100%, (logged out)                                                      2.0 hrs
 
 
 

@@ -382,6 +382,12 @@ input {
 .body .listings.member-updates {
   padding-left: 15px;
 }
+.body .listings.member-updates h3 {
+  margin-right: 0;
+}
+.body .listings.member-updates ul {
+  padding: 0 0 15px 0;
+}
 .body .listings.member-updates a {
   display: inline-block;
   color: #8cb1e8;
@@ -481,7 +487,7 @@ input {
 }
 .body .video-catchup .details {
   float: left;
-  width: 180px;
+  width: 210px;
 }
 .body .video-catchup .video {
   float: right;
@@ -621,6 +627,9 @@ input {
   .body .listings.member-updates {
     padding-left: 0;
   }
+  .body .listings.member-updates ul {
+    padding-bottom: 0;
+  }
   .body .form-login {
     width: 666px;
   }
@@ -705,7 +714,7 @@ input {
   }
   .body .banner-register .button {
     float: none;
-    display: block;
+    display: inline-block;
     margin-right: 0;
     background: none;
     padding-bottom: 10px;
@@ -757,8 +766,21 @@ input {
   .body .form-login .go-button {
     margin: -5px 0 0 0;
   }
+  .body .listings.member-updates {
+    padding-left: 15px;
+  }
+  .body .video-catchup {
+    margin: 0 15px;
+  }
+  .body .video-catchup .details {
+    width: 140px;
+  }
 }
 @media only screen and (max-width: 600px) {
+  .back-to-top a {
+    font-size: 2.0em;
+  }
+
   .page .logo img {
     height: 67px;
   }
@@ -781,6 +803,29 @@ input {
   .body .form-login .go-button {
     margin: 0;
     float: none;
+  }
+  .body .listings.member-updates a {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.9em;
+  }
+  .body .video-catchup .details {
+    width: auto;
+    float: none;
+  }
+  .body .video-catchup .video {
+    float: none;
+    width: 100%;
+  }
+  .body .video-catchup .video img {
+    width: 100%;
+  }
+  .body .video-catchup .video a {
+    width: 100%;
+  }
+  .body .video-catchup .video a span {
+    padding-top: 15%;
+    width: 100%;
   }
 
   .footer .company-info p {

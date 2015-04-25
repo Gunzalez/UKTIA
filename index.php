@@ -153,7 +153,7 @@
                             <p>Please login to view the video and check back for updates.</p>
                         </div>
                         <div class="video">
-                            <img src="http://i.vimeocdn.com/video/475065153_640.jpg" width="360" height="203">
+                            <img src="http://i.vimeocdn.com/video/475065153_640.jpg" width="360">
                             <a href="/log-in" title="Please log-in to view this articles..."><span>Log-in to view</span></a>
                         </div>
                         <div class="cboth"></div>
@@ -209,10 +209,10 @@
                 </ul>
             </div>
             <div class="company-info">
-                <p>&copy; Copyright 2015 – Privacy Policy<br>
+                <p>&copy; Copyright 2015 – <a href="#">Privacy&nbsp;Policy</a><br>
                     UK Tea &amp; Infusions Association Ltd, Suite&nbsp;10 Fourth Floor, Crown&nbsp;House,<br>
                     One Crown Square, Woking, GU21&nbsp;6HR<br>
-                    <a href="/contact">Contact&nbsp;Us</a> or view our <a href="/faqs">Frequently&nbsp;Asked&nbsp;Questions</a> (FAQ)</p>
+                    <a href="/contact">Contact&nbsp;Us</a> or view our <a href="/faqs">Frequently&nbsp;Asked&nbsp;Questions&nbsp;(FAQ)</a></p>
             </div>
             <div class="cboth"></div>
         </div><!-- .footer -->
