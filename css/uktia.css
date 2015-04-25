@@ -57,6 +57,11 @@ input {
 .logo span {
   display: block;
 }
+.logo span span {
+  -webkit-box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
+}
 
 .mobile-navigation-button,
 .mobile-navigation {
@@ -334,16 +339,16 @@ input {
   box-sizing: border-box;
   padding: 20px 350px 12px 25px;
 }
-.body .news-feed h3 {
+.body .listings h3 {
   padding-bottom: 2px;
   margin-right: 10px;
 }
-.body .news-feed ul {
+.body .listings ul {
   margin: 0;
   padding: 0 10px 15px 0;
   list-style: none;
 }
-.body .news-feed li {
+.body .listings li {
   padding-top: 7px;
   margin-top: 7px;
   border-top: 2px dotted #e9e9e9;
@@ -352,27 +357,34 @@ input {
   box-sizing: border-box;
   font-size: 0.9em;
 }
-.body .news-feed li > * {
+.body .listings li > * {
   margin-left: 55px;
 }
-.body .news-feed img {
+.body .listings img {
   position: absolute;
   top: 10px;
   left: 0;
   margin: 0;
 }
-.body .news-feed p {
+.body .listings p {
   padding-bottom: 0;
-  padding-top: 2px;
+  padding-top: 3px;
 }
-.body .news-feed a {
+.body .listings a {
   text-decoration: none;
   color: #6a9433;
   font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
   font-weight: bold;
 }
-.body .news-feed a:hover {
+.body .listings a:hover {
   text-decoration: underline;
+}
+.body .listings.member-updates {
+  padding-left: 15px;
+}
+.body .listings.member-updates a {
+  display: inline-block;
+  color: #8cb1e8;
 }
 .body .banner-register {
   padding: 7px 10px;
@@ -415,6 +427,9 @@ input {
   width: 942px;
   margin-left: -11px;
   background: #6a9433;
+  -webkit-box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
 }
 .body .form-login h3 {
   float: left;
@@ -435,6 +450,7 @@ input {
   float: right;
   height: 55px;
   background: url("../images/corner-green-right.png") bottom right no-repeat;
+  width: 590px;
 }
 .body .form-login h4 {
   float: left;
@@ -456,6 +472,38 @@ input {
 }
 .body .form-login .go-button {
   margin: 8px 5px 0 10px;
+  float: left;
+}
+.body .video-catchup {
+  padding: 10px;
+  background: #f1f0f0;
+  margin-right: 15px;
+}
+.body .video-catchup .details {
+  float: left;
+  width: 180px;
+}
+.body .video-catchup .video {
+  float: right;
+  width: 360px;
+  position: relative;
+}
+.body .video-catchup .video a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 360px;
+  height: 100%;
+  text-align: center;
+  color: #8cb1e8;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.body .video-catchup .video a span {
+  display: block;
+  padding-top: 50px;
 }
 
 .footer {
@@ -532,6 +580,9 @@ input {
   .page .logo span span {
     background: #6a9433;
     height: 93px;
+    -webkit-box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
   }
   .page .header {
     position: relative;
@@ -558,14 +609,17 @@ input {
     float: none;
     margin-bottom: 15px;
   }
-  .body .news-feed h3 {
+  .body .listings h3 {
     margin-right: 0;
   }
-  .body .news-feed ul {
+  .body .listings ul {
     padding-right: 0;
   }
-  .body .news-feed p {
+  .body .listings p {
     padding-top: 6px;
+  }
+  .body .listings.member-updates {
+    padding-left: 0;
   }
   .body .form-login {
     width: 666px;
@@ -575,6 +629,9 @@ input {
   }
   .body .form-login .login {
     width: 370px;
+  }
+  .body .video-catchup {
+    margin-right: 0;
   }
 
   .footer .company-info {
@@ -614,6 +671,9 @@ input {
   }
   .page .logo span span {
     height: auto;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
   }
   .page .mobile-navigation-button {
     top: 10px;
@@ -628,10 +688,10 @@ input {
     background-image: none;
     padding: 15px;
   }
-  .body .news-feed {
+  .body .listings {
     padding: 0 15px;
   }
-  .body .news-feed p {
+  .body .listings p {
     padding-top: 6px;
   }
   .body .fixed-267px {
@@ -663,6 +723,9 @@ input {
     margin: 0 15px;
     padding: 7px 10px;
     box-sizing: border-box;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
   }
   .body .form-login h3 {
     float: none;
@@ -697,7 +760,7 @@ input {
 }
 @media only screen and (max-width: 600px) {
   .page .logo img {
-    height: 70px;
+    height: 67px;
   }
 
   .body .form-login .login {
@@ -717,6 +780,7 @@ input {
   }
   .body .form-login .go-button {
     margin: 0;
+    float: none;
   }
 
   .footer .company-info p {

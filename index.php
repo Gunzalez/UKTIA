@@ -100,7 +100,7 @@
                 </div>
                 <div class="narrow right fixed-267px">
 
-                    <div class="news-feed">
+                    <div class="listings news-feed">
                         <h3>Tea in the Press:</h3>
                         <ul>
                             <li>
@@ -137,6 +137,54 @@
                         <label for="go">&nbsp;</label>
                         <input type="submit" id="go" value="submit" class="go-button">
                     </form>
+                    <div class="cboth"></div>
+                </div>
+                <div class="cboth"></div>
+            </div>
+
+            <div class="section">
+
+                <div class="wide right">
+
+                    <div class="video-catchup">
+                        <div class="details">
+                            <h3>Video Catchup:</h3>
+                            <p>Tea Advisory Panel (TAP) 2014 update</p>
+                            <p>Please login to view the video and check back for updates.</p>
+                        </div>
+                        <div class="video">
+                            <img src="http://i.vimeocdn.com/video/475065153_640.jpg" width="360" height="203">
+                            <a href="/log-in" title="Please log-in to view this articles..."><span>Log-in to view</span></a>
+                        </div>
+                        <div class="cboth"></div>
+                    </div>
+
+                </div>
+
+                <div class="narrow left">
+
+                    <div class="listings member-updates">
+                        <h3>Latest members updates:</h3>
+                        <ul>
+                            <li>
+                                <img src="uploaded/icon-update.png" alt="" width="45" height="45">
+                                <p><strong>UKTIA Executive Board Meeting</strong> - 09/12/2015 <a href="/log-in" title="Please log-in to view this articles...">Log-in to view</a></p>
+                            </li>
+                            <li>
+                                <img src="uploaded/icon-update.png" alt="" width="45" height="45">
+                                <p><strong>UKTIA Technical Operating Group &amp; RSWG...</strong> - 20/11/201 <a href="/log-in" title="Please log-in to view this articles...">Log-in to view</a></p>
+                            </li>
+                            <li>
+                                <img src="uploaded/icon-update.png" alt="" width="45" height="45">
+                                <p><strong>Conference Call</strong> - 10/11/2015 <a href="/log-in" title="Please log-in to view this articles...">Log-in to view</a></p>
+                            </li>
+<!--                            <li>-->
+<!--                                <img src="uploaded/icon-update.png" alt="" width="45" height="45">-->
+<!--                                <p><strong>Conference Call</strong> - 01/10/2015 <a href="/log-in" title="Please log-in to view this articles...">Log-in to view</a></p>-->
+<!--                            </li>-->
+                        </ul>
+                    </div>
+
                 </div>
                 <div class="cboth"></div>
             </div>
@@ -168,8 +216,6 @@
             </div>
             <div class="cboth"></div>
         </div><!-- .footer -->
-
-
 
 
 
