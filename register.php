@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>UK Tea &amp; Infusions Association - What is the UKTIA?</title>
+    <title>UK Tea &amp; Infusions Association - Register</title>
     <meta name="keywords" content="Keywords go here" />
     <meta name="description" content="Description goes here" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
@@ -13,7 +13,7 @@
     <link href="js/vendors/jquery.mmenu/jquery.mmenu.all.css" rel="stylesheet">
     <script src="js/vendors/modernizr-2.6.1.min.js" type="text/javascript"></script>
 </head>
-<body class="home">
+<body class="register">
 
     <div class="page">
 
@@ -52,7 +52,7 @@
                     <li class="first option-one has-dropdown"><a href="/about">About UKTIA</a>
                         <ul>
                             <li class="first"><a href="benefits.php">Members Benefits</a></li>
-                            <li><a href="register.php">Registration</a></li>
+                            <li class="active"><a href="register.php">Registration</a></li>
                             <li class="last"><a href="log-in.php">Members Log-in</a></li>
                         </ul>
                     </li>
@@ -74,77 +74,48 @@
             <div class="section">
                 <div class="wide left">
 
-                    <div class="banner">
-                        <h2>What is the UKTIA?</h2>
-                        <p>The UK Tea &amp; Infusions Association (UKTIA) is an independent non-profit making body dedicated to promoting tea and herbal infusions and their unique story for the benefit of those who produce, sell and enjoy tea and infusions.</p>
-                        <p>We represent the world's major tea producing and exporting countries, UK tea packers and brokers and UK companies providing services to the tea and infusions industry.</p>
-                    </div>
+                    <div class="copy-padding">
 
-                </div>
-                <div class="narrow right fixed-267px">
+                        <h2>Members Registration</h2>
+                        <p>Register with the UK Tea &amp; Infusions Association to gain access to the restricted members information on this site.</p>
+                        <p>Find out more about UK Tea &amp; Infusions Association <a href="benefits.php">Membership Benefits and Membership Criteria.</a></p>
 
-                    <div class="listings news-feed">
-                        <h3>Tea in the Press:</h3>
-                        <ul>
-                            <li>
-                                <img src="uploaded/icon-guardian.png" alt="" width="45" height="45">
-                                <p><strong>Nullam et nisl ut nulla tristique mattis</strong> Curabitur semti stique mator vitae odio tincidunt egestas. <a href="/press/">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-bbc-news.png" alt="" width="45" height="45">
-                                <p><strong>13/12/2014 Beats to the mix</strong> Nullam et nisl ut nulla tristique mattisnt egestas. <a href="/press/">More</a></p>
-                            </li>
-                        </ul>
-                    </div>
+                        <form id="register-form" name="register-form" action="#" method="post" class="form validator" novalidate="novalidate">
+                            <h3>Register to access Members info:</h3>
+                            <div class="row">
+                                <label for="firstname">Firstname *</label>
+                                <input type="text" class="input" name="firstname" id="firstname" placeholder="Firstname" value="" required="required">
+                            </div>
+                            <div class="row">
+                                <label for="Lastname">Lastname *</label>
+                                <input type="text" class="input" name="lastname" id="lastname" placeholder="Lastname" value="" required="required">
+                            </div>
+                            <div class="row">
+                                <label for="companyName">Company name *</label>
+                                <input type="text" class="input" name="companyName" id="companyName" placeholder="Company name" value="" required="required">
+                            </div>
+                            <div class="row">
+                                <label for="email">Email *</label>
+                                <input type="email" class="input" name="email" id="email" placeholder="Email" value="" required="required">
+                            </div>
+                            <div class="row">
+                                <label for="phrase">Password *</label>
+                                <input type="password" class="input" name="phrase" id="phrase" placeholder="Password" value="" required="required">
+                            </div>
+                            <div class="row checkbox">
+                                <input type="checkbox" id="notifications" name="notifications" value="1">
+                                <label for="notifications">Receive Notifications from the Members Extranet</label>
+                            </div>
+                            <div class="row last">
+                                <input type="submit" id="go" value="submit" class="go-button">
+                            </div>
+                        </form>
 
-                    <div class="banner-register">
-                        <h3>Register for membership</h3>
-                        <a href="register.php" class="button">
-                            <span>Register now</span>
-                        </a>
-                    </div>
-
-                </div>
-                <div class="cboth"></div>
-            </div>
-
-            <div class="section">
-                <div class="form-login">
-                    <h3>Members Area <span></span></h3>
-                    <form id="login-form" name="login-form" action="pulse.php" method="post" class="form validator" novalidate="novalidate">
-                        <h4>Please login to access Members info:</h4>
-                        <label for="email">Email</label>
-                        <input type="email" class="input" name="email" id="email" placeholder="Email" value="" required="required">
-                        <label for="phrase">Password</label>
-                        <input type="password" class="input" name="phrase" id="phrase" placeholder="Password" value="" required="required">
-                        <label for="go">&nbsp;</label>
-                        <input type="submit" id="go" value="submit" class="go-button">
-                    </form>
-                    <div class="cboth"></div>
-                </div>
-                <div class="cboth"></div>
-            </div>
-
-            <div class="section">
-
-                <div class="wide right">
-
-                    <div class="video-catchup">
-                        <div class="details">
-                            <h3>Video Catchup:</h3>
-                            <p>Tea Advisory Panel (TAP) 2014 update</p>
-                            <p>Please login to view the video and check back for updates.</p>
-                        </div>
-                        <div class="video">
-                            <img src="http://i.vimeocdn.com/video/475065153_640.jpg" width="360">
-                            <a href="log-in.php" title="Please log-in to view this article"><span>Log-in to view</span></a>
-                        </div>
                         <div class="cboth"></div>
                     </div>
 
                 </div>
-
-                <div class="narrow left">
+                <div class="narrow right">
 
                     <div class="listings member-updates">
                         <h3>Latest members updates:</h3>
@@ -157,9 +128,19 @@
                                 <img src="uploaded/icon-update.png" alt="" width="45" height="45">
                                 <p><strong>UKTIA Technical Operating Group &amp; RSWG...</strong> - 20/11/201 <a href="log-in.php" title="Please log-in to view this article">Log-in to view</a></p>
                             </li>
+                        </ul>
+                    </div>
+
+                    <div class="listings essential-reading">
+                        <h3>Essential Reading:</h3>
+                        <ul>
                             <li>
-                                <img src="uploaded/icon-update.png" alt="" width="45" height="45">
-                                <p><strong>Conference Call</strong> - 10/11/2015 <a href="log-in.php" title="Please log-in to view this article">Log-in to view</a></p>
+                                <img src="uploaded/icon-guardian.png" alt="" width="45" height="45">
+                                <p><strong>Nullam et nisl ut nulla tristique mattis</strong> Curabitur semti stique mator vitae odio tincidunt egestas. <a href="/press/">More</a></p>
+                            </li>
+                            <li>
+                                <img src="uploaded/icon-bbc-news.png" alt="" width="45" height="45">
+                                <p><strong>13/12/2014 Beats to the mix</strong> Nullam et nisl ut nulla tristique mattisnt egestas. <a href="/press/">More</a></p>
                             </li>
                         </ul>
                     </div>
@@ -169,7 +150,6 @@
             </div>
 
         </div><!-- .body -->
-
 
 
 

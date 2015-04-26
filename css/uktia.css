@@ -35,7 +35,7 @@ img {
   outline: none;
 }
 
-input {
+.input {
   -webkit-appearance: none;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -378,18 +378,17 @@ input {
 .body .listings a:hover {
   text-decoration: underline;
 }
-.body .listings.member-updates {
-  padding-left: 15px;
-}
-.body .listings.member-updates h3 {
-  margin-right: 0;
-}
-.body .listings.member-updates ul {
-  padding: 0 0 15px 0;
-}
 .body .listings.member-updates a {
   display: inline-block;
-  color: #8cb1e8;
+}
+.body .left .member-updates {
+  padding-left: 15px;
+}
+.body .left .member-updates h3 {
+  margin-right: 0;
+}
+.body .left .member-updates ul {
+  padding: 0 0 15px 0;
 }
 .body .banner-register {
   padding: 7px 10px;
@@ -513,11 +512,21 @@ input {
 .body .copy-padding {
   padding-left: 10px;
 }
+.body .copy-padding h4 {
+  font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+  color: #6a9433;
+  font-size: 1.2em;
+  padding-bottom: 10px;
+}
 .body .copy-padding a {
   color: #8cb1e8;
 }
+.body .copy-padding a:hover {
+  text-decoration: none;
+}
 .body .copy-padding .form {
-  padding: 7px 10px;
+  margin-top: 5px;
+  padding: 10px;
   background: #f1f0f0;
   margin-bottom: 15px;
   float: left;
@@ -526,6 +535,21 @@ input {
   float: left;
   padding-bottom: 15px;
   width: 340px;
+}
+.body .copy-padding .row.checkbox {
+  padding-left: 130px;
+  box-sizing: border-box;
+}
+.body .copy-padding .row.checkbox label {
+  width: 160px;
+  float: left;
+  margin: -2px 0 0 5px;
+  cursor: pointer;
+  font-size: 0.85em;
+}
+.body .copy-padding .row.checkbox input {
+  float: left;
+  margin-left: -1px;
 }
 .body .copy-padding .row.last {
   padding-bottom: 0;
@@ -544,7 +568,30 @@ input {
   box-sizing: border-box;
 }
 .body .copy-padding .go-button {
-  margin: -5px 0 0 0;
+  margin: -4px 0 0 0;
+}
+.body .copy-padding table {
+  width: 100%;
+  margin-bottom: 20px;
+  background: #f1f0f0;
+}
+.body .copy-padding table th {
+  font-size: 1.2em;
+  color: #6a9433;
+  font-weight: normal;
+  font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+  text-align: left;
+  padding: 6px 8px;
+}
+.body .copy-padding table th[align="center"] {
+  text-align: center;
+}
+.body .copy-padding table th strong {
+  font-weight: normal;
+}
+.body .copy-padding table td {
+  padding: 6px 8px;
+  border-top: 1px solid #ffffff;
 }
 
 .footer {
@@ -661,9 +708,6 @@ input {
   }
   .body .listings.member-updates {
     padding-left: 0;
-  }
-  .body .listings.member-updates ul {
-    padding-bottom: 0;
   }
   .body .form-login {
     width: 666px;
@@ -838,8 +882,11 @@ input {
     width: 100%;
     display: block;
     box-sizing: border-box;
-    font-size: 1.0em;
-    padding: 4px 5px;
+    font-size: 1.1em;
+    padding: 6px 8px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
   }
   .body .form-login .go-button {
     margin: 0;
@@ -873,13 +920,26 @@ input {
   }
   .body .copy-padding .form {
     float: none;
+    padding: 8px 13px;
   }
   .body .copy-padding .form label {
     display: none;
   }
+  .body .copy-padding .form .row.checkbox {
+    padding-left: 0;
+    width: 185px;
+  }
+  .body .copy-padding .form .row.checkbox label {
+    display: block;
+  }
   .body .copy-padding .form .input {
     width: 100%;
     float: none;
+    font-size: 1.1em;
+    padding: 6px 8px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
   }
   .body .copy-padding .form .row {
     float: none;
@@ -887,6 +947,15 @@ input {
   }
   .body .copy-padding .form .row.last {
     text-align: right;
+  }
+  .body .copy-padding table th {
+    font-size: 1.1em;
+    padding: 3px 5px;
+    vertical-align: top;
+  }
+  .body .copy-padding table td {
+    padding: 5px 5px 3px 5px;
+    vertical-align: middle;
   }
 
   .footer .company-info p {

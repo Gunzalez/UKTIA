@@ -1,15 +1,16 @@
 Detailed Timesheet breakdown (Estimation: 66 hours)
 ==================================================================================================
 
-Sets up project and starts on homepage                                                  3.0 hrs
-Responsive header, 65%                                                                  5.0 hrs
-Responsive header, 100%                                                                 2.0 hrs
-Responsive footer, 100%                                                                 1.0 hr
-Homepage begins, 40%                                                                    4.0 hrs
-Homepage begins 65%, Member login form                                                  3.0 hrs
-Homepage begins 85%, members updates list + video                                       3.0 hrs
-Homepage begins 100%, (logged out)                                                      2.0 hrs
-Log-In,site skeleton, refactor                                                          4.0 hrs
+Project starts                                                                           3.0 hrs
+Responsive header - 65%                                                                  5.0 hrs
+Responsive header - 100%                                                                 2.0 hrs
+Responsive footer - 100%                                                                 1.0 hr
+Homepage begins - 40%                                                                    4.0 hrs
+Homepage begins - 65% Member login form                                                  3.0 hrs
+Homepage begins - 85% members updates list + video                                       3.0 hrs
+Homepage begins - 100% (logged out)                                                      2.0 hrs
+Log-In + Site skeleton + refactor                                                        5.0 hrs
+Benefits page - 100%                                                                     1.0 hr
 
 
 
