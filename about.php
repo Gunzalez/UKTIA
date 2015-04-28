@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>UK Tea &amp; Infusions Association - Members Log-in</title>
+    <title>UK Tea &amp; Infusions Association - About UKTIA</title>
     <meta name="keywords" content="Keywords go here" />
     <meta name="description" content="Description goes here" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
@@ -13,7 +13,7 @@
     <link href="js/vendors/jquery.mmenu/jquery.mmenu.all.css" rel="stylesheet">
     <script src="js/vendors/modernizr-2.6.1.min.js" type="text/javascript"></script>
 </head>
-<body class="log-in">
+<body class="register">
 
     <div class="page">
 
@@ -49,11 +49,11 @@
 
             <div class="navigation">
                 <ul id="navigation-list" class="list">
-                    <li class="first option-one has-dropdown"><a href="about.php">About UKTIA</a>
+                    <li class="first option-one has-dropdown active"><a href="about.php">About UKTIA</a>
                         <ul>
                             <li class="first"><a href="benefits.php">Members Benefits</a></li>
                             <li><a href="register.php">Registration</a></li>
-                            <li class="last active"><a href="log-in.php">Members Log-in</a></li>
+                            <li class="last"><a href="log-in.php">Members Log-in</a></li>
                         </ul>
                     </li>
                     <li class="option-two"><a href="log-in.php">The Pulse</a></li>
@@ -75,31 +75,16 @@
                 <div class="wide left">
 
                     <div class="copy-padding">
-
-
-                        <h2>Members Log-in</h2>
-                        <p>Log-in to the UK Tea &amp; Infusions Association Members Extranet to gain access to the information on this site. If you have not registered already, please <a href="register.php" title="Click here to register for access to the UK Tea Council Members Extranet website...">register here</a>.</p>
-                        <p>If you have forgotten your login details, please <a href="/log-in/password-reminder" title="Click here to go to the password reminder page...">click here to retrieve your password</a>.</p>
-
-                        <form id="login-form" name="login-form" action="pulse.php" method="post" class="form validator" novalidate="novalidate">
-                            <h3>Please login to access Members info:</h3>
-                            <div class="row">
-                                <label for="email">Email</label>
-                                <input type="email" class="input" name="email" id="email" placeholder="Email" value="" required="required">
-                            </div>
-                            <div class="row">
-                                <label for="phrase">Password</label>
-                                <input type="password" class="input" name="phrase" id="phrase" placeholder="Password" value="" required="required">
-                            </div>
-                            <div class="row last">
-                                <input type="submit" id="go" value="submit" class="go-button">
-                            </div>
-                        </form>
-
-                        <p><a href="/log-in/password-reminder">Forgot password?</a></p>
-
-
-                        <div class="cboth"></div>
+                        <h2>About UKTIA</h2>
+                        <p>The UK Tea &amp; Infusions Association (UKTIA) is an independent non-profit making body dedicated to promoting tea and herbal infusions and their unique story for the benefit of those who produce, sell and enjoy tea and herbal infusion products.</p>
+                        <p>We represent the world's major tea producing and exporting countries, UK tea packers and brokers and UK companies providing services to the tea industry.</p>
+                        <p>On behalf of its members, the UK Tea &amp; Infusions Association works closely with the&nbsp;<a href="http://www.fdf.org.uk" target="_blank" title="Visit the FDF website here">Food and Drink Federation</a>, <a href="http://www.food.gov.uk" title="Visit UK Food Standards Agency">UK Food Standards Agency</a>, <a href="http://www.defra.gov.uk" title="Visit the DEFRA website here">Department for Environment Food and Rural Affairs</a>, the European Food Standards Agency and a range of international bodies, to ensure that the quality of tea imported into the European Union meets the highest possible standards as regulated by law.</p>
+                        <h3>Becoming a member of the UK Tea &amp; Infusions Association</h3>
+                        <p>The Executive Board of UK Tea &amp; Infusions Association Ltd (UKTIA) welcomes applications for membership from companies, businesses and producers who are actively trading tea or who are associated with the world-wide tea trade.</p>
+                        <p>Membership brings a variety of benefits as well as the opportunity to engage with and influence the work of the UK and international tea trade.</p>
+                        <p>Members have access to a critical range of information and intelligence relating to food and packaging legislation, tea and health science, consumer data, supply chain matters, production and consumption statistics, scientific and technical expertise and ethical sourcing.</p>
+                        <p>If you or your company would like to know more about becoming either a full or associate member of UKTIA please send your company details to&nbsp;<a href="mailto:tea@ukteainfusions.co.uk?subject=UKTIA%20Members%20Extranet%20enquiry">tea@ukteainfusions.co.uk</a>.</p>
+                        <p><strong>If you are not yet registered, you may apply for membership&nbsp;<a href="register.php" title="Register with the UK Tea Council">here</a>.</strong></p>
                     </div>
 
                 </div>

@@ -11,7 +11,7 @@ Homepage begins - 85% members updates list + video                              
 Homepage begins - 100% (logged out)                                                      2.0 hrs
 Log-In + Site skeleton + refactor                                                        5.0 hrs
 Benefits page - 100%                                                                     1.0 hr
-
+About page + bug fixes - 100%                                                            1.5 hrs
 
 
 

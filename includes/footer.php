@@ -1,7 +1,7 @@
 <div class="footer">
     <div class="navigation">
         <ul>
-            <li class="first"><a href="/about">About UKTIA</a></li>
+            <li class="first"><a href="about.php">About UKTIA</a></li>
             <li><a href="pulse.php">The Pulse</a></li>
             <li><a href="/members-reference" class="active">Membership Reference Info</a></li>
             <li><a href="/circulars">Circulars</a></li>

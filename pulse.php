@@ -49,7 +49,7 @@
 
             <div class="navigation">
                 <ul id="navigation-list" class="list">
-                    <li class="first option-one has-dropdown"><a href="/about">About UKTIA</a>
+                    <li class="first option-one has-dropdown"><a href="about.php">About UKTIA</a>
                         <ul>
                             <li class="first"><a href="benefits.php">Members Benefits</a></li>
                             <li class="last"><a href="index.php">Members Log-out</a></li>
@@ -121,7 +121,7 @@
                     </form>
                 </li>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="/about">About UKTIA</a>
+                <li><a href="about.php">About UKTIA</a>
                     <ul>
                         <li><a href="benefits.php">Members Benefits</a></li>
                         <li><a href="index.php">Members Log-out</a></li>

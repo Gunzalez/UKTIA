@@ -49,7 +49,7 @@
 
             <div class="navigation">
                 <ul id="navigation-list" class="list">
-                    <li class="first option-one has-dropdown"><a href="/about">About UKTIA</a>
+                    <li class="first option-one has-dropdown"><a href="about.php">About UKTIA</a>
                         <ul>
                             <li class="first active"><a href="benefits.php">Members Benefits</a></li>
                             <li><a href="register.php">Registration</a></li>
@@ -83,7 +83,7 @@
                         <p>By <a href="register.php" title="Click here to register for UK Tea Council membership...">registering</a> and subscribing we can keep you up to date with our communications activity and other interesting and important news.</p>
 
                         <h3>Table of membership benefits</h3>
-                        <table>
+                        <table class="stripped-table">
                             <tbody>
                             <tr>
                                 <th>
@@ -336,7 +336,7 @@
                     </form>
                 </li>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="/about">About UKTIA</a>
+                <li><a href="about.php">About UKTIA</a>
                     <ul>
                         <li><a href="benefits.php">Members Benefits</a></li>
                         <li><a href="register.php">Registration</a></li>
