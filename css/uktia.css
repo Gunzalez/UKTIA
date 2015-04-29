@@ -601,6 +601,152 @@ img {
 .body .copy-padding table .odd th, .body .copy-padding table .odd td {
   background: #f4f4f4;
 }
+.body .logged-in {
+  background: #f1f0f0;
+}
+.body .logged-in .introduction {
+  float: left;
+  width: 250px;
+}
+.body .logged-in .greeting {
+  background: #6a9433;
+  padding: 7px 10px 12px 10px;
+}
+.body .logged-in h2, .body .logged-in span {
+  color: #ffffff;
+}
+.body .logged-in p {
+  padding: 0;
+  font-size: 0.85em;
+}
+.body .logged-in .looked-at-list {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+.body .logged-in .looked-at-list li {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px dotted #ffffff;
+}
+.body .logged-in .looked-at-list li.last {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.body .logged-in a {
+  font-size: 0.85em;
+  color: #0066cc;
+  text-decoration: none;
+}
+.body .logged-in a:hover {
+  text-decoration: underline;
+}
+.body .logged-in .sub-title {
+  color: #6a9433;
+}
+.body .logged-in .video-update {
+  float: right;
+  padding: 10px 10px 10px 0;
+}
+.body .logged-in .video-update h3 {
+  float: left;
+}
+.body .logged-in .video-update a {
+  margin-top: 6px;
+  float: right;
+}
+.body .logged-in .video {
+  width: 350px;
+}
+.body .logged-in .video-responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.body .logged-in .video-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.body .calendar-box {
+  background: #6a9433;
+  padding: 7px 10px 12px 10px;
+}
+.body .calendar-box h2, .body .calendar-box h3 {
+  color: #ffffff;
+}
+.body .calendar-box .calendar {
+  width: 100%;
+  font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+  border-bottom: 5px solid #ffffff;
+}
+.body .calendar-box thead {
+  background: #f1f0f0;
+}
+.body .calendar-box th, .body .calendar-box td {
+  padding: 5px 4px;
+}
+.body .calendar-box .navigation th {
+  padding: 0 4px;
+}
+.body .calendar-box .navigation a {
+  text-decoration: none;
+  font-size: 2.0em;
+  font-weight: bold;
+  color: #0066cc;
+}
+.body .calendar-box .weekdays {
+  font-size: 0.80em;
+  text-transform: uppercase;
+}
+.body .calendar-box .weekdays th {
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+.body .calendar-box td {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.9em;
+  background: #ffffff;
+}
+.body .calendar-box .meeting {
+  border: 1px solid #8cb1e8;
+  color: #0066cc;
+  font-weight: bold;
+  background: #eaeaea;
+}
+.body .calendar-box .today {
+  border: 1px solid #cccccc;
+  font-weight: bold;
+}
+.body .calendar-box .prev-next {
+  color: #cccccc;
+}
+.body .calendar-box .current-month {
+  text-transform: uppercase;
+}
+.body .calendar-box .calendar-list {
+  margin: 0;
+  padding: 10px 0 0 0;
+  list-style: none;
+  color: #ffffff;
+  font-size: 0.85em;
+}
+.body .calendar-box .calendar-list a {
+  color: #ffffff;
+}
+.body .calendar-box .calendar-list a:hover {
+  text-decoration: none;
+}
+.body .calendar-box .calendar-list span {
+  display: block;
+  line-height: 130%;
+}
 
 .footer {
   background: url("../images/pile-of-leaves.jpg") top left no-repeat;
@@ -654,9 +800,9 @@ img {
   .page {
     width: 644px;
   }
-  .page .aux-navigation,
-  .page .search,
-  .page .navigation {
+  .page .aux-navigation, .page .search,
+  .page .header .navigation,
+  .page .footer .navigation {
     display: none;
   }
   .page .logo {
@@ -690,6 +836,43 @@ img {
     right: 17px;
     color: #ffffff;
     font-size: 2.0em;
+  }
+  .page .logged-in {
+    background: #ffffff;
+    padding-bottom: 0;
+  }
+  .page .logged-in .introduction {
+    width: 230px;
+  }
+  .page .logged-in .greeting {
+    background: none;
+    padding: 0;
+  }
+  .page .logged-in h2, .page .logged-in span {
+    color: #6a9433;
+  }
+  .page .logged-in p {
+    padding: 0;
+    font-size: 0.9em;
+  }
+  .page .logged-in .looked-at-list {
+    margin: 0;
+    padding: 0 0 10px 0;
+    list-style: none;
+  }
+  .page .logged-in .looked-at-list li {
+    padding-top: 5px;
+    margin-top: 5px;
+    border-top: 1px dotted #cccccc;
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 1px;
+  }
+  .page .logged-in a {
+    font-size: 0.9em;
+  }
+  .page .logged-in .video-update {
+    padding: 3px 0 0 0;
   }
 
   .body {
@@ -730,7 +913,21 @@ img {
     margin-right: 0;
   }
   .body .copy-padding {
-    padding: 0 10px;
+    padding: 0 15px;
+  }
+  .body .calendar-box {
+    margin: 0 15px;
+  }
+  .body .calendar-box td {
+    padding: 12px 4px;
+    font-size: 1.1em;
+  }
+  .body .calendar-box th {
+    padding: 12px 4px;
+    font-size: 1.3em;
+  }
+  .body .calendar-box .calendar-list {
+    padding: 8px 0 0 0;
   }
 
   .footer .company-info {
@@ -748,11 +945,6 @@ img {
   .page {
     background: #ffffff;
     width: 100%;
-  }
-  .page .aux-navigation,
-  .page .search,
-  .page .navigation {
-    display: none;
   }
   .page .logo {
     width: 100%;
@@ -783,7 +975,7 @@ img {
     width: 100%;
     height: auto;
     background-image: none;
-    padding: 15px;
+    padding: 10px 15px;
   }
   .body .listings {
     padding: 0 15px;
@@ -865,6 +1057,54 @@ img {
   }
   .body .copy-padding {
     padding: 10px 15px;
+  }
+  .body .calendar-box {
+    margin: 10px 15px;
+  }
+  .body .calendar-box td {
+    padding: 8px 4px;
+    font-size: 1.0em;
+  }
+  .body .calendar-box th {
+    padding: 8px 4px;
+    font-size: 1.1em;
+  }
+  .body .logged-in {
+    padding-bottom: 0;
+  }
+  .body .logged-in .introduction {
+    width: auto;
+    float: none;
+  }
+  .body .logged-in .greeting {
+    background: none;
+    padding: 0;
+  }
+  .body .logged-in p {
+    padding: 0;
+  }
+  .body .logged-in .looked-at-list {
+    margin: 0;
+    padding: 0 0 10px 0;
+    list-style: none;
+  }
+  .body .logged-in .looked-at-list li {
+    padding-top: 5px;
+    margin-top: 5px;
+    border-top: 1px dotted #cccccc;
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 1px;
+  }
+  .body .logged-in a {
+    font-size: 0.9em;
+  }
+  .body .logged-in .video-update {
+    padding: 3px 0 0 0;
+    width: 100%;
+  }
+  .body .logged-in .video {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 600px) {
