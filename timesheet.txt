@@ -13,7 +13,7 @@ Log-In + Site skeleton + refactor                                               
 Benefits page - 100%                                                                     1.0 hr
 About page + bug fixes - 100%                                                            1.5 hrs
 Pulse 50%                                                                                4.5 hrs
-
+Pulse 70%                                                                                2.0 hrs
 
 
 Todos

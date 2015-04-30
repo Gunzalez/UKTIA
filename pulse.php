@@ -93,60 +93,54 @@
             <div class="section">
                 <div class="wide left">
 
-                    <div class="copy-padding">
+                    <div class="logged-in">
 
-                        <div class="logged-in">
-
-                            <div class="introduction">
-                                <div class="greeting">
-                                    <h2>Hello Alasdair</h2>
-                                    <p>You last logged in: <span>25/04/2015</span> at <span>4:31pm</span>.</p>
-                                    <p>On your last visit you looked at:</p>
-                                </div>
-
-                                <ul class="looked-at-list">
-                                    <li class="first">
-                                        <p class="title">UKTIA/20/15 - THIE Circular 01-2015</p>
-                                        <p class="sub-title">Viewed on 11/02/2015 at 1:09pm</p>
-                                        <a class="link" href="/actions-updates/article/uktia2015-thie-circular-012015-perchlorate">View again »</a>
-                                    </li>
-                                    <li>
-                                        <p class="title">European Tea Committee Technical...</p>
-                                        <p class="sub-title">Viewed on 18/02/2014 at 8:29pm</p>
-                                        <a class="link" href="/actions-updates/article/european-tea-committee-technical-committee">View again »</a>
-                                    </li>
-                                    <li class="last">
-                                        <p class="title">Imports Controls from China - Request...</p>
-                                        <p class="sub-title">Viewed on 02/05/2013 at 12:23pm</p>
-                                        <a class="link" href="/actions-updates/article/imports-controls-from-china-request-for-data">View again »</a>
-                                    </li>
-                                </ul>
+                        <div class="introduction">
+                            <div class="greeting">
+                                <h2>Hello Alasdair</h2>
+                                <p>You last logged in: <span>25/04/2015</span> at <span>4:31pm</span>.</p>
+                                <p>On your last visit you looked at:</p>
                             </div>
 
-                            <div class="video-update">
-                                <div class="heading">
-                                    <h3>UKTIA video update:</h3>
-                                    <a href="/video-update/archive">View archive »</a>
-                                    <div class="cboth"></div>
-                                </div>
-                                <div class="video">
-
-                                    <div class="video-responsive">
-                                        <iframe src="http://player.vimeo.com/video/95146048?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="360" height="203" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="cboth"></div>
+                            <ul class="looked-at-list">
+                                <li class="first">
+                                    <p class="title">UKTIA/20/15 - THIE Circular 01-2015</p>
+                                    <p class="sub-title">Viewed on 11/02/2015 at 1:09pm</p>
+                                    <a class="link" href="/actions-updates/article/uktia2015-thie-circular-012015-perchlorate">View again »</a>
+                                </li>
+                                <li>
+                                    <p class="title">European Tea Committee Technical...</p>
+                                    <p class="sub-title">Viewed on 18/02/2014 at 8:29pm</p>
+                                    <a class="link" href="/actions-updates/article/european-tea-committee-technical-committee">View again »</a>
+                                </li>
+                                <li class="last">
+                                    <p class="title">Imports Controls from China - Request...</p>
+                                    <p class="sub-title">Viewed on 02/05/2013 at 12:23pm</p>
+                                    <a class="link" href="/actions-updates/article/imports-controls-from-china-request-for-data">View again »</a>
+                                </li>
+                            </ul>
                         </div>
+
+                        <div class="video-update">
+                            <div class="heading">
+                                <h3>UKTIA video update:</h3>
+                                <a href="/video-update/archive">View archive »</a>
+                                <div class="cboth"></div>
+                            </div>
+                            <div class="video">
+
+                                <div class="video-responsive">
+                                    <iframe src="http://player.vimeo.com/video/125508172?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="360" height="203" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="cboth"></div>
                     </div>
-
-
                 </div>
 
                 <div class="narrow right">
-
                     <div class="calendar-box">
                         <h3>Next Meetings:</h3>
                         <table class="calendar small" align="center" cellpadding="0" cellspacing="0" border="0">
@@ -373,10 +367,50 @@
                             </li>
                         </ul>
                     </div>
-
                 </div>
                 <div class="cboth"></div>
             </div>
+
+        <div class="section">
+            <div id="circular-descriptions" class="descriptions">
+                <h2>Circular icons explained</h2>
+                <div class="instruction">Roll over icons for descriptions</div>
+                <div class="screen"></div>
+                <dl>
+                    <dt style="background: url('uploaded/icon-circular-1.png') 0 0 no-repeat" data-term="description-1">Coffee</dt>
+                    <dd data-definition="description-1">Black hot drink</dd>
+                    <dt style="background: url('uploaded/icon-circular-2.png') 0 0 no-repeat" data-term="description-2">Coffee</dt>
+                    <dd data-definition="description-2">White cold drink</dd>
+                    <dt style="background: url('uploaded/icon-circular-3.png') 0 0 no-repeat" data-term="description-3">Coffee</dt>
+                    <dd data-definition="description-3">Smokey Bacon</dd>
+                    <dt style="background: url('uploaded/icon-circular-4.png') 0 0 no-repeat" data-term="description-4">Coffee</dt>
+                    <dd data-definition="description-4">Age of Ultron</dd>
+                    <dt style="background: url('uploaded/icon-circular-5.png') 0 0 no-repeat" data-term="description-5">Coffee</dt>
+                    <dd data-definition="description-5">Watching Antman</dd>
+                    <dt style="background: url('uploaded/icon-circular-6.png') 0 0 no-repeat" data-term="description-6">Coffee</dt>
+                    <dd data-definition="description-6">Sings songs of Machete</dd>
+                    <dt style="background: url('uploaded/icon-circular-7.png') 0 0 no-repeat" data-term="description-7">Coffee</dt>
+                    <dd data-definition="description-7">Wireless Keyboard</dd>
+                    <dt style="background: url('uploaded/icon-circular-8.png') 0 0 no-repeat" data-term="description-8">Coffee</dt>
+                    <dd data-definition="description-8">I hate Chelsea FC</dd>
+                    <dt style="background: url('uploaded/icon-circular-9.png') 0 0 no-repeat" data-term="description-9">Coffee</dt>
+                    <dd data-definition="description-9">Chicken and spice!</dd>
+                    <dt style="background: url('uploaded/icon-circular-10.png') 0 0 no-repeat" data-term="description-10">Coffee</dt>
+                    <dd data-definition="description-10">Nigerian food</dd>
+                    <dt style="background: url('uploaded/icon-circular-11.png') 0 0 no-repeat" data-term="description-11">Coffee</dt>
+                    <dd data-definition="description-11">Must learn iOS</dd>
+                    <dt style="background: url('uploaded/icon-circular-12.png') 0 0 no-repeat" data-term="description-12">Coffee</dt>
+                    <dd data-definition="description-12">So tired today</dd>
+                    <dt style="background: url('uploaded/icon-circular-13.png') 0 0 no-repeat" data-term="description-13">Coffee</dt>
+                    <dd data-definition="description-13">I am the only Segun</dd>
+                    <dt style="background: url('uploaded/icon-circular-14.png') 0 0 no-repeat" data-term="description-14">Coffee</dt>
+                    <dd data-definition="description-14">Oh my neck!</dd>
+                    <dt style="background: url('uploaded/icon-circular-15.png') 0 0 no-repeat" data-term="description-15">Coffee</dt>
+                    <dd data-definition="description-15">Very accessible</dd>
+                </dl>
+            </div>
+            <div class="cboth"></div>
+        </div>
 
 
         </div><!-- .body -->

@@ -168,13 +168,38 @@
     };
 
     uktia.content = {
-        tables:$('.stripped-table'),
+        $tables: $('.stripped-table'),
+        $descriptions: $('#circular-descriptions'),
+
         init: function(){
-            $(this.tables).each(function(i, obj){
+            $(this.$tables).each(function(i, obj){
                 var $table = $(obj);
                 $('tr:odd',$table).addClass('odd');
                 $table.attr('cellpadding','0').attr('cellspacing','0');
             });
+
+            if(this.$descriptions.length > 0 ){
+                var $html = this.$descriptions,
+                    $screen = $('.screen', $html),
+                    $iconsList = $('dl', $html),
+                    resetText = $('.instruction', $html).html(),
+                    resetFunc = function(){
+                        $screen.html(resetText);
+                    };
+
+                $iconsList.delegate('dt', 'mouseenter', function(){
+                    var term = $(this).attr('data-term'),
+                        definition = $('dd[data-definition="'+term+'"]', $iconsList).html();
+                    $screen.html(definition);
+                });
+
+                $iconsList.on('mouseleave', function(){
+                    resetFunc();
+                });
+
+                resetFunc();
+            }
+
         },
         resize: function(){}
     };

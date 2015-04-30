@@ -657,7 +657,7 @@ img {
   float: right;
 }
 .body .logged-in .video {
-  width: 350px;
+  width: 365px;
 }
 .body .logged-in .video-responsive {
   position: relative;
@@ -689,7 +689,7 @@ img {
   background: #f1f0f0;
 }
 .body .calendar-box th, .body .calendar-box td {
-  padding: 5px 4px;
+  padding: 6px 4px;
 }
 .body .calendar-box .navigation th {
   padding: 0 4px;
@@ -732,7 +732,7 @@ img {
 }
 .body .calendar-box .calendar-list {
   margin: 0;
-  padding: 10px 0 0 0;
+  padding: 8px 0 0 0;
   list-style: none;
   color: #ffffff;
   font-size: 0.85em;
@@ -746,6 +746,56 @@ img {
 .body .calendar-box .calendar-list span {
   display: block;
   line-height: 130%;
+}
+.body .descriptions {
+  float: left;
+  background: #f1f0f0;
+  width: 100%;
+  position: relative;
+}
+.body .descriptions h2 {
+  padding: 10px;
+  float: left;
+}
+.body .descriptions .instruction {
+  float: right;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+.body .descriptions .screen {
+  clear: left;
+  height: 30px;
+  background: #6a9433;
+  width: 280px;
+  float: left;
+  color: #ffffff;
+  font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+  margin: 7px 0 0 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: 1.1em;
+  line-height: 30px;
+}
+.body .descriptions dl {
+  float: left;
+  margin: 0;
+  padding: 0 0 5px 12px;
+}
+.body .descriptions dt {
+  text-indent: -9000px;
+  width: 37px;
+  height: 37px;
+  float: left;
+  cursor: pointer;
+  border: 1px solid #f1f0f0;
+  padding: 1px;
+  box-sizing: border-box;
+  margin: 1px 2px;
+}
+.body .descriptions dd {
+  display: none;
 }
 
 .footer {
@@ -840,6 +890,7 @@ img {
   .page .logged-in {
     background: #ffffff;
     padding-bottom: 0;
+    margin: 5px 15px 0 15px;
   }
   .page .logged-in .introduction {
     width: 230px;
@@ -928,6 +979,28 @@ img {
   }
   .body .calendar-box .calendar-list {
     padding: 8px 0 0 0;
+  }
+  .body .descriptions {
+    float: left;
+    width: auto;
+    margin: 0 15px;
+  }
+  .body .descriptions h2 {
+    float: none;
+  }
+  .body .descriptions .instruction {
+    display: none;
+  }
+  .body .descriptions .screen {
+    margin: 0;
+  }
+  .body .descriptions dl {
+    float: left;
+    margin: 0;
+    padding: 8px;
+  }
+  .body .descriptions dt {
+    margin: 2px 2px;
   }
 
   .footer .company-info {
@@ -1071,6 +1144,7 @@ img {
   }
   .body .logged-in {
     padding-bottom: 0;
+    margin-top: 10px;
   }
   .body .logged-in .introduction {
     width: auto;
@@ -1204,6 +1278,12 @@ img {
     padding: 4px 8px;
     vertical-align: middle;
     height: 40px;
+  }
+  .body .descriptions h2 {
+    font-size: 1.5em;
+  }
+  .body .descriptions .screen {
+    text-align: left;
   }
 
   .footer .company-info p {
