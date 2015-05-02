@@ -82,13 +82,7 @@
             <div class="cboth"></div>
         </div><!-- .header -->
 
-
-
-
-
         <div class="body">
-
-
 
             <div class="section">
                 <div class="wide left">
@@ -356,7 +350,7 @@
                               <span class="date" title="">
                                 2
                               </span>
-                                        </td>
+                              </td>
                                     </tr>
                     </tbody>
                         </table>
@@ -371,7 +365,7 @@
                 <div class="cboth"></div>
             </div>
 
-        <div class="section">
+            <div class="section">
             <div id="circular-descriptions" class="descriptions">
                 <h2>Circular icons explained</h2>
                 <div class="instruction">Roll over icons for descriptions</div>
@@ -412,6 +406,72 @@
             <div class="cboth"></div>
         </div>
 
+            <div class="section">
+                <div class="wide left">
+                    <div class="copy-padding">
+
+                        <div class="listings latest-updates">
+                            <h3>Your latest updates</h3>
+                            <p>User catagories: Marketing &amp; Comms</p>
+                            <ul>
+                                <li>
+                                    <img src="uploaded/icon-circular-10-large.png" alt="" width="45" height="45">
+                                    <p><strong>Positioning Statements updated:</strong> 13/11/12</p>
+                                    <p>Vestibum t nisl ut nulla tristique mattis urabitur semti stique mator vitae odio tincidunt egestas. <a href="/press/">More</a></p>
+                                </li>
+                                <li>
+                                    <img src="uploaded/icon-circular-12-large.png" alt="" width="45" height="45">
+                                    <p><strong>TOG Meetings Minutes updated:</strong> 04/09/14</p>
+                                    <p>Pocahuntis Beats to the mixNullam et nisl ut nulla tristique mattisnt egestas. <a href="/press/">More</a></p>
+                                </li>
+                                <li>
+                                    <img src="uploaded/icon-circular-13-large.png" alt="" width="45" height="45">
+                                    <p><strong>Fusce rhoncus, nisi interdum efficitur posuere</strong> 04/09/14</p>
+                                    <p>Duis enim lectus, ullamcorper ac ultricies ac, facils enim lectus, ullamisis a mis enim ls, ullamiectus, ullam. <a href="/press/">More</a></p>
+                                </li>
+                                <li>
+                                    <img src="uploaded/icon-circular-3-large.png" alt="" width="45" height="45">
+                                    <p><strong>Famous last words, famous!</strong> 21/03/14</p>
+                                    <p>Vivamus eu varius turpis, id pellentesque velit. Sed mollis non justo non congue. Sed massa purus, accumsan sed efficitur vel, vehicula eget velit. <a href="/press/">More</a></p>
+                                </li>
+                                <li>
+                                    <img src="uploaded/icon-circular-4-large.png" alt="" width="45" height="45">
+                                    <p><strong>Don't go into the Pyramid, please!</strong> 04/09/15</p>
+                                    <p>Suspendisse non ex metus. Donec quis egestas nisi. Morbi at mi eget turpis euismod laoreet. <a href="/press/">More</a></p>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="narrow right">
+
+                    <div class="listings news-feed">
+                        <h3>Tea in the Press:</h3>
+                        <ul>
+                            <li>
+                                <img src="uploaded/icon-guardian.png" alt="" width="45" height="45">
+                                <p><strong>Nullam et nisl ut nulla tristique mattis</strong> Curabitur semti stique mator vitae odio tincidunt egestas. <a href="/press/">More</a></p>
+                            </li>
+                            <li>
+                                <img src="uploaded/icon-bbc-news.png" alt="" width="45" height="45">
+                                <p><strong>13/12/2014 Beats to the mix</strong> Nullam et nisl ut nulla tristique mattisnt egestas. <a href="/press/">More</a></p>
+                            </li>
+                            <li>
+                                <img src="uploaded/icon-mailonline-news.png" alt="" width="45" height="45">
+                                <p><strong>UKTIA Executive Board Meeting</strong> - 09/12/2015 <a href="log-in.php" title="Please log-in to view this article">Log-in to view</a></p>
+                            </li>
+                            <li>
+                                <img src="uploaded/icon-sky.png" alt="" width="45" height="45">
+                                <p><strong>UKTIA Technical Operating Group &amp; RSWG...</strong> - 20/11/201 <a href="log-in.php" title="Please log-in to view this article">Log-in to view</a></p>
+                            </li>
+                        </ul>
+                    </div>
+
+            </div>
+                <div class="cboth"></div>
+            </div>
 
         </div><!-- .body -->
 

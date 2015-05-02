@@ -172,32 +172,47 @@
         $descriptions: $('#circular-descriptions'),
 
         init: function(){
+
             $(this.$tables).each(function(i, obj){
                 var $table = $(obj);
                 $('tr:odd',$table).addClass('odd');
                 $table.attr('cellpadding','0').attr('cellspacing','0');
             });
 
-            if(this.$descriptions.length > 0 ){
+            if(this.$descriptions.length > 0){
                 var $html = this.$descriptions,
                     $screen = $('.screen', $html),
                     $iconsList = $('dl', $html),
-                    resetText = $('.instruction', $html).html(),
-                    resetFunc = function(){
+                    eventTrigger = 'mouseenter',
+                    resetText = 'Roll over icons for descriptions',
+                    resetAllDataTerms = function(){
                         $screen.html(resetText);
+                        $('dt', $iconsList).removeClass('active');
+                    },
+                    setThisDataTerm = function(dtObj){
+                        var term = $(dtObj).attr('data-term'),
+                            definition = $('dd[data-definition="'+term+'"]', $iconsList).html();
+
+                        $('dt', $iconsList).removeClass('active');
+                        $(dtObj).addClass('active');
+                        $screen.html(definition);
                     };
 
-                $iconsList.delegate('dt', 'mouseenter', function(){
-                    var term = $(this).attr('data-term'),
-                        definition = $('dd[data-definition="'+term+'"]', $iconsList).html();
-                    $screen.html(definition);
+                // touch devices
+                if(uktia.environment.isTouchDevice()) {
+                    eventTrigger = 'click';
+                    resetText = 'Click on icons for descriptions';
+                }
+
+                $iconsList.delegate('dt', eventTrigger, function(){
+                    setThisDataTerm($(this));
                 });
 
                 $iconsList.on('mouseleave', function(){
-                    resetFunc();
+                    resetAllDataTerms();
                 });
 
-                resetFunc();
+                resetAllDataTerms();
             }
 
         },

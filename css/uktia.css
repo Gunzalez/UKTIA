@@ -63,6 +63,7 @@ img {
   box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
 }
 
+.mobile .instruction,
 .mobile-navigation-button,
 .mobile-navigation {
   display: none;
@@ -380,6 +381,10 @@ img {
 }
 .body .listings.member-updates a {
   display: inline-block;
+}
+.body .listings.latest-updates p {
+  padding: 0;
+  line-height: 140%;
 }
 .body .left .member-updates {
   padding-left: 15px;
@@ -793,6 +798,12 @@ img {
   padding: 1px;
   box-sizing: border-box;
   margin: 1px 2px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.body .descriptions dt.active {
+  border: 1px solid #6a9433;
 }
 .body .descriptions dd {
   display: none;
@@ -939,6 +950,9 @@ img {
     float: none;
     margin-bottom: 15px;
   }
+  .body .listings {
+    padding: 0 15px;
+  }
   .body .listings h3 {
     margin-right: 0;
   }
@@ -947,9 +961,6 @@ img {
   }
   .body .listings p {
     padding-top: 6px;
-  }
-  .body .listings.member-updates {
-    padding-left: 0;
   }
   .body .form-login {
     width: 666px;
@@ -965,6 +976,9 @@ img {
   }
   .body .copy-padding {
     padding: 0 15px;
+  }
+  .body .copy-padding .listings {
+    padding: 0;
   }
   .body .calendar-box {
     margin: 0 15px;
@@ -1284,6 +1298,18 @@ img {
   }
   .body .descriptions .screen {
     text-align: left;
+  }
+  .body .descriptions dl {
+    padding: 5px 0 5px 5px;
+  }
+  .body .descriptions dt {
+    width: 39px;
+    height: 39px;
+    border: 2px solid #f1f0f0;
+    margin: 1px 2px;
+  }
+  .body .descriptions dt.active {
+    border: 2px solid #6a9433;
   }
 
   .footer .company-info p {

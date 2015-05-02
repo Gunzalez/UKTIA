@@ -259,7 +259,7 @@
                         </table>
 
                         <h3>Membership Criteria</h3>
-                        <p>Any firm, company or other corporation registered in the United Kingdom and trading tea, or any producer country Tea Board or country Tea Association that trades tea with the United Kingdom, or any international company or organisation allied to the tea trade shall be eligible for membership in either of the following categories subject to the following qualification: -</p>
+                        <p>Any firm, company or other corporation registered in the United Kingdom and trading tea, or any producer country Tea Board or country Tea Association that trades tea with the United Kingdom, or any international company or organisation allied to the tea trade shall be eligible for membership in either of the following categories subject to the following qualification:&nbsp;-</p>
 
                         <h4>Full Member - UK Listed Company</h4>
                         <p>Firms, companies or other corporations registered in the United Kingdom and who are bona fide packers, blenders or traders of tea within the United Kingdom shall be eligible for membership of the Association as a full member.</p>
@@ -274,8 +274,6 @@
                         <p>Firms, companies or other corporations registered in the United Kingdom and or international companies who are allied to the tea trade, as a grower, supplier, marketer, shall be eligible for associate membership of UKTIA.</p>
                         <p>UK tea packers and producer countries are not eligible for Associate Member status. Associate members shall have no voting rights.</p>
 
-
-                        <div class="cboth"></div>
                     </div>
 
                 </div>
