@@ -460,11 +460,11 @@
                             </li>
                             <li>
                                 <img src="uploaded/icon-mailonline-news.png" alt="" width="45" height="45">
-                                <p><strong>UKTIA Executive Board Meeting</strong> - 09/12/2015 <a href="log-in.php" title="Please log-in to view this article">Log-in to view</a></p>
+                                <p><strong>UKTIA Executive Board Meeting</strong> - 09/12/2015 <a href="/press/">More</a></p>
                             </li>
                             <li>
                                 <img src="uploaded/icon-sky.png" alt="" width="45" height="45">
-                                <p><strong>UKTIA Technical Operating Group &amp; RSWG...</strong> - 20/11/201 <a href="log-in.php" title="Please log-in to view this article">Log-in to view</a></p>
+                                <p><strong>UKTIA Technical Operating Group &amp; RSWG...</strong> - 20/11/201 <a href="/press/">More</a></p>
                             </li>
                         </ul>
                     </div>
