@@ -42,6 +42,12 @@ img {
   border-radius: 0;
 }
 
+.desktop .tel {
+  text-decoration: none !important;
+  color: #231f20 !important;
+  cursor: text !important;
+}
+
 .logo {
   margin: 10px 0 0 -11px;
   float: left;
@@ -314,6 +320,10 @@ img {
 .body h3 {
   font-size: 1.5em;
 }
+.body h5 {
+  font-size: 1.0em;
+  font-weight: bold;
+}
 .body .sections {
   float: left;
 }
@@ -410,7 +420,7 @@ img {
   background: url("../images/corner-brown-right.png") bottom right no-repeat;
   color: #ffffff;
   text-decoration: none;
-  font-family: "Arial", "Helvetica", "Verdana", "sans-serif";
+  font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
   padding-bottom: 9px;
 }
 .body .banner-register .button span {
@@ -486,7 +496,6 @@ img {
 .body .video-catchup {
   padding: 10px 10px 7px 10px;
   background: #f1f0f0;
-  margin-right: 15px;
 }
 .body .video-catchup .details {
   float: left;
@@ -808,6 +817,126 @@ img {
 .body .descriptions dd {
   display: none;
 }
+.body .article-category-image {
+  float: left;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: -7px 0 0 0;
+  list-style: none;
+  background: #f1f0f0;
+}
+.body .article-category-image li {
+  text-indent: -9000px;
+  width: 37px;
+  height: 37px;
+  float: left;
+  border: 1px solid #f1f0f0;
+  padding: 1px;
+  box-sizing: border-box;
+  margin: 1px 2px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.body .article-category-list {
+  clear: left;
+  float: left;
+  margin: 0 0 15px 0;
+  padding: 4px 0;
+  list-style: none;
+}
+.body .article-category-list li {
+  color: #6a9433;
+  padding: 0 4px;
+  float: left;
+  font-size: 0.85em;
+  border-right: 1px solid #444444;
+}
+.body .article-category-list li.first {
+  padding-left: 0;
+}
+.body .article-category-list li.last {
+  border-right: none;
+}
+.body .article-meta {
+  clear: left;
+  float: left;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+.body .article-meta dt {
+  clear: left;
+  float: left;
+  padding: 0 0 2px 0;
+  margin: 0;
+}
+.body .article-meta dd {
+  float: left;
+  margin: 0 0 0 6px;
+  padding: 0 0 2px 0;
+  color: #6a9433;
+}
+.body .article-body {
+  clear: left;
+}
+.body .article-body h5 {
+  padding-bottom: 5px;
+}
+.body .article-body p:last-child {
+  padding-bottom: 0;
+}
+.body .respond {
+  background: #f1f0f0;
+  padding: 10px;
+}
+.body .respond .respond-details {
+  border-top: 1px dotted #ffffff;
+  padding: 10px 0 30px 0;
+  font-size: 0.9em;
+}
+.body .respond .respond-details a {
+  display: block;
+  color: #0066cc;
+  padding-bottom: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.body .respond .respond-details a:hover {
+  text-decoration: underline;
+}
+.body .respond .button {
+  margin-top: -20px;
+  float: right;
+  margin-right: -21px;
+  background: url("../images/corner-brown-right.png") bottom right no-repeat;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Arial", "Helvetica", "Verdana", "sans-serif";
+  padding-bottom: 9px;
+}
+.body .respond .button span {
+  padding: 12px;
+  font-size: 1.2em;
+  font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+  background: url("../images/submit-too.png") right 6px no-repeat #926641;
+  width: 250px;
+  display: block;
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  transition: background 0.2s;
+  box-sizing: border-box;
+}
+.body .respond .button:hover span {
+  background-color: #aa7d57;
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  transition: background 0.2s;
+}
 
 .footer {
   background: url("../images/pile-of-leaves.jpg") top left no-repeat;
@@ -1016,6 +1145,12 @@ img {
   .body .descriptions dt {
     margin: 2px 2px;
   }
+  .body .respond .respond-details {
+    padding: 10px 0;
+  }
+  .body .respond .button {
+    margin-top: -50px;
+  }
 
   .footer .company-info {
     float: none;
@@ -1088,8 +1223,25 @@ img {
     margin-left: 60px;
   }
   .body .banner-register .button span {
-    padding: 8px 20px 8px 15px;
+    padding: 8px 50px 8px 15px;
     display: block;
+    width: auto;
+    background: url("../images/button-indicator.png") right center no-repeat #926641;
+  }
+  .body .respond {
+    margin: 0 15px;
+  }
+  .body .respond .button {
+    margin: 0;
+    float: none;
+    background: none;
+    display: inline-block;
+    padding-bottom: 0;
+  }
+  .body .respond .button span {
+    padding: 8px 50px 8px 15px;
+    font-size: 1.0em;
+    width: auto;
     background: url("../images/button-indicator.png") right center no-repeat #926641;
   }
   .body .form-login {

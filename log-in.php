@@ -82,7 +82,7 @@
                         <p>If you have forgotten your login details, please <a href="/log-in/password-reminder" title="Click here to go to the password reminder page...">click here to retrieve your password</a>.</p>
 
                         <form id="login-form" name="login-form" action="pulse.php" method="post" class="form validator" novalidate="novalidate">
-                            <h3>Please login to access Members info:</h3>
+                            <h3>Please login to access members info:</h3>
                             <div class="row">
                                 <label for="email">Email</label>
                                 <input type="email" class="input" name="email" id="email" placeholder="Email" value="" required="required">

@@ -76,12 +76,12 @@
 
                     <div class="copy-padding">
 
-                        <h2>Members Registration</h2>
+                        <h2>Registration</h2>
                         <p>Register with the UK Tea &amp; Infusions Association to gain access to the restricted members information on this site.</p>
                         <p>Find out more about UK Tea &amp; Infusions Association <a href="benefits.php">Membership Benefits and Membership Criteria.</a></p>
 
                         <form id="register-form" name="register-form" action="#" method="post" class="form validator" novalidate="novalidate">
-                            <h3>Register to access Members info:</h3>
+                            <h3>Register to access members info:</h3>
                             <div class="row">
                                 <label for="firstname">Firstname *</label>
                                 <input type="text" class="input" name="firstname" id="firstname" placeholder="Firstname" value="" required="required">
