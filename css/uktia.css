@@ -383,7 +383,7 @@ img {
 }
 .body .listings a {
   text-decoration: none;
-  color: #8cb1e8;
+  color: #0066cc;
   font-weight: bold;
 }
 .body .listings a:hover {
@@ -395,6 +395,12 @@ img {
 .body .listings.latest-updates p {
   padding: 0;
   line-height: 140%;
+}
+.body .listings.text-only li {
+  min-height: inherit;
+}
+.body .listings.text-only li > * {
+  margin: 0;
 }
 .body .left .member-updates {
   padding-left: 15px;
@@ -513,7 +519,7 @@ img {
   width: 360px;
   height: 100%;
   text-align: center;
-  color: #8cb1e8;
+  color: #0066cc;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
@@ -536,7 +542,7 @@ img {
   padding-bottom: 10px;
 }
 .body .copy-padding a {
-  color: #8cb1e8;
+  color: #0066cc;
 }
 .body .copy-padding a:hover {
   text-decoration: none;
@@ -641,7 +647,7 @@ img {
 .body .logged-in .looked-at-list li {
   padding-bottom: 5px;
   margin-bottom: 5px;
-  border-bottom: 1px dotted #ffffff;
+  border-bottom: 2px dotted #ffffff;
 }
 .body .logged-in .looked-at-list li.last {
   border-bottom: none;
@@ -729,7 +735,7 @@ img {
   background: #ffffff;
 }
 .body .calendar-box .meeting {
-  border: 1px solid #8cb1e8;
+  border: 1px solid #0066cc;
   color: #0066cc;
   font-weight: bold;
   background: #eaeaea;
@@ -891,9 +897,10 @@ img {
 .body .respond {
   background: #f1f0f0;
   padding: 10px;
+  margin-bottom: 25px;
 }
 .body .respond .respond-details {
-  border-top: 1px dotted #ffffff;
+  border-top: 2px dotted #ffffff;
   padding: 10px 0 30px 0;
   font-size: 0.9em;
 }
@@ -916,6 +923,7 @@ img {
   text-decoration: none;
   font-family: "Arial", "Helvetica", "Verdana", "sans-serif";
   padding-bottom: 9px;
+  margin-bottom: 25px;
 }
 .body .respond .button span {
   padding: 12px;
@@ -936,6 +944,25 @@ img {
   -moz-transition: background 0.2s;
   -o-transition: background 0.2s;
   transition: background 0.2s;
+}
+.body .related-articles {
+  font-weight: bold;
+  line-height: 130%;
+}
+.body .related-articles ul {
+  margin: 0 0 15px 0;
+}
+.body .downloads {
+  font-weight: bold;
+}
+.body .downloads ul {
+  margin: 0;
+}
+.body .downloads ul li {
+  line-height: 140%;
+}
+.body .downloads ul li a {
+  display: block;
 }
 
 .footer {
@@ -1054,7 +1081,7 @@ img {
   .page .logged-in .looked-at-list li {
     padding-top: 5px;
     margin-top: 5px;
-    border-top: 1px dotted #cccccc;
+    border-top: 2px dotted #cccccc;
     border-bottom: none;
     margin-bottom: 0;
     padding-bottom: 1px;
@@ -1229,7 +1256,7 @@ img {
     background: url("../images/button-indicator.png") right center no-repeat #926641;
   }
   .body .respond {
-    margin: 0 15px;
+    margin: 0 15px 20px 15px;
   }
   .body .respond .button {
     margin: 0;
@@ -1331,7 +1358,7 @@ img {
   .body .logged-in .looked-at-list li {
     padding-top: 5px;
     margin-top: 5px;
-    border-top: 1px dotted #cccccc;
+    border-top: 2px dotted #cccccc;
     border-bottom: none;
     margin-bottom: 0;
     padding-bottom: 1px;

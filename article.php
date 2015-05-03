@@ -133,6 +133,24 @@
                         </a>
                     </div>
 
+                    <div class="listings text-only related-articles">
+                        <h3>Related circulars</h3>
+                        <ul>
+                            <li class="first">Curabitur semti stique matorvitae odio tincidunt egestas. <a href="article-viewed.php">More</a></li>
+                            <li>Dist dapibus ante congrbi tristique senectus et malesuada. <a href="article-viewed.php">More</a></li>
+                            <li class="last">Morbi trist toxicity ique senect systmm uset malerbi tricity ique seneistique senectus etneta. <a href="article-viewed.php">More</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="listings text-only downloads">
+                        <h3>Downloads</h3>
+                        <ul>
+                            <li class="first">Annex 01: Meeting Minutes <a href="#">Download</a></li>
+                            <li>Annex 02: Location/Directions <a href="#">Download</a></li>
+                            <li class="last">Annex 03: Further reading <a href="#">Download</a></li>
+                        </ul>
+                    </div>
+
                 </div>
                 <div class="cboth"></div>
             </div>
