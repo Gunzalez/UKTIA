@@ -2,10 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>UK Tea &amp; Infusions Association - Article</title>
+    <title>UK Tea &amp; Infusions Association - _template</title>
     <?php include_once('includes/static-resources.php'); ?>
 </head>
-<body class="article">
+<body class="essential-reading">
 
     <div class="page">
 
@@ -74,77 +74,21 @@
                 <div class="wide left">
                     <div class="copy-padding">
 
-                        <h2 class="article-title">Soil contamination by pesticide heavy metals on Indian tea plantations.</h2>
-                        <h5>Categories</h5>
-                        <ul class="article-category-image">
-                            <li class="first" style="background: url('uploaded/icon-circular-1.png')">Pesticides</li>
-                            <li style="background: url('uploaded/icon-circular-5.png')">Heavy Metals</li>
-                            <li class="last" style="background: url('uploaded/icon-circular-15.png')">Labeling</li>
-                        </ul>
-                        <ul class="article-category-list">
-                            <li class="first">Pesticides</li>
-                            <li>Heavy Metals</li>
-                            <li class="last">Labeling</li>
-                        </ul>
 
-                        <dl class="article-meta">
-                            <dt>Date added:</dt><dd>11/06/2014</dd>
-                            <dt>Added by:</dt><dd>FDF</dd>
-                            <dt>Attached documents:</dt><dd>No</dd>
-                        </dl>
-
-                        <div class="article-body">
-                            <h3>Mauricerat eleis placerat eleifend</h3>
-                            <p>Vivamus euismod.sis ante, eget dapibus ante congrbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                            <p>Pellentesque habitant <a href="article-viewed.php">smorbi tristique</a> acturpis egesta senectus et netus et malesuaiat vitae, ultricies eget, tempda fames ac turpis ege. ibulum tortor quam, feugor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-
-                            <h3>Vestibulum toam eugrtor</h3>
-                            <p>Morbi tristique senectus et netus et malesuada fames <a href="article-viewed.php">acturpis egestas</a>. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-                        </div>
 
                     </div>
                 </div>
 
                 <div class="narrow right">
 
-                    <div class="respond">
-                        <h3>Respond to</h3>
-                        <div class="respond-details">
-                            <h5>Geraldine Albon - FDF</h5>
-                            <a href="mailto:Geraldine.Albon@fdf.org.uk">Geraldine.Albon@fdf.org.uk</a>
-                            <a href="tel:+4401234567899" class="tel">+44 01234 567899</a>
-                        </div>
-                        <a href="#" class="button">
-                            <span>Click to mark as read</span>
-                        </a>
-                    </div>
 
-                    <div class="listings text-only related-articles">
-                        <h3>Related circulars</h3>
-                        <ul>
-                            <li class="first">Curabitur semti stique matorvitae odio tincidunt egestas. <a href="article-viewed.php">More</a></li>
-                            <li>Dist dapibus ante congrbi tristique senectus et malesuada. <a href="article-viewed.php">More</a></li>
-                            <li class="last">Morbi trist toxicity ique senect systmm uset malerbi tricity ique seneistique senectus etneta. <a href="article-viewed.php">More</a></li>
-                        </ul>
-                    </div>
 
-                    <div class="listings text-only downloads-list">
-                        <h3>Downloads</h3>
-                        <ul>
-                            <li class="first">Annex 01: Meeting Minutes <a href="#">Download</a></li>
-                            <li>Annex 02: Location/Directions <a href="#">Download</a></li>
-                            <li class="last">Annex 03: Further reading <a href="#">Download</a></li>
-                        </ul>
-                    </div>
+
 
                 </div>
                 <div class="cboth"></div>
             </div>
-
-
-
         </div><!-- .body -->
-
 
 
         <?php include_once('includes/footer.php'); ?>

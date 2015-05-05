@@ -39,13 +39,7 @@
                 <li class="last"><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a></li>
             </ul>
 
-            <form id="search" class="search" method="post" action="/search-results">
-                <div class="row">
-                    <label class="label" for="term">Search:</label>
-                    <input class="term" type="text" id="term" name="term" value="">
-                    <input class="go-button" type="submit" value="submit">
-                </div>
-            </form>
+            <?php include_once('includes/search-box.php'); ?>
 
             <div class="navigation">
                 <ul id="navigation-list" class="list">
@@ -57,7 +51,7 @@
                     </li>
                     <li class="option-two has-dropdown active"><a href="pulse.php">The Pulse</a>
                         <ul>
-                            <li class="first"><a href="/essential-reading">Essential Reading</a></li>
+                            <li class="first"><a href="essential-reading.php">Essential Reading</a></li>
                             <li><a href="/video-update">Video Update</a></li>
                             <li class="last"><a href="/press">Tea in the Press</a></li>
                         </ul>
@@ -508,7 +502,7 @@
                 </li>
                 <li><a href="pulse.php">The Pulse</a>
                     <ul>
-                        <li><a href="/essential-reading">Essential Reading</a></li>
+                        <li><a href="essential-reading.php">Essential Reading</a></li>
                         <li><a href="/video-update">Video Update</a></li>
                         <li><a href="/press">Tea in the Press</a></li>
                     </ul>

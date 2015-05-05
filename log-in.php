@@ -31,7 +31,7 @@
                 <li class="last"><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a></li>
             </ul>
 
-            <form id="search" class="search" method="post" action="/search-results">
+            <form id="search" class="search" method="post" action="log-in.php">
                 <div class="row">
                     <label class="label" for="term">Search:</label>
                     <input class="term" type="text" id="term" name="term" value="">

@@ -31,13 +31,7 @@
                 <li class="last"><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a></li>
             </ul>
 
-            <form id="search" class="search" method="post" action="/search-results">
-                <div class="row">
-                    <label class="label" for="term">Search:</label>
-                    <input class="term" type="text" id="term" name="term" value="">
-                    <input class="go-button" type="submit" value="submit">
-                </div>
-            </form>
+            <?php include_once('includes/search-box.php'); ?>
 
             <div class="navigation">
                 <ul id="navigation-list" class="list">
@@ -49,7 +43,7 @@
                     </li>
                     <li class="option-two has-dropdown"><a href="pulse.php">The Pulse</a>
                         <ul>
-                            <li class="first"><a href="/essential-reading">Essential Reading</a></li>
+                            <li class="first"><a href="essential-reading.php">Essential Reading</a></li>
                             <li><a href="/video-update">Video Update</a></li>
                             <li class="last"><a href="/press">Tea in the Press</a></li>
                         </ul>
@@ -80,32 +74,50 @@
                 <div class="wide left">
                     <div class="copy-padding">
 
-                        <h2 class="article-title">Soil contamination by pesticide heavy metals on Indian tea plantations.</h2>
+                        <h2 class="article-title">Imports Controls from China - Request for Data</h2>
                         <h5>Categories</h5>
                         <ul class="article-category-image">
-                            <li class="first" style="background: url('uploaded/icon-circular-1.png')">Pesticides</li>
-                            <li style="background: url('uploaded/icon-circular-5.png')">Heavy Metals</li>
-                            <li class="last" style="background: url('uploaded/icon-circular-15.png')">Labeling</li>
+                            <li class="first" style="background: url('uploaded/icon-circular-8.png')">Meetings</li>
+                            <li class="last" style="background: url('uploaded/icon-circular-7.png')">Admin</li>
                         </ul>
                         <ul class="article-category-list">
-                            <li class="first">Pesticides</li>
-                            <li>Heavy Metals</li>
-                            <li class="last">Labeling</li>
+                            <li class="first">Meetings</li>
+                            <li class="last">Admin</li>
                         </ul>
 
                         <dl class="article-meta">
-                            <dt>Date added:</dt><dd>11/06/2014</dd>
-                            <dt>Added by:</dt><dd>FDF</dd>
-                            <dt>Attached PDF:</dt><dd>YES</dd>
+                            <dt>Article date:</dt><dd>23/04/2013</dd>
+                            <dt>Added by:</dt><dd>Alasdair Orr</dd>
+                            <dt>Attached documents:</dt><dd>Yes</dd>
+                            <dt>Abstract:</dt><dd>Members are reminded to supply the Secretariat with details of their tea shipments from China that have been held at customs.</dd>
                         </dl>
 
-                        <div class="article-body">
-                            <h3>Mauricerat eleis placerat eleifend</h3>
-                            <p>Vivamus euismod.sis ante, eget dapibus ante congrbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                            <p>Pellentesque habitant <a href="#">smorbi tristique</a> acturpis egesta senectus et netus et malesuaiat vitae, ultricies eget, tempda fames ac turpis ege. ibulum tortor quam, feugor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                        <a href="#" class="download">
+                            <span class="text">Download</span><span class="arrow"></span>
+                        </a>
 
-                            <h3>Vestibulum toam eugrtor</h3>
-                            <p>Morbi tristique senectus et netus et malesuada fames <a href="#">acturpis egestas</a>. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+                        <div class="article-body">
+
+                            <h3>On-going action</h3>
+                            <p>Any member who has a shipment stopped is requested to complete the attached template form, Annex I (attached), and return it to the Secretariat, in order to enable us to complete the data collection exercise to submit at EU level.</p>
+                                <p>The data captured will be kept by the Secretariat to ensure it remains anonymous and will be used to identify both problems and also whether the regulation is working as well as monitoring the disruption to the transport of tea. </p>
+
+                            <h3>Background</h3>
+                            <p>In 2011 the Standing Committee of the Food Chain and Animal Health of the EU approved the 5th amendment of Annex I to Commission Regulation (EC) No 669/2009, implementing Regulation (EC) No 882/2004 as regards the increased level of official controls on imports of certain feed and food of non-animal origin.</p>
+                            <p>Within the Regulation, Tea leaves (black and green) from China are highlighted in the regulation annex as one of the products to be tested at point of entry.</p>
+
+                            <h3>Designated Point of ENtry (DPE)</h3>
+                            <p>Due to the Regulation all Tea from China now needs to come into EU via a Designated Point of Entry (DPE).</p>
+
+                            <h3>Common Entry Document (CED) - Requirement</h3>
+                            <p>All consignments are required to be <a href="article.php">accompanied</a> by a Common Entry Document (CED) to enable the consignment to be accepted at point of entry via a DPE.</p>
+
+                            <h3>Commission Guidance Q&amp;A</h3>
+                            <p>For further information the Commission had produced a guidance Q&amp;A paper which has been finalised on the provisions of Commission Regulation No 669/2009 and published at:&nbsp;<a href="http://ec.europa.eu/food/food/controls/increased_checks/docs/QandA_paper_en.pdf" target="_blank" title="Click here to download the document...">http://ec.europa.eu/food/food/controls/increased_checks/docs/QandA_paper_en.pdf</a></p>
+
+                            <h3>FSA Contact Details:</h3>
+                            <p>FSA Import Helpline: 0207 276 8018<br> <a href="http://food.gov.uk/foodindustry/imports/banned_restricted/highrisknonpoao" target="_blank" title="Click here to go to the FSA website helpline...">http://food.gov.uk/foodindustry/imports/banned_restricted/highrisknonpoao</a></p>
+
                         </div>
 
                     </div>
@@ -116,32 +128,15 @@
                     <div class="respond">
                         <h3>Respond to</h3>
                         <div class="respond-details">
-                            <h5>Geraldine Albon - FDF</h5>
-                            <a href="mailto:Geraldine.Albon@fdf.org.uk">Geraldine.Albon@fdf.org.uk</a>
-                            <a href="tel:+4401234567899" class="tel">+44 01234 567899</a>
+                            <h5>UKTC Secretariat</h5>
+                            <a href="mailto:frances.hume@fdf.org.uk">frances.hume@fdf.org.uk</a>
                         </div>
-                        <a href="#" class="button">
-                            <span>Click to mark as read</span>
-                        </a>
+                        <span class="button disabled">
+                            <span>Viewed on 30th September 2013</span>
+                        </span>
                     </div>
 
-                    <div class="listings text-only related-articles">
-                        <h3>Related circulars</h3>
-                        <ul>
-                            <li class="first">Curabitur semti stique matorvitae odio tincidunt egestas. <a href="article-viewed.php">More</a></li>
-                            <li>Dist dapibus ante congrbi tristique senectus et malesuada. <a href="article-viewed.php">More</a></li>
-                            <li class="last">Morbi trist toxicity ique senect systmm uset malerbi tricity ique seneistique senectus etneta. <a href="article-viewed.php">More</a></li>
-                        </ul>
-                    </div>
 
-                    <div class="listings text-only downloads">
-                        <h3>Downloads</h3>
-                        <ul>
-                            <li class="first">Annex 01: Meeting Minutes <a href="#">Download</a></li>
-                            <li>Annex 02: Location/Directions <a href="#">Download</a></li>
-                            <li class="last">Annex 03: Further reading <a href="#">Download</a></li>
-                        </ul>
-                    </div>
 
                 </div>
                 <div class="cboth"></div>
@@ -179,7 +174,7 @@
                 </li>
                 <li><a href="pulse.php">The Pulse</a>
                     <ul>
-                        <li><a href="/essential-reading">Essential Reading</a></li>
+                        <li><a href="essential-reading.php">Essential Reading</a></li>
                         <li><a href="/video-update">Video Update</a></li>
                         <li><a href="/press">Tea in the Press</a></li>
                     </ul>

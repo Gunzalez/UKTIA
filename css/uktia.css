@@ -869,23 +869,20 @@ img {
   border-right: none;
 }
 .body .article-meta {
-  clear: left;
   float: left;
+  clear: left;
   font-weight: bold;
   font-size: 0.9em;
   padding: 0;
   margin: 0 0 15px 0;
 }
 .body .article-meta dt {
-  clear: left;
   float: left;
-  padding: 0 0 2px 0;
-  margin: 0;
+  clear: left;
 }
 .body .article-meta dd {
-  float: left;
-  margin: 0 0 0 6px;
-  padding: 0 0 2px 0;
+  margin: 0 0 0 150px;
+  padding: 0 0 5px 0;
   color: #6a9433;
 }
 .body .article-body {
@@ -948,6 +945,15 @@ img {
   -o-transition: background 0.2s;
   transition: background 0.2s;
 }
+.body .respond .button.disabled {
+  cursor: default;
+}
+.body .respond .button.disabled span {
+  background: #926641;
+}
+.body .respond .button.disabled:hover span {
+  background-color: #926641;
+}
 .body .related-articles {
   font-weight: bold;
   line-height: 130%;
@@ -955,17 +961,101 @@ img {
 .body .related-articles ul {
   margin: 0 0 15px 0;
 }
-.body .downloads {
+.body .downloads-list {
   font-weight: bold;
 }
-.body .downloads ul {
+.body .downloads-list ul {
   margin: 0;
 }
-.body .downloads ul li {
+.body .downloads-list ul li {
   line-height: 140%;
 }
-.body .downloads ul li a {
+.body .downloads-list ul li a {
   display: block;
+}
+.body .download {
+  float: left;
+  background-color: #926641;
+  color: #ffffff;
+  display: inline-block;
+  margin-bottom: 15px;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+  font-size: 1.2em;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
+.body .download .text {
+  padding: 12px 55px 12px 18px;
+  background: url("../images/submit-too.png") right 7px no-repeat;
+  color: #ffffff;
+  float: left;
+}
+.body .download .arrow {
+  border-style: dashed;
+  border-color: transparent;
+  border-width: 0.20em;
+  display: -moz-inline-box;
+  display: inline-block;
+  /* Use font-size to control the size of the arrow. */
+  font-size: 115px;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: middle;
+  width: 0;
+  background-color: #ffffff;
+  border-left-width: 0.20em;
+  border-left-style: solid;
+  border-left-color: #926641;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
+.body .download:hover {
+  background-color: #aa7d57;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
+.body .download:hover .arrow {
+  border-left-color: #aa7d57;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
+.body .reading-entries .entry {
+  padding-bottom: 10px;
+}
+.body .reading-entries .entry h3 {
+  padding-bottom: 5px;
+}
+.body .reading-entries .pagination {
+  text-align: center;
+  font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+  margin-bottom: 10px;
+}
+.body .reading-entries .pagination ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.body .reading-entries .pagination li {
+  display: inline;
+}
+.body .reading-entries .pagination .selected {
+  font-weight: bold;
+  cursor: default;
+  text-decoration: none;
+}
+.body .reading-entries .pagination a {
+  display: inline-block;
+  padding: 1px 2px;
 }
 
 .footer {
@@ -1229,12 +1319,6 @@ img {
     background-image: none;
     padding: 10px 15px;
   }
-  .body .listings {
-    padding: 0 15px;
-  }
-  .body .listings p {
-    padding-top: 6px;
-  }
   .body .fixed-267px {
     height: auto;
   }
@@ -1273,6 +1357,9 @@ img {
     font-size: 1.0em;
     width: auto;
     background: url("../images/button-indicator.png") right center no-repeat #926641;
+  }
+  .body .respond .button.disabled span {
+    padding-right: 15px;
   }
   .body .form-login {
     height: auto;
@@ -1314,6 +1401,12 @@ img {
   }
   .body .form-login .go-button {
     margin: -5px 0 0 0;
+  }
+  .body .listings {
+    padding: 0 15px;
+  }
+  .body .listings p {
+    padding-top: 6px;
   }
   .body .listings.member-updates {
     padding-left: 15px;
@@ -1492,6 +1585,24 @@ img {
   }
   .body .descriptions dt.active {
     border: 2px solid #6a9433;
+  }
+  .body .article-meta {
+    font-weight: normal;
+    font-size: 0.9em;
+  }
+  .body .article-meta dt {
+    float: none;
+  }
+  .body .article-meta dd {
+    margin: 0;
+    padding: 0 0 5px 0;
+    color: #6a9433;
+  }
+  .body .reading-entries .pagination {
+    margin-bottom: 0;
+  }
+  .body .reading-entries .pagination a {
+    font-size: 1.1em;
   }
 
   .footer .company-info p {
