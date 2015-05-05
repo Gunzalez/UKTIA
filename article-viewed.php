@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>UK Tea &amp; Infusions Association - Article</title>
+    <title>UK Tea &amp; Infusions Association - Viewed article</title>
     <?php include_once('includes/static-resources.php'); ?>
 </head>
 <body class="article">

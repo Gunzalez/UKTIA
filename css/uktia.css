@@ -311,13 +311,16 @@ img {
 .body .section {
   margin-bottom: 20px;
 }
-.body h2, .body h3 {
+.body h2 {
   font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
   font-size: 2.0em;
   line-height: 120%;
   color: #6a9433;
 }
 .body h3 {
+  font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+  line-height: 120%;
+  color: #6a9433;
   font-size: 1.5em;
 }
 .body h5 {
@@ -888,7 +891,7 @@ img {
 .body .article-body {
   clear: left;
 }
-.body .article-body h5 {
+.body .article-body h3, .body .article-body h4, .body .article-body h5 {
   padding-bottom: 5px;
 }
 .body .article-body p:last-child {

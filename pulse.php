@@ -417,27 +417,27 @@
                                 <li>
                                     <img src="uploaded/icon-circular-10-large.png" alt="" width="45" height="45">
                                     <p><strong>Positioning Statements updated:</strong> 13/11/12</p>
-                                    <p>Vestibum t nisl ut nulla tristique mattis urabitur semti stique mator vitae odio tincidunt egestas. <a href="/press/">More</a></p>
+                                    <p>Vestibum t nisl ut nulla tristique mattis urabitur semti stique mator vitae odio tincidunt egestas. <a href="article.php">More</a></p>
                                 </li>
                                 <li>
                                     <img src="uploaded/icon-circular-12-large.png" alt="" width="45" height="45">
                                     <p><strong>TOG Meetings Minutes updated:</strong> 04/09/14</p>
-                                    <p>Pocahuntis Beats to the mixNullam et nisl ut nulla tristique mattisnt egestas. <a href="/press/">More</a></p>
+                                    <p>Pocahuntis Beats to the mixNullam et nisl ut nulla tristique mattisnt egestas. <a href="article.php">More</a></p>
                                 </li>
                                 <li>
                                     <img src="uploaded/icon-circular-13-large.png" alt="" width="45" height="45">
                                     <p><strong>Fusce rhoncus, nisi interdum efficitur posuere</strong> 04/09/14</p>
-                                    <p>Duis enim lectus, ullamcorper ac ultricies ac, facils enim lectus, ullamisis a mis enim ls, ullamiectus, ullam. <a href="/press/">More</a></p>
+                                    <p>Duis enim lectus, ullamcorper ac ultricies ac, facils enim lectus, ullamisis a mis enim ls, ullamiectus, ullam. <a href="article.php">More</a></p>
                                 </li>
                                 <li>
                                     <img src="uploaded/icon-circular-3-large.png" alt="" width="45" height="45">
                                     <p><strong>Famous last words, famous!</strong> 21/03/14</p>
-                                    <p>Vivamus eu varius turpis, id pellentesque velit. Sed mollis non justo non congue. Sed massa purus, accumsan sed efficitur vel, vehicula eget velit. <a href="/press/">More</a></p>
+                                    <p>Vivamus eu varius turpis, id pellentesque velit. Sed mollis non justo non congue. Sed massa purus, accumsan sed efficitur vel, vehicula eget velit. <a href="article.php">More</a></p>
                                 </li>
                                 <li>
                                     <img src="uploaded/icon-circular-4-large.png" alt="" width="45" height="45">
                                     <p><strong>Don't go into the Pyramid, please!</strong> 04/09/15</p>
-                                    <p>Suspendisse non ex metus. Donec quis egestas nisi. Morbi at mi eget turpis euismod laoreet. <a href="/press/">More</a></p>
+                                    <p>Suspendisse non ex metus. Donec quis egestas nisi. Morbi at mi eget turpis euismod laoreet. <a href="article-viewed.php">More</a></p>
                                 </li>
                             </ul>
                         </div>
