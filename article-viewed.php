@@ -45,7 +45,7 @@
                         <ul>
                             <li class="first"><a href="essential-reading.php">Essential Reading</a></li>
                             <li><a href="/video-update">Video Update</a></li>
-                            <li class="last"><a href="/press">Tea in the Press</a></li>
+                            <li class="last"><a href="press.php">Tea in the Press</a></li>
                         </ul>
                     </li>
                     <li class="option-three has-dropdown"><a href="/members-reference">Membership Reference Info</a>
@@ -74,7 +74,7 @@
                 <div class="wide left">
                     <div class="copy-padding">
 
-                        <h2 class="article-title">Imports Controls from China - Request for Data</h2>
+                        <h2>Imports Controls from China - Request for Data</h2>
                         <h5>Categories</h5>
                         <ul class="article-category-image">
                             <li class="first" style="background: url('uploaded/icon-circular-8.png')">Meetings</li>
@@ -176,7 +176,7 @@
                     <ul>
                         <li><a href="essential-reading.php">Essential Reading</a></li>
                         <li><a href="/video-update">Video Update</a></li>
-                        <li><a href="/press">Tea in the Press</a></li>
+                        <li><a href="press.php">Tea in the Press</a></li>
                     </ul>
                 </li>
                 <li><a href="/members-reference">Membership Reference Info</a>

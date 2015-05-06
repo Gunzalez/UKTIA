@@ -53,7 +53,7 @@
                         <ul>
                             <li class="first"><a href="essential-reading.php">Essential Reading</a></li>
                             <li><a href="/video-update">Video Update</a></li>
-                            <li class="last"><a href="/press">Tea in the Press</a></li>
+                            <li class="last"><a href="press.php">Tea in the Press</a></li>
                         </ul>
                     </li>
                     <li class="option-three has-dropdown"><a href="/members-reference">Membership Reference Info</a>
@@ -504,7 +504,7 @@
                     <ul>
                         <li><a href="essential-reading.php">Essential Reading</a></li>
                         <li><a href="/video-update">Video Update</a></li>
-                        <li><a href="/press">Tea in the Press</a></li>
+                        <li><a href="press.php">Tea in the Press</a></li>
                     </ul>
                 </li>
                 <li><a href="/members-reference">Membership Reference Info</a>

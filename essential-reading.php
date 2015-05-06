@@ -41,11 +41,11 @@
                             <li class="last"><a href="index.php">Members Log-out</a></li>
                         </ul>
                     </li>
-                    <li class="option-two has-dropdown"><a href="pulse.php">The Pulse</a>
+                    <li class="option-two has-dropdown active"><a href="pulse.php">The Pulse</a>
                         <ul>
                             <li class="first active"><a href="essential-reading.php">Essential Reading</a></li>
                             <li><a href="/video-update">Video Update</a></li>
-                            <li class="last"><a href="/press">Tea in the Press</a></li>
+                            <li class="last"><a href="press.php">Tea in the Press</a></li>
                         </ul>
                     </li>
                     <li class="option-three has-dropdown"><a href="/members-reference">Membership Reference Info</a>
@@ -75,9 +75,7 @@
                     <div class="copy-padding">
 
                         <h2>Essential Reading</h2>
-                        
-
-                        <div class="reading-entries">
+                        <div class="entries">
                             <div class="entry">
                                 <h3>Conference Call</h3>
                                 <p>UKTIA TOG Contaminants Conference Call - 2.30pm Thursday 10th November 2015<br />
@@ -130,7 +128,6 @@
                                     <a href="/actions-updates/article/uktia-executive-board-meeting-">Read the full article</a></p>
                             </div>
 
-
                             <div class="pagination">
                                 <ul class="paged-nav">
                                     <li><a href="/essential-reading/page/1" data-page="1">First</a></li>
@@ -141,6 +138,8 @@
                                     <li><a href="/essential-reading/page/4/" data-page="4">Last</a></li>
                                 </ul>
                             </div>
+
+                            <a href="#" class="archive">View the archive »</a>
 
                         </div>
                         
@@ -231,7 +230,7 @@
                     <ul>
                         <li><a href="essential-reading.php">Essential Reading</a></li>
                         <li><a href="/video-update">Video Update</a></li>
-                        <li><a href="/press">Tea in the Press</a></li>
+                        <li><a href="press.php">Tea in the Press</a></li>
                     </ul>
                 </li>
                 <li><a href="/members-reference">Membership Reference Info</a>
