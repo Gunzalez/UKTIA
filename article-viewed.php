@@ -87,14 +87,10 @@
 
                         <dl class="article-meta">
                             <dt>Article date:</dt><dd>23/04/2013</dd>
-                            <dt>Added by:</dt><dd>Alasdair Orr</dd>
-                            <dt>Attached documents:</dt><dd>Yes</dd>
+                            <dt>Added by:</dt><dd>Starsky and Hutch</dd>
+                            <dt>Attached documents:</dt><dd>No</dd>
                             <dt>Abstract:</dt><dd>Members are reminded to supply the Secretariat with details of their tea shipments from China that have been held at customs.</dd>
                         </dl>
-
-                        <a href="#" class="download">
-                            <span class="text">Download</span><span class="arrow"></span>
-                        </a>
 
                         <div class="article-body">
 

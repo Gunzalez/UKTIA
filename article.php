@@ -90,7 +90,7 @@
                         <dl class="article-meta">
                             <dt>Date added:</dt><dd>11/06/2014</dd>
                             <dt>Added by:</dt><dd>FDF</dd>
-                            <dt>Attached documents:</dt><dd>No</dd>
+                            <dt>Attached documents:</dt><dd>Yes</dd>
                         </dl>
 
                         <div class="article-body">
@@ -119,12 +119,35 @@
                         </a>
                     </div>
 
+                    <!-- Uncomment to see this other style in PSD
                     <div class="listings text-only related-articles">
                         <h3>Related circulars</h3>
                         <ul>
                             <li class="first">Curabitur semti stique matorvitae odio tincidunt egestas. <a href="article-viewed.php">More</a></li>
                             <li>Dist dapibus ante congrbi tristique senectus et malesuada. <a href="article-viewed.php">More</a></li>
                             <li class="last">Morbi trist toxicity ique senect systmm uset malerbi tricity ique seneistique senectus etneta. <a href="article-viewed.php">More</a></li>
+                        </ul>
+                    </div>
+                    -->
+
+                    <div class="listings latest-updates">
+                        <h3>Related circulars</h3>
+                        <ul>
+                            <li>
+                                <img src="uploaded/icon-circular-10-large.png" alt="" width="45" height="45">
+                                <p><strong>Positionus, nisi inttements updated:</strong> 13/11/12</p>
+                                <p>Vestibuis urabitur semti stique m tincidunt egestas. <a href="article.php">More</a></p>
+                            </li>
+                            <li>
+                                <img src="uploaded/icon-circular-12-large.png" alt="" width="45" height="45">
+                                <p><strong>Tus Minus, nisi intgs Minutes updated:</strong> 04/09/14</p>
+                                <p>Pocahuntis Beats to the mixNullanulla trtisnt egestas. <a href="article.php">More</a></p>
+                            </li>
+                            <li>
+                                <img src="uploaded/icon-circular-13-large.png" alt="" width="45" height="45">
+                                <p><strong>Fusce rhoncus, nisi interdum efficitur posuere</strong> 04/09/14</p>
+                                <p>Duis enim lectus, ullamcorper ac ultricieectus, ullam. <a href="article.php">More</a></p>
+                            </li>
                         </ul>
                     </div>
 

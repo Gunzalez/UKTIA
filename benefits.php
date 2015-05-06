@@ -35,7 +35,7 @@
 
             <div class="navigation">
                 <ul id="navigation-list" class="list">
-                    <li class="first option-one has-dropdown"><a href="about.php">About UKTIA</a>
+                    <li class="first option-one has-dropdown active"><a href="about.php">About UKTIA</a>
                         <ul>
                             <li class="first active"><a href="benefits.php">Members Benefits</a></li>
                             <li><a href="register.php">Registration</a></li>

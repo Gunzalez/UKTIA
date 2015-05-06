@@ -76,6 +76,10 @@
 
 
 
+                        <a href="#" class="download">
+                            <span class="text">Download</span><span class="arrow"></span>
+                        </a>
+
                     </div>
                 </div>
 

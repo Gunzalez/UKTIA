@@ -23,6 +23,7 @@ Tea in the press 100%                                                           
 
 Todos
 ==================================================================================================
+Opacity of description hover icons stages
 
 
 Issues
