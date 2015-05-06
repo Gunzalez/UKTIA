@@ -2,10 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>UK Tea &amp; Infusions Association - _template</title>
+    <title>UK Tea &amp; Infusions Association - Tea in the Press</title>
     <?php include_once('includes/static-resources.php'); ?>
 </head>
-<body class="essential-reading">
+<body class="press">
 
     <div class="page">
 
@@ -44,15 +44,15 @@
                     <li class="option-two has-dropdown active"><a href="pulse.php">The Pulse</a>
                         <ul>
                             <li class="first"><a href="essential-reading.php">Essential Reading</a></li>
-                            <li><a href="/video-update">Video Update</a></li>
+                            <li><a href="video-update.php">Video Update</a></li>
                             <li class="last active"><a href="press.php">Tea in the Press</a></li>
                         </ul>
                     </li>
                     <li class="option-three has-dropdown"><a href="/members-reference">Membership Reference Info</a>
                         <ul>
-                            <li class="first"><a href="/fdf-access">Access to FDF Website</a></li>
-                            <li><a href="/annual-reports">Annual reports</a></li>
-                            <li><a href="/crisis-response">Crisis &amp; Response Procedures</a></li>
+                            <li class="first"><a href="fdf-access.php">Access to FDF Website</a></li>
+                            <li><a href="annual-reports.php">Annual reports</a></li>
+                            <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
                             <li><a href="/faqs">FAQs</a></li>
                             <li><a href="/industry-partners">Industry Partners</a></li>
                             <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>
@@ -334,7 +334,7 @@
                     </div>
 
                     <div class="listings latest-updates">
-                        <h3>Your latest updates</h3>
+                        <h3>Your latest updates:</h3>
                         <ul>
                             <li>
                                 <img src="uploaded/icon-circular-10-large.png" alt="" width="45" height="45">
@@ -387,15 +387,15 @@
                 <li><a href="pulse.php">The Pulse</a>
                     <ul>
                         <li><a href="essential-reading.php">Essential Reading</a></li>
-                        <li><a href="/video-update">Video Update</a></li>
+                        <li><a href="video-update.php">Video Update</a></li>
                         <li><a href="press.php">Tea in the Press</a></li>
                     </ul>
                 </li>
                 <li><a href="/members-reference">Membership Reference Info</a>
                     <ul>
-                        <li><a href="/fdf-access">Access to FDF Website</a></li>
-                        <li><a href="/annual-reports">Annual reports</a></li>
-                        <li><a href="/crisis-response">Crisis &amp; Response Procedures</a></li>
+                        <li><a href="fdf-access.php">Access to FDF Website</a></li>
+                        <li><a href="annual-reports.php">Annual reports</a></li>
+                        <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
                         <li><a href="/faqs">FAQs</a></li>
                         <li><a href="/industry-partners">Industry Partners</a></li>
                         <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>

@@ -2,10 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>UK Tea &amp; Infusions Association - _template</title>
+    <title>UK Tea &amp; Infusions Association - Access to FDF website</title>
     <?php include_once('includes/static-resources.php'); ?>
 </head>
-<body class="essential-reading">
+<body class="fdf-access">
 
     <div class="page">
 
@@ -61,7 +61,7 @@
                             <li class="last"><a href="/operating-groups">Operating Groups &amp; Mandates</a></li>
                         </ul>
                     </li>
-                    <li class="last option-fours"><a href="/circulars">Circulars</a></li>
+                    <li class="last option-four"><a href="/circulars">Circulars</a></li>
                 </ul>
             </div>
 
@@ -74,11 +74,21 @@
                 <div class="wide left">
                     <div class="copy-padding">
 
+                        <h2>Access to FDF website</h2>
 
+                        <h3>How to access the FDF Members area website:</h3>
+                        <p>As all UKTIA members (except producer country tea boards or associations) have a requirement to be full members of the Food and Drink Federation, either through individual company corporate membership or through the UKTIA consolidated FDF membership, they have the right to access the FDF Members area website.</p>
+                        <p>The FDF member&rsquo;s area gives you access to a large range of industry information such as FDF committee papers, position papers, legislation tracker and updated food and drink news.&nbsp; See below the three easy steps on how to register:</p>
 
-                        <a href="#" class="download">
-                            <span class="text">Download</span><span class="arrow"></span>
-                        </a>
+                        <h3>How to register for the members&rsquo; area:</h3>
+                        <p>Here are details of how to register for access - please follow the three steps below:</p>
+                        <p><strong>STEP ONE</strong><br />
+                            Go to: <a href="http://www.fdf.org.uk/register" target="_blank">http://www.fdf.org.uk/register</a><br />
+                            <br />
+                            <strong>STEP TWO</strong><br />Fill in your details as requested and press submit. Your username and password can contain up to 20 characters, be in upper or lower case and include numbers and/or spaces.</p>
+                        <p><strong>STEP THREE</strong><br />FDF will process these details and email you to inform you when your account is active and you can access the members&rsquo; only area.</p>
+                        <p>If you have any problems please contact FDF&rsquo;s web manager on 020 7420 7184 or <a href="mailto:ctidnam@fdf.org.uk">webmaster@fdf.org.uk</a></p>
+
 
                     </div>
                 </div>

@@ -44,15 +44,15 @@
                     <li class="option-two has-dropdown"><a href="pulse.php">The Pulse</a>
                         <ul>
                             <li class="first"><a href="essential-reading.php">Essential Reading</a></li>
-                            <li><a href="/video-update">Video Update</a></li>
+                            <li><a href="video-update.php">Video Update</a></li>
                             <li class="last"><a href="press.php">Tea in the Press</a></li>
                         </ul>
                     </li>
                     <li class="option-three has-dropdown"><a href="/members-reference">Membership Reference Info</a>
                         <ul>
-                            <li class="first"><a href="/fdf-access">Access to FDF Website</a></li>
-                            <li><a href="/annual-reports">Annual reports</a></li>
-                            <li><a href="/crisis-response">Crisis &amp; Response Procedures</a></li>
+                            <li class="first"><a href="fdf-access.php">Access to FDF Website</a></li>
+                            <li><a href="annual-reports.php">Annual reports</a></li>
+                            <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
                             <li><a href="/faqs">FAQs</a></li>
                             <li><a href="/industry-partners">Industry Partners</a></li>
                             <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>
@@ -171,15 +171,15 @@
                 <li><a href="pulse.php">The Pulse</a>
                     <ul>
                         <li><a href="essential-reading.php">Essential Reading</a></li>
-                        <li><a href="/video-update">Video Update</a></li>
+                        <li><a href="video-update.php">Video Update</a></li>
                         <li><a href="press.php">Tea in the Press</a></li>
                     </ul>
                 </li>
                 <li><a href="/members-reference">Membership Reference Info</a>
                     <ul>
-                        <li><a href="/fdf-access">Access to FDF Website</a></li>
-                        <li><a href="/annual-reports">Annual reports</a></li>
-                        <li><a href="/crisis-response">Crisis &amp; Response Procedures</a></li>
+                        <li><a href="fdf-access.php">Access to FDF Website</a></li>
+                        <li><a href="annual-reports.php">Annual reports</a></li>
+                        <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
                         <li><a href="/faqs">FAQs</a></li>
                         <li><a href="/industry-partners">Industry Partners</a></li>
                         <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>

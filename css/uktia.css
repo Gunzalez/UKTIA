@@ -296,16 +296,16 @@ img {
   left: 0;
 }
 .page .header .navigation .option-one {
-  width: 213px;
+  width: 210px;
 }
 .page .header .navigation .option-two {
-  width: 213px;
+  width: 210px;
 }
 .page .header .navigation .option-three {
-  width: 340px;
+  width: 320px;
 }
 .page .header .navigation .option-four {
-  width: 170px;
+  width: 196px;
 }
 
 .body {
@@ -624,6 +624,23 @@ img {
 }
 .body .copy-padding table .odd th, .body .copy-padding table .odd td {
   background: #f4f4f4;
+}
+.body .copy-padding table.responsive th {
+  font-size: 1.1em;
+  color: #6a9433;
+  font-weight: normal;
+  font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+  text-align: left;
+  padding: 6px 8px;
+  border: none;
+  background: #f9f9f9;
+  vertical-align: top;
+}
+.body .copy-padding table.responsive td {
+  padding: 8px 10px;
+  border-top: 1px solid #ffffff;
+  background: #f9f9f9;
+  vertical-align: top;
 }
 .body .logged-in {
   background: #f1f0f0;
@@ -1042,7 +1059,7 @@ img {
   transition: all 0.25s;
 }
 .body .entries .entry {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   content: "";
   clear: both;
   display: block;
@@ -1054,7 +1071,7 @@ img {
   content: "";
   clear: both;
   display: block;
-  margin: 0 0 10px 0;
+  margin: 0 0 5px 0;
   font-size: 0.9em;
   font-weight: bold;
 }
@@ -1093,6 +1110,11 @@ img {
 .body .entries .pagination a {
   display: inline-block;
   padding: 1px 2px;
+}
+.body ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 15px;
 }
 
 .footer {
@@ -1457,6 +1479,12 @@ img {
   .body .copy-padding {
     padding: 10px 15px;
   }
+  .body .copy-padding table.responsive th {
+    padding: 4px 6px;
+  }
+  .body .copy-padding table.responsive td {
+    padding: 4px 6px;
+  }
   .body .calendar-box {
     margin: 10px 15px;
   }
@@ -1604,6 +1632,33 @@ img {
     padding: 4px 8px;
     vertical-align: middle;
     height: 40px;
+  }
+  .body .copy-padding table.responsive tr {
+    padding-bottom: 10px;
+  }
+  .body .copy-padding table.responsive tr:last-child td:last-child {
+    margin-bottom: 0;
+  }
+  .body .copy-padding table.responsive th {
+    padding: 4px 6px;
+    float: left;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .body .copy-padding table.responsive td {
+    padding: 4px 6px;
+    float: left;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .body .copy-padding table.responsive td p {
+    margin: 0;
+    padding: 0;
+  }
+  .body .copy-padding table.responsive td:last-child {
+    margin-bottom: 10px;
   }
   .body .descriptions h2 {
     font-size: 1.5em;

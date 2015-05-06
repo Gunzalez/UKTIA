@@ -2,10 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>UK Tea &amp; Infusions Association - _template</title>
+    <title>UK Tea &amp; Infusions Association - Annual Reports</title>
     <?php include_once('includes/static-resources.php'); ?>
 </head>
-<body class="essential-reading">
+<body class="annual-reports">
 
     <div class="page">
 
@@ -50,8 +50,8 @@
                     </li>
                     <li class="option-three has-dropdown active"><a href="/members-reference">Membership Reference Info</a>
                         <ul>
-                            <li class="first active"><a href="fdf-access.php">Access to FDF Website</a></li>
-                            <li><a href="annual-reports.php">Annual reports</a></li>
+                            <li class="first"><a href="fdf-access.php">Access to FDF Website</a></li>
+                            <li class="active"><a href="annual-reports.php">Annual reports</a></li>
                             <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
                             <li><a href="/faqs">FAQs</a></li>
                             <li><a href="/industry-partners">Industry Partners</a></li>
@@ -61,7 +61,7 @@
                             <li class="last"><a href="/operating-groups">Operating Groups &amp; Mandates</a></li>
                         </ul>
                     </li>
-                    <li class="last option-fours"><a href="/circulars">Circulars</a></li>
+                    <li class="last option-four"><a href="/circulars">Circulars</a></li>
                 </ul>
             </div>
 
@@ -74,12 +74,86 @@
                 <div class="wide left">
                     <div class="copy-padding">
 
+                        <h2>Annual Reports</h2>
+                        <div class="entries">
+
+                            <div class="entry">
+                                <h3>Annual Report 2015</h3>
+                                <dl>
+                                    <dt>Publish date:</dt>
+                                    <dd>08/04/2015</dd>
+                                </dl>
+                                <p>To view the 2015 United Kingdom Tea Council Report, please download the pdf document to your desktop by clicking on the download button. Please note this is a large file so may take a couple of minutes to download.
+                                    <br><a href="#">Download</a></p>
+                            </div>
+                            <div class="entry">
+                                <h3>Annual Report 2014</h3>
+                                <dl>
+                                    <dt>Publish date:</dt>
+                                    <dd>08/04/2014</dd>
+                                </dl>
+                                <p>To view the 2014 United Kingdom Tea Council Report, please download the pdf document to your desktop by clicking on the download button. Please note this is a large file so may take a couple of minutes to download.
+                                    <br><a href="#">Download</a></p>
+                            </div>
+                            <div class="entry">
+                                <h3>Annual Report 2013</h3>
+                                <dl>
+                                    <dt>Publish date:</dt>
+                                    <dd>08/04/2013</dd>
+                                </dl>
+                                <p>To view the 2013 United Kingdom Tea Council Report, please download the pdf document to your desktop by clicking on the download button. Please note this is a large file so may take a couple of minutes to download.
+                                    <br><a href="#">Download</a></p>
+                            </div>
+                            <div class="entry">
+                                <h3>Annual Report 2012</h3>
+                                <dl>
+                                    <dt>Publish date:</dt>
+                                    <dd>08/04/2012</dd>
+                                </dl>
+                                <p>To view the 2012 United Kingdom Tea Council Report, please download the pdf document to your desktop by clicking on the download button. Please note this is a large file so may take a couple of minutes to download.
+                                    <br><a href="#">Download</a></p>
+                            </div>
+                            <div class="entry">
+                                <h3>Annual Report 2011</h3>
+                                <dl>
+                                    <dt>Publish date:</dt>
+                                    <dd>08/04/2011</dd>
+                                </dl>
+                                <p>To view the 2011 United Kingdom Tea Council Report, please download the pdf document to your desktop by clicking on the download button. Please note this is a large file so may take a couple of minutes to download.
+                                    <br><a href="#">Download</a></p>
+                            </div>
+                            <div class="entry">
+                                <h3>Annual Report 2009</h3>
+                                <dl>
+                                    <dt>Publish date:</dt>
+                                    <dd>08/04/2009</dd>
+                                </dl>
+                                <p>To view the 2009 United Kingdom Tea Council Report, please download the pdf document to your desktop by clicking on the download button. Please note this is a large file so may take a couple of minutes to download.
+                                    <br><a href="#">Download</a></p>
+                            </div>
+                            <div class="entry">
+                                <h3>Annual Report 2008</h3>
+                                <dl>
+                                    <dt>Publish date:</dt>
+                                    <dd>08/04/2008</dd>
+                                </dl>
+                                <p>To view the 2008 United Kingdom Tea Council Report, please download the pdf document to your desktop by clicking on the download button. Please note this is a large file so may take a couple of minutes to download.
+                                    <br><a href="#">Download</a></p>
+                            </div>
+                            <div class="entry">
+                                <h3>Annual Report 2007</h3>
+                                <dl>
+                                    <dt>Publish date:</dt>
+                                    <dd>08/04/2007</dd>
+                                </dl>
+                                <p>To view the 2007 United Kingdom Tea Council Report, please download the pdf document to your desktop by clicking on the download button. Please note this is a large file so may take a couple of minutes to download.
+                                    <br><a href="#">Download</a></p>
+                            </div>
+
+                        </div>
 
 
-                        <a href="#" class="download">
-                            <span class="text">Download</span><span class="arrow"></span>
-                        </a>
-
+                        <div class="cboth"></div>
                     </div>
                 </div>
 
