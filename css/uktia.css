@@ -406,13 +406,13 @@ img {
 .body .listings.text-only li > * {
   margin: 0;
 }
-.body .left .member-updates {
+.body .listings-adjustments {
   padding-left: 15px;
 }
-.body .left .member-updates h3 {
+.body .listings-adjustments h3 {
   margin-right: 0;
 }
-.body .left .member-updates ul {
+.body .listings-adjustments ul {
   padding: 0 0 15px 0;
 }
 .body .banner-register {
@@ -1270,6 +1270,9 @@ img {
   .body .listings p {
     padding-top: 6px;
   }
+  .body .listings-adjustments {
+    padding-left: 0;
+  }
   .body .form-login {
     width: 666px;
   }
@@ -1460,15 +1463,6 @@ img {
   }
   .body .form-login .go-button {
     margin: -5px 0 0 0;
-  }
-  .body .listings {
-    padding: 0 15px;
-  }
-  .body .listings p {
-    padding-top: 6px;
-  }
-  .body .listings.member-updates {
-    padding-left: 15px;
   }
   .body .video-catchup {
     margin: 0 15px;

@@ -48,13 +48,13 @@
                             <li class="last active"><a href="press.php">Tea in the Press</a></li>
                         </ul>
                     </li>
-                    <li class="option-three has-dropdown"><a href="/members-reference">Membership Reference Info</a>
+                    <li class="option-three has-dropdown"><a href="members-reference.php">Membership Reference Info</a>
                         <ul>
                             <li class="first"><a href="fdf-access.php">Access to FDF Website</a></li>
                             <li><a href="annual-reports.php">Annual reports</a></li>
                             <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
-                            <li><a href="/faqs">FAQs</a></li>
-                            <li><a href="/industry-partners">Industry Partners</a></li>
+                            <li><a href="faqs.php">FAQs</a></li>
+                            <li><a href="industry-partners.php">Industry Partners</a></li>
                             <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>
                             <li><a href="/members">Members Directory</a></li>
                             <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
@@ -291,8 +291,7 @@
 
                                 </dl>
 
-                                <p>
-                                    Article in Daily Mail&nbsp;about how the drinks we have can affect our health, focussed particularly on weight gain and dental health &ndash; nothing new, but case study led. It looks at tea (and in part coffee), fizzy drinks, flavoured water, fruit juices, smoothies, shakes, and wine. For tea, they have looked at a case study who put on weight due to the sugar he was putting in his drinks (both tea and coffee) and they have unfairly highlighted tea in this case study and also in the headline of the article. They warn about the dangers of drinking tea with sugar, rather than focussing on tea itself.</p>
+                                <p>Article in Daily Mail about how the drinks we have can affect our health, focused particularly on weight gain and dental health &ndash; nothing new, but case study led. It looks at tea (and in part coffee), fizzy drinks, flavoured water, fruit juices, smoothies, shakes, and wine. For tea, they have looked at a case study who put on weight due to the sugar he was putting in his drinks (both tea and coffee) and they have unfairly highlighted tea in this case study and also in the headline of the article. They warn about the dangers of drinking tea with sugar, rather than focusing on tea itself.</p>
 
 
                             </div>
@@ -315,44 +314,9 @@
 
                 <div class="narrow right">
 
-                    <div class="listings essential-reading">
-                        <h3>Essential Reading:</h3>
-                        <ul>
-                            <li>
-                                <img src="uploaded/icon-circular-3-large.png" alt="" width="45" height="45">
-                                <p><strong>Nullam et nisl ut nulla tristique mattis</strong> Curabitur semti stique mator vitae odio tincidunt egestas. <a href="article.php">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-circular-10-large.png" alt="" width="45" height="45">
-                                <p><strong>13/12/2014 Beats to the mix</strong> Nullam et nisl ut nulla tristique mattisnt egestas. <a href="article.php">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-circular-4-large.png" alt="" width="45" height="45">
-                                <p><strong>15/05/2015 Muse totally rock!</strong> Nullam et nisl ut nulla tristique mattisnt egestas. <a href="article.php">More</a></p>
-                            </li>
-                        </ul>
-                    </div>
+                    <?php include_once('includes/essential-reading-logged-in.php'); ?>
 
-                    <div class="listings latest-updates">
-                        <h3>Your latest updates:</h3>
-                        <ul>
-                            <li>
-                                <img src="uploaded/icon-circular-10-large.png" alt="" width="45" height="45">
-                                <p><strong>Positionus, nisi inttements updated:</strong> 13/11/12</p>
-                                <p>Vestibuis urabitur semti stique m tincidunt egestas. <a href="article.php">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-circular-12-large.png" alt="" width="45" height="45">
-                                <p><strong>Tus Minus, nisi intgs Minutes updated:</strong> 04/09/14</p>
-                                <p>Pocahuntis Beats to the mixNullanulla trtisnt egestas. <a href="article.php">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-circular-13-large.png" alt="" width="45" height="45">
-                                <p><strong>Fusce rhoncus, nisi interdum efficitur posuere</strong> 04/09/14</p>
-                                <p>Duis enim lectus, ullamcorper ac ultricieectus, ullam. <a href="article.php">More</a></p>
-                            </li>
-                        </ul>
-                    </div>
+                    <?php include_once('includes/member-updates-logged-in.php'); ?>
 
                 </div>
                 <div class="cboth"></div>
@@ -391,13 +355,13 @@
                         <li><a href="press.php">Tea in the Press</a></li>
                     </ul>
                 </li>
-                <li><a href="/members-reference">Membership Reference Info</a>
+                <li><a href="members-reference.php">Membership Reference Info</a>
                     <ul>
                         <li><a href="fdf-access.php">Access to FDF Website</a></li>
                         <li><a href="annual-reports.php">Annual reports</a></li>
                         <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
-                        <li><a href="/faqs">FAQs</a></li>
-                        <li><a href="/industry-partners">Industry Partners</a></li>
+                        <li><a href="faqs.php">FAQs</a></li>
+                        <li><a href="industry-partners.php">Industry Partners</a></li>
                         <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>
                         <li><a href="/members">Members Directory</a></li>
                         <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>

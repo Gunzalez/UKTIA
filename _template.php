@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>UK Tea &amp; Infusions Association - _template</title>
+    <title>UK Tea &amp; Infusions Association - Industry Partners</title>
     <?php include_once('includes/static-resources.php'); ?>
 </head>
 <body class="essential-reading">
@@ -48,13 +48,13 @@
                             <li class="last"><a href="press.php">Tea in the Press</a></li>
                         </ul>
                     </li>
-                    <li class="option-three has-dropdown active"><a href="/members-reference">Membership Reference Info</a>
+                    <li class="option-three has-dropdown active"><a href="members-reference.php">Membership Reference Info</a>
                         <ul>
-                            <li class="first active"><a href="fdf-access.php">Access to FDF Website</a></li>
+                            <li class="first"><a href="fdf-access.php">Access to FDF Website</a></li>
                             <li><a href="annual-reports.php">Annual reports</a></li>
                             <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
-                            <li><a href="/faqs">FAQs</a></li>
-                            <li><a href="/industry-partners">Industry Partners</a></li>
+                            <li><a href="faqs.php">FAQs</a></li>
+                            <li><a href="industry-partners.php">Industry Partners</a></li>
                             <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>
                             <li><a href="/members">Members Directory</a></li>
                             <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
@@ -74,34 +74,34 @@
                 <div class="wide left">
                     <div class="copy-padding">
 
+                        <h2>Page title</h2>
+
 
 
                         <a href="#" class="download">
                             <span class="text">Download</span><span class="arrow"></span>
                         </a>
 
+                        <?php include('includes/member-updates-logged-in.php'); ?>
+
+                        <?php include('includes/tea-in-the-press.php'); ?>
+
+                        <?php include('includes/essential-reading-logged-in.php'); ?>
+
                     </div>
                 </div>
 
                 <div class="narrow right">
 
-                    <div class="listings essential-reading">
-                        <h3>Essential Reading:</h3>
-                        <ul>
-                            <li>
-                                <img src="uploaded/icon-circular-3-large.png" alt="" width="45" height="45">
-                                <p><strong>Nullam et nisl ut nulla tristique mattis</strong> Curabitur semti stique mator vitae odio tincidunt egestas. <a href="article.php">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-circular-10-large.png" alt="" width="45" height="45">
-                                <p><strong>13/12/2014 Beats to the mix</strong> Nullam et nisl ut nulla tristique mattisnt egestas. <a href="article.php">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-circular-4-large.png" alt="" width="45" height="45">
-                                <p><strong>15/05/2015 Muse totally rock!</strong> Nullam et nisl ut nulla tristique mattisnt egestas. <a href="article.php">More</a></p>
-                            </li>
-                        </ul>
-                    </div>
+                    <?php include('includes/member-updates-logged-in.php'); ?>
+
+                    <?php include('includes/tea-in-the-press.php'); ?>
+
+                    <?php include('includes/essential-reading-logged-in.php'); ?>
+
+                    <?php include_once('includes/member-updates.php'); ?>
+
+                    <?php include_once('includes/essential-reading.php'); ?>
 
                     <div class="listings latest-updates">
                         <h3>Your latest updates:</h3>
@@ -163,13 +163,13 @@
                         <li><a href="press.php">Tea in the Press</a></li>
                     </ul>
                 </li>
-                <li><a href="/members-reference">Membership Reference Info</a>
+                <li><a href="members-reference.php">Membership Reference Info</a>
                     <ul>
                         <li><a href="fdf-access.php">Access to FDF Website</a></li>
                         <li><a href="annual-reports.php">Annual reports</a></li>
                         <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
-                        <li><a href="/faqs">FAQs</a></li>
-                        <li><a href="/industry-partners">Industry Partners</a></li>
+                        <li><a href="faqs.php">FAQs</a></li>
+                        <li><a href="industry-partners.php">Industry Partners</a></li>
                         <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>
                         <li><a href="/members">Members Directory</a></li>
                         <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>

@@ -2,10 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>UK Tea &amp; Infusions Association - Video Update</title>
+    <title>UK Tea &amp; Infusions Association -  </title>
     <?php include_once('includes/static-resources.php'); ?>
 </head>
-<body class="essential-reading">
+<body class="industry-partners">
 
     <div class="page">
 
@@ -41,27 +41,27 @@
                             <li class="last"><a href="index.php">Members Log-out</a></li>
                         </ul>
                     </li>
-                    <li class="option-two has-dropdown active"><a href="pulse.php">The Pulse</a>
+                    <li class="option-two has-dropdown"><a href="pulse.php">The Pulse</a>
                         <ul>
                             <li class="first"><a href="essential-reading.php">Essential Reading</a></li>
-                            <li class="active"><a href="video-update.php">Video Update</a></li>
+                            <li><a href="video-update.php">Video Update</a></li>
                             <li class="last"><a href="press.php">Tea in the Press</a></li>
                         </ul>
                     </li>
-                    <li class="option-three has-dropdown"><a href="members-reference.php">Membership Reference Info</a>
+                    <li class="option-three has-dropdown active"><a href="members-reference.php">Membership Reference Info</a>
                         <ul>
                             <li class="first"><a href="fdf-access.php">Access to FDF Website</a></li>
                             <li><a href="annual-reports.php">Annual reports</a></li>
                             <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
                             <li><a href="faqs.php">FAQs</a></li>
-                            <li><a href="industry-partners.php">Industry Partners</a></li>
+                            <li class="active"><a href="industry-partners.php">Industry Partners</a></li>
                             <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>
                             <li><a href="/members">Members Directory</a></li>
                             <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
                             <li class="last"><a href="/operating-groups">Operating Groups &amp; Mandates</a></li>
                         </ul>
                     </li>
-                    <li class="last option-four active"><a href="/circulars">Circulars</a></li>
+                    <li class="last option-fours"><a href="/circulars">Circulars</a></li>
                 </ul>
             </div>
 
@@ -73,12 +73,8 @@
             <div class="section">
                 <div class="wide left">
                     <div class="copy-padding">
-                        <h2>Video update</h2>
 
-
-
-
-
+                        <h2>Industry Partners</h2>
 
 
 
@@ -87,44 +83,9 @@
 
                 <div class="narrow right">
 
-                    <div class="listings latest-updates">
-                        <h3>Your latest updates:</h3>
-                        <ul>
-                            <li>
-                                <img src="uploaded/icon-circular-10-large.png" alt="" width="45" height="45">
-                                <p><strong>Positionus, nisi inttements updated:</strong> 13/11/12</p>
-                                <p>Vestibuis urabitur semti stique m tincidunt egestas. <a href="article.php">More</a></p>
-                            </li>
-                        </ul>
-                    </div>
+                    <?php include('includes/member-updates-logged-in.php'); ?>
 
-                    <div class="listings essential-reading">
-                        <h3>Essential Reading:</h3>
-                        <ul>
-                            <li>
-                                <img src="uploaded/icon-circular-4-large.png" alt="" width="45" height="45">
-                                <p><strong>15/05/2015 Muse totally rock!</strong> Nullam et nisl ut nulla tristique mattisnt egestas. <a href="article.php">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-circular-3-large.png" alt="" width="45" height="45">
-                                <p><strong>Nullam et nisl ut nulla tristique mattis</strong> Curabitur semti stique mator vitae odio tincidunt egestas. <a href="article.php">More</a></p>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="listings news-feed">
-                        <h3>Tea in the Press:</h3>
-                        <ul>
-                            <li>
-                                <img src="uploaded/icon-bbc-news.png" alt="" width="45" height="45">
-                                <p><strong>13/12/2014 Beats to the mix</strong> Nullam et nisl ut nulla tristique mattisnt egestas. <a href="/press/">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-mailonline-news.png" alt="" width="45" height="45">
-                                <p><strong>UKTIA Executive Board Meeting</strong> - 09/12/2015 <a href="/press/">More</a></p>
-                            </li>
-                        </ul>
-                    </div>
+                    <?php include('includes/essential-reading-logged-in.php'); ?>
 
 
                 </div>

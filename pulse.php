@@ -56,13 +56,13 @@
                             <li class="last"><a href="press.php">Tea in the Press</a></li>
                         </ul>
                     </li>
-                    <li class="option-three has-dropdown"><a href="/members-reference">Membership Reference Info</a>
+                    <li class="option-three has-dropdown"><a href="members-reference.php">Membership Reference Info</a>
                         <ul>
                             <li class="first"><a href="fdf-access.php">Access to FDF Website</a></li>
                             <li><a href="annual-reports.php">Annual reports</a></li>
                             <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
-                            <li><a href="/faqs">FAQs</a></li>
-                            <li><a href="/industry-partners">Industry Partners</a></li>
+                            <li><a href="faqs.php">FAQs</a></li>
+                            <li><a href="industry-partners.php">Industry Partners</a></li>
                             <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>
                             <li><a href="/members">Members Directory</a></li>
                             <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
@@ -441,27 +441,7 @@
                 </div>
                 <div class="narrow right">
 
-                    <div class="listings news-feed">
-                        <h3>Tea in the Press:</h3>
-                        <ul>
-                            <li>
-                                <img src="uploaded/icon-sky.png" alt="" width="45" height="45">
-                                <p><strong>UKTIA Technical Operating Group &amp; RSWG...</strong> - 20/11/201 <a href="/press/">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-guardian.png" alt="" width="45" height="45">
-                                <p><strong>Nullam et nisl ut nulla tristique mattis</strong> Curabitur semti stique mator vitae odio tincidunt egestas. <a href="/press/">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-mailonline-news.png" alt="" width="45" height="45">
-                                <p><strong>UKTIA Executive Board Meeting</strong> - 09/12/2015 <a href="/press/">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-bbc-news.png" alt="" width="45" height="45">
-                                <p><strong>13/12/2014 Beats to the mix</strong> Nullam et nisl ut nulla tristique mattisnt egestas. <a href="/press/">More</a></p>
-                            </li>
-                        </ul>
-                    </div>
+                    <?php include_once('includes/tea-in-the-press.php'); ?>
 
             </div>
                 <div class="cboth"></div>
@@ -507,13 +487,13 @@
                         <li><a href="press.php">Tea in the Press</a></li>
                     </ul>
                 </li>
-                <li><a href="/members-reference">Membership Reference Info</a>
+                <li><a href="members-reference.php">Membership Reference Info</a>
                     <ul>
                         <li><a href="fdf-access.php">Access to FDF Website</a></li>
                         <li><a href="annual-reports.php">Annual reports</a></li>
                         <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
-                        <li><a href="/faqs">FAQs</a></li>
-                        <li><a href="/industry-partners">Industry Partners</a></li>
+                        <li><a href="faqs.php">FAQs</a></li>
+                        <li><a href="industry-partners.php">Industry Partners</a></li>
                         <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>
                         <li><a href="/members">Members Directory</a></li>
                         <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>

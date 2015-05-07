@@ -48,13 +48,13 @@
                             <li class="last"><a href="press.php">Tea in the Press</a></li>
                         </ul>
                     </li>
-                    <li class="option-three has-dropdown active"><a href="/members-reference">Membership Reference Info</a>
+                    <li class="option-three has-dropdown active"><a href="members-reference.php">Membership Reference Info</a>
                         <ul>
                             <li class="first active"><a href="fdf-access.php">Access to FDF Website</a></li>
                             <li><a href="annual-reports.php">Annual reports</a></li>
                             <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
-                            <li><a href="/faqs">FAQs</a></li>
-                            <li><a href="/industry-partners">Industry Partners</a></li>
+                            <li><a href="faqs.php">FAQs</a></li>
+                            <li><a href="industry-partners.php">Industry Partners</a></li>
                             <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>
                             <li><a href="/members">Members Directory</a></li>
                             <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
@@ -95,46 +95,9 @@
 
                 <div class="narrow right">
 
-                    <div class="listings essential-reading">
-                        <h3>Essential Reading:</h3>
-                        <ul>
-                            <li>
-                                <img src="uploaded/icon-circular-3-large.png" alt="" width="45" height="45">
-                                <p><strong>Nullam et nisl ut nulla tristique mattis</strong> Curabitur semti stique mator vitae odio tincidunt egestas. <a href="article.php">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-circular-10-large.png" alt="" width="45" height="45">
-                                <p><strong>13/12/2014 Beats to the mix</strong> Nullam et nisl ut nulla tristique mattisnt egestas. <a href="article.php">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-circular-4-large.png" alt="" width="45" height="45">
-                                <p><strong>15/05/2015 Muse totally rock!</strong> Nullam et nisl ut nulla tristique mattisnt egestas. <a href="article.php">More</a></p>
-                            </li>
-                        </ul>
-                    </div>
+                    <?php include_once('includes/essential-reading-logged-in.php'); ?>
 
-                    <div class="listings latest-updates">
-                        <h3>Your latest updates:</h3>
-                        <ul>
-                            <li>
-                                <img src="uploaded/icon-circular-10-large.png" alt="" width="45" height="45">
-                                <p><strong>Positionus, nisi inttements updated:</strong> 13/11/12</p>
-                                <p>Vestibuis urabitur semti stique m tincidunt egestas. <a href="article.php">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-circular-12-large.png" alt="" width="45" height="45">
-                                <p><strong>Tus Minus, nisi intgs Minutes updated:</strong> 04/09/14</p>
-                                <p>Pocahuntis Beats to the mixNullanulla trtisnt egestas. <a href="article.php">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-circular-13-large.png" alt="" width="45" height="45">
-                                <p><strong>Fusce rhoncus, nisi interdum efficitur posuere</strong> 04/09/14</p>
-                                <p>Duis enim lectus, ullamcorper ac ultricieectus, ullam. <a href="article.php">More</a></p>
-                            </li>
-                        </ul>
-                    </div>
-
-
+                    <?php include_once('includes/member-updates-logged-in.php'); ?>
 
                 </div>
                 <div class="cboth"></div>
@@ -173,13 +136,13 @@
                         <li><a href="press.php">Tea in the Press</a></li>
                     </ul>
                 </li>
-                <li><a href="/members-reference">Membership Reference Info</a>
+                <li><a href="members-reference.php">Membership Reference Info</a>
                     <ul>
                         <li><a href="fdf-access.php">Access to FDF Website</a></li>
                         <li><a href="annual-reports.php">Annual reports</a></li>
                         <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
-                        <li><a href="/faqs">FAQs</a></li>
-                        <li><a href="/industry-partners">Industry Partners</a></li>
+                        <li><a href="faqs.php">FAQs</a></li>
+                        <li><a href="industry-partners.php">Industry Partners</a></li>
                         <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>
                         <li><a href="/members">Members Directory</a></li>
                         <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>

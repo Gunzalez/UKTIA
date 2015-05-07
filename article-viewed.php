@@ -48,13 +48,13 @@
                             <li class="last"><a href="press.php">Tea in the Press</a></li>
                         </ul>
                     </li>
-                    <li class="option-three has-dropdown"><a href="/members-reference">Membership Reference Info</a>
+                    <li class="option-three has-dropdown"><a href="members-reference.php">Membership Reference Info</a>
                         <ul>
                             <li class="first"><a href="fdf-access.php">Access to FDF Website</a></li>
                             <li><a href="annual-reports.php">Annual reports</a></li>
                             <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
-                            <li><a href="/faqs">FAQs</a></li>
-                            <li><a href="/industry-partners">Industry Partners</a></li>
+                            <li><a href="faqs.php">FAQs</a></li>
+                            <li><a href="industry-partners.php">Industry Partners</a></li>
                             <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>
                             <li><a href="/members">Members Directory</a></li>
                             <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
@@ -175,13 +175,13 @@
                         <li><a href="press.php">Tea in the Press</a></li>
                     </ul>
                 </li>
-                <li><a href="/members-reference">Membership Reference Info</a>
+                <li><a href="members-reference.php">Membership Reference Info</a>
                     <ul>
                         <li><a href="fdf-access.php">Access to FDF Website</a></li>
                         <li><a href="annual-reports.php">Annual reports</a></li>
                         <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
-                        <li><a href="/faqs">FAQs</a></li>
-                        <li><a href="/industry-partners">Industry Partners</a></li>
+                        <li><a href="faqs.php">FAQs</a></li>
+                        <li><a href="industry-partners.php">Industry Partners</a></li>
                         <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>
                         <li><a href="/members">Members Directory</a></li>
                         <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
