@@ -642,6 +642,18 @@ img {
   background: #f9f9f9;
   vertical-align: top;
 }
+.body .copy-padding .col {
+  width: 50%;
+  box-sizing: border-box;
+}
+.body .copy-padding .col.left {
+  float: left;
+  padding-right: 10px;
+}
+.body .copy-padding .col.right {
+  float: right;
+  padding-left: 10px;
+}
 .body .logged-in {
   background: #f1f0f0;
 }
@@ -1116,6 +1128,33 @@ img {
   margin-bottom: 0;
   padding-bottom: 15px;
 }
+.body .directory {
+  text-align: center;
+}
+.body .tea-members {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+.body .tea-members li {
+  float: left;
+  margin: 0;
+  width: 25%;
+  box-sizing: border-box;
+  border: 1px dotted #e9e9e9;
+  min-height: 125px;
+}
+.body .tea-members li a {
+  display: block;
+  padding: 10px;
+}
+.body .tea-members li a img {
+  width: 100px;
+}
+.body .tea-members li:hover {
+  border: 1px solid #cccccc;
+}
 
 .footer {
   background: url("../images/pile-of-leaves.jpg") top left no-repeat;
@@ -1528,6 +1567,9 @@ img {
   .body .logged-in .video {
     width: 100%;
   }
+  .body .tea-members li {
+    width: 33.33337%;
+  }
 }
 @media only screen and (max-width: 600px) {
   .back-to-top a {
@@ -1654,6 +1696,17 @@ img {
   .body .copy-padding table.responsive td:last-child {
     margin-bottom: 10px;
   }
+  .body .copy-padding .col {
+    width: 100%;
+  }
+  .body .copy-padding .col.left {
+    float: none;
+    padding-right: 0;
+  }
+  .body .copy-padding .col.right {
+    float: none;
+    padding-left: 0;
+  }
   .body .descriptions h2 {
     font-size: 1.5em;
   }
@@ -1672,8 +1725,17 @@ img {
   .body .descriptions dt.active {
     border: 2px solid #6a9433;
   }
+  .body .entries .entry {
+    padding-bottom: 5px;
+  }
+  .body .entries .entry:last-child {
+    padding-bottom: 0;
+  }
   .body .entries .pagination a {
     font-size: 1.1em;
+  }
+  .body .tea-members li {
+    width: 50%;
   }
 
   .footer .company-info p {

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>UK Tea &amp; Infusions Association - Tea in the Press</title>
-    <?php include_once('includes/static-resources.php'); ?>
+    <?php include('includes/static-resources.php'); ?>
 </head>
 <body class="press">
 
@@ -31,7 +31,7 @@
                 <li class="last"><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a></li>
             </ul>
 
-            <?php include_once('includes/search-box.php'); ?>
+            <?php include('includes/search-box.php'); ?>
 
             <div class="navigation">
                 <ul id="navigation-list" class="list">
@@ -55,8 +55,8 @@
                             <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
                             <li><a href="faqs.php">FAQs</a></li>
                             <li><a href="industry-partners.php">Industry Partners</a></li>
-                            <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>
-                            <li><a href="/members">Members Directory</a></li>
+                            <li><a href="key-contacts.php">Key Contact &amp; Profiles</a></li>
+                            <li><a href="members-directory.php">Members Directory</a></li>
                             <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
                             <li class="last"><a href="/operating-groups">Operating Groups &amp; Mandates</a></li>
                         </ul>
@@ -314,9 +314,9 @@
 
                 <div class="narrow right">
 
-                    <?php include_once('includes/essential-reading-logged-in.php'); ?>
+                    <?php include('includes/essential-reading-logged-in.php'); ?>
 
-                    <?php include_once('includes/member-updates-logged-in.php'); ?>
+                    <?php include('includes/member-updates-logged-in.php'); ?>
 
                 </div>
                 <div class="cboth"></div>
@@ -324,7 +324,7 @@
         </div><!-- .body -->
 
 
-        <?php include_once('includes/footer.php'); ?>
+        <?php include('includes/footer.php'); ?>
 
     </div><!-- .page -->
 
@@ -362,8 +362,8 @@
                         <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
                         <li><a href="faqs.php">FAQs</a></li>
                         <li><a href="industry-partners.php">Industry Partners</a></li>
-                        <li><a href="/key-contacts">Key Contact &amp; Profiles</a></li>
-                        <li><a href="/members">Members Directory</a></li>
+                        <li><a href="key-contacts.php">Key Contact &amp; Profiles</a></li>
+                        <li><a href="members-directory.php">Members Directory</a></li>
                         <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
                         <li><a href="/operating-groups">Operating Groups &amp; Mandates</a></li>
                     </ul>

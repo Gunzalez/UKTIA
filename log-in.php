@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>UK Tea &amp; Infusions Association - Members Log-in</title>
-    <?php include_once('includes/static-resources.php'); ?>
+    <?php include('includes/static-resources.php'); ?>
 </head>
 <body class="log-in">
 
@@ -97,9 +97,9 @@
                 </div>
                 <div class="narrow right">
 
-                    <?php include_once('includes/member-updates.php'); ?>
+                    <?php include('includes/member-updates.php'); ?>
 
-                    <?php include_once('includes/essential-reading.php'); ?>
+                    <?php include('includes/essential-reading.php'); ?>
 
                 </div>
                 <div class="cboth"></div>
@@ -110,7 +110,7 @@
 
 
 
-        <?php include_once('includes/footer.php'); ?>
+        <?php include('includes/footer.php'); ?>
 
     </div><!-- .page -->
 

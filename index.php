@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>UK Tea &amp; Infusions Association - What is the UKTIA?</title>
-    <?php include_once('includes/static-resources.php'); ?>
+    <?php include('includes/static-resources.php'); ?>
 </head>
 <body class="home">
 
@@ -31,7 +31,7 @@
                 <li class="last"><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a></li>
             </ul>
 
-            <?php include_once('includes/search-box.php'); ?>
+            <?php include('includes/search-box.php'); ?>
 
             <div class="navigation">
                 <ul id="navigation-list" class="list">
@@ -145,7 +145,7 @@
 
 
 
-        <?php include_once('includes/footer.php'); ?>
+        <?php include('includes/footer.php'); ?>
 
     </div><!-- .page -->
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>UK Tea &amp; Infusions Association - Register</title>
-    <?php include_once('includes/static-resources.php'); ?>
+    <?php include('includes/static-resources.php'); ?>
 </head>
 <body class="register">
 
@@ -31,7 +31,7 @@
                 <li class="last"><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a></li>
             </ul>
 
-            <?php include_once('includes/search-box.php'); ?>
+            <?php include('includes/search-box.php'); ?>
 
             <div class="navigation">
                 <ul id="navigation-list" class="list">
@@ -103,9 +103,9 @@
                 </div>
                 <div class="narrow right">
 
-                    <?php include_once('includes/member-updates.php'); ?>
+                    <?php include('includes/member-updates.php'); ?>
 
-                    <?php include_once('includes/essential-reading.php'); ?>
+                    <?php include('includes/essential-reading.php'); ?>
 
                 </div>
                 <div class="cboth"></div>
@@ -116,7 +116,7 @@
 
 
 
-        <?php include_once('includes/footer.php'); ?>
+        <?php include('includes/footer.php'); ?>
 
     </div><!-- .page -->
 
