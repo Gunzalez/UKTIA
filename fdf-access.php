@@ -57,11 +57,11 @@
                             <li><a href="industry-partners.php">Industry Partners</a></li>
                             <li><a href="key-contacts.php">Key Contact &amp; Profiles</a></li>
                             <li><a href="members-directory.php">Members Directory</a></li>
-                            <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
-                            <li class="last"><a href="/operating-groups">Operating Groups &amp; Mandates</a></li>
+                            <li><a href="rules-regulations.php">Member's Rules &amp; regulations</a></li>
+                            <li class="last"><a href="operating-groups.php">Operating Groups &amp; Mandates</a></li>
                         </ul>
                     </li>
-                    <li class="last option-four"><a href="/circulars">Circulars</a></li>
+                    <li class="last option-four"><a href="circulars.php">Circulars</a></li>
                 </ul>
             </div>
 
@@ -145,12 +145,12 @@
                         <li><a href="industry-partners.php">Industry Partners</a></li>
                         <li><a href="key-contacts.php">Key Contact &amp; Profiles</a></li>
                         <li><a href="members-directory.php">Members Directory</a></li>
-                        <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
-                        <li><a href="/operating-groups">Operating Groups &amp; Mandates</a></li>
+                        <li><a href="rules-regulations.php">Member's Rules &amp; regulations</a></li>
+                        <li><a href="operating-groups.php">Operating Groups &amp; Mandates</a></li>
                     </ul>
                 </li>
-                <li><a href="/circulars">Circulars</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="circulars.php">Circulars</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </div>

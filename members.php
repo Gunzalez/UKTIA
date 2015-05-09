@@ -2,10 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>UK Tea &amp; Infusions Association - Key Contacts &map; Profiles</title>
+    <title>UK Tea &amp; Infusions Association - Member</title>
     <?php include('includes/static-resources.php'); ?>
 </head>
-<body class="key-contact">
+<body class="member">
 
     <div class="page">
 
@@ -55,13 +55,13 @@
                             <li><a href="crisis-response.php">Crisis &amp; Response Procedures</a></li>
                             <li><a href="faqs.php">FAQs</a></li>
                             <li><a href="industry-partners.php">Industry Partners</a></li>
-                            <li class="active"><a href="key-contacts.php">Key Contact &amp; Profiles</a></li>
-                            <li><a href="members-directory.php">Members Directory</a></li>
+                            <li><a href="key-contacts.php">Key Contact &amp; Profiles</a></li>
+                            <li class="active"><a href="members-directory.php">Members Directory</a></li>
                             <li><a href="rules-regulations.php">Member's Rules &amp; regulations</a></li>
                             <li class="last"><a href="operating-groups.php">Operating Groups &amp; Mandates</a></li>
                         </ul>
                     </li>
-                    <li class="last option-fours"><a href="circulars.php">Circulars</a></li>
+                    <li class="last option-four"><a href="circulars.php">Circulars</a></li>
                 </ul>
             </div>
 
@@ -74,41 +74,40 @@
                 <div class="wide left">
                     <div class="copy-padding">
 
-                        <h2>Key Contacts &amp; Profiles</h2>
+
+                        <h2>Members Directory</h2>
+                        <h3>Bettys &amp; Taylors of Harrogate</h3>
+
+                        <div class="directory">
+
+                            <div class="member-detail">
+
+                                <p>Bettys and Taylors of Harrogate is an independent family business based in the heart of Yorkshire. Taylors of Harrogate blends and packs more than 50 different speciality teas, including Yorkshire Tea.</p>
+                                <p>We even blend a tea to suit your water, so that you get the same Yorkshire Tea taste whether your water is soft or hard. You can also enjoy many of our teas in the traditional elegant surroundings of our six Bettys Cafe Tea Rooms based in Yorkshire. A real treat.</p>
+
+                                <h4>Address</h4>
+                                <p>Plumpton Park<br />
+                                    Harrogate<br />
+                                    North Yorkshire<br />
+                                    <a href="http://maps.google.co.uk/maps?q=HG2 7LD" title="" target="_blank">HG2 7LD</a></p>
+
+                                <h4>Katy Squire</h4>
+                                <p><strong>Phone:</strong> 01423 814 000<br />
+                                    <strong>Web:</strong> <a href="http://www.bettys.co.uk" target="_blank">www.bettys.co.uk</a></p>
+
+                            </div>
+
+                            <div class="member-logo">
+                                <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/bettyslogo.jpg" alt="Bettys &amp; Taylors of Harrogate">
+                            </div>
+
+                            <p><a href="members-directory.php" class="big-cta" title="Go back...">« Back to member list</a></p>
+
+                        </div>
 
 
-                            <h3>Secretariat Contact Details</h3>
-                            <h4>The contact details for the Secretariat (FDF) are as follows:</h4>
-                        <p>UKTIA Ltd<br />
-                                Food and Drink Federation<br />
-                                Federation House<br />
-                                6 Catherine Street<br />
-                                London<br />
-                                WC2B 5JJ<br />
-                                Tel: 0207 836 2460<br />
-                                Fax: 0207 379 5735<br />
-                            <br />
-                                Geraldine Albon: Tel: 0207 420 7113<br />
-                                Email:&nbsp;<a href="mailto:geraldine.smith@fdf.org.uk">geraldine.albon@fdf.org.uk</a><br />
-                                <br />
-                                Frances Hume (Mondays &ndash; Wednesday): Tel: 0207 420 7111<br />
-                                Email: <a href="mailto:Frances.hume@fdf.org.uk">frances.hume@fdf.org.uk</a></p>
 
-
-                                <h4>The contact details for Mr Gorman and Secretariat (Crown House) are as follows:</h4>
-                        <p>The United Kingdom Tea &amp; Infusions Association Ltd<br />
-                                Suite 10, Fourth Floor<br />
-                                Crown House<br />
-                                One Crown Square<br />
-                                Woking<br />
-                                GU21 6HR<br />
-                                <br />
-                                Bill Gorman: Tel: 01483 750599<br />
-                                Email:&nbsp;<a href="mailto:bill@teacouncil.co.uk">bill@ukteainfusions.co.uk</a><br />
-                                <br />
-                                Irene Gorman: Tel: 01483 750599<br />
-                                Email:&nbsp;<a href="mailto:irene@teacouncil.co.uk">irene@ukteainfusions.co.uk</a></p>
-
+                        <div class="cboth"></div>
                     </div>
                 </div>
 

@@ -57,11 +57,11 @@
                             <li><a href="industry-partners.php">Industry Partners</a></li>
                             <li><a href="key-contacts.php">Key Contact &amp; Profiles</a></li>
                             <li class="active"><a href="members-directory.php">Members Directory</a></li>
-                            <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
-                            <li class="last"><a href="/operating-groups">Operating Groups &amp; Mandates</a></li>
+                            <li><a href="rules-regulations.php">Member's Rules &amp; regulations</a></li>
+                            <li class="last"><a href="operating-groups.php">Operating Groups &amp; Mandates</a></li>
                         </ul>
                     </li>
-                    <li class="last option-four"><a href="/circulars">Circulars</a></li>
+                    <li class="last option-four"><a href="circulars.php">Circulars</a></li>
                 </ul>
             </div>
 
@@ -79,127 +79,127 @@
 
                         <ul class="tea-members">
                             <li>
-                                <a href="/members/ahmad-tea-of-london" title="Ahmad Tea of London">
+                                <a href="members.php?member=ahmad-tea-of-london" title="Ahmad Tea of London">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/011012-114825.jpg" alt="Ahmad Tea of London">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/all-about-tea" title="All About Tea">
+                                <a href="members.php?member=all-about-tea" title="All About Tea">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/100912-160620.jpg" alt="All About Tea">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/avt-tea-services-ltd" title="AVT Tea Services Ltd">
+                                <a href="members.php?member=avt-tea-services-ltd" title="AVT Tea Services Ltd">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/120313-083431.jpg" alt="AVT Tea Services Ltd">
                                 </a>
                             </li>
                             <li>
-                                <a href="member.php?member=betteys" title="Bettys &amp; Taylors of Harrogate">
+                                <a href="members.php?member=betteys" title="Bettys &amp; Taylors of Harrogate">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/bettyslogo.jpg" alt="Bettys &amp; Taylors of Harrogate">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/birchall-tea" title="Birchall Tea">
+                                <a href="members.php?member=birchall-tea" title="Birchall Tea">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/240713-172525.jpg" alt="Birchall Tea">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/britannia-tea-company-limited" title="Britannia Tea Company Limited">
+                                <a href="members.php?member=britannia-tea-company-limited" title="Britannia Tea Company Limited">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/britannia_logo.jpg" alt="Britannia Tea Company Limited">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/brodie-melrose-drysdale-co-ltd" title="Brodie Melrose Drysdale &amp; Co Ltd">
+                                <a href="members.php?member=brodie-melrose-drysdale-co-ltd" title="Brodie Melrose Drysdale &amp; Co Ltd">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/brodielogo.jpg" alt="Brodie Melrose Drysdale &amp; Co Ltd">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/camellia-plc" title="Camellia plc">
+                                <a href="members.php?member=camellia-plc" title="Camellia plc">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/301111-114738.jpg" alt="Camellia plc">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/clipper-teas" title="Clipper Teas">
+                                <a href="members.php?member=clipper-teas" title="Clipper Teas">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/357b5-clipper_tea_best_price_header.jpg" alt="Clipper Teas">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/dj-miles-co-ltd" title="DJ Miles &amp; Co Ltd">
+                                <a href="members.php?member=dj-miles-co-ltd" title="DJ Miles &amp; Co Ltd">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/miles.jpg" alt="DJ Miles &amp; Co Ltd">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/finlay-beverages-ltd" title="Finlay Beverages Ltd">
+                                <a href="members.php?member=finlay-beverages-ltd" title="Finlay Beverages Ltd">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/finlays1.jpg" alt="Finlay Beverages Ltd">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/finlay-tea-solutions-uk-limited" title="Finlay Tea Solutions UK Limited">
+                                <a href="members.php?member=finlay-tea-solutions-uk-limited" title="Finlay Tea Solutions UK Limited">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/finlays3.jpg" alt="Finlay Tea Solutions UK Limited">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/imporient-uk-ltd" title="Imporient UK Ltd">
+                                <a href="members.php?member=imporient-uk-ltd" title="Imporient UK Ltd">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/230713-133105.jpg" alt="Imporient UK Ltd">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/jing-tea-limited" title="Jing Tea Limited">
+                                <a href="members.php?member=jing-tea-limited" title="Jing Tea Limited">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/230713-142003.jpg" alt="Jing Tea Limited">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/newby-teas-uk-ltd" title="Newby Teas (U.K.) Ltd">
+                                <a href="members.php?member=newby-teas-uk-ltd" title="Newby Teas (U.K.) Ltd">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/newby.jpg" alt="Newby Teas (U.K.) Ltd">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/northern-tea-merchants" title="Northern Tea Merchants">
+                                <a href="members.php?member=northern-tea-merchants" title="Northern Tea Merchants">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/northerntea.jpg" alt="Northern Tea Merchants">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/reginald-ames-ltd" title="Reginald Ames Ltd">
+                                <a href="members.php?member=reginald-ames-ltd" title="Reginald Ames Ltd">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/180310-130900.jpg" alt="Reginald Ames Ltd">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/ringtons-ltd" title="Ringtons Ltd">
+                                <a href="members.php?member=ringtons-ltd" title="Ringtons Ltd">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/aa242-new-ringtons-logo-colour-rgb---copy.jpg" alt="Ringtons Ltd">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/tata-global-beverages" title="Tata Global Beverages">
+                                <a href="members.php?member=tata-global-beverages" title="Tata Global Beverages">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/tetley.jpg" alt="Tata Global Beverages">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/tea-association-of-malawi-ltd" title="Tea Association of Malawi Ltd">
+                                <a href="members.php?member=tea-association-of-malawi-ltd" title="Tea Association of Malawi Ltd">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/230713-132445.jpg" alt="Tea Association of Malawi Ltd">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/tea-board-of-kenya" title="Tea Board of Kenya">
+                                <a href="members.php?member=tea-board-of-kenya" title="Tea Board of Kenya">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/230713-135852.jpg" alt="Tea Board of Kenya">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/unilever-uk-foods" title="Unilever UK Foods">
+                                <a href="members.php?member=unilever-uk-foods" title="Unilever UK Foods">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/unilever.jpg" alt="Unilever UK Foods">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/whiteheads-1858-ltd" title="Whiteheads (1858) Ltd">
+                                <a href="members.php?member=whiteheads-1858-ltd" title="Whiteheads (1858) Ltd">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/230713-140226.jpg" alt="Whiteheads (1858) Ltd">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/whittard-of-chelsea-plc" title="Whittard of Chelsea Plc">
+                                <a href="members.php?member=whittard-of-chelsea-plc" title="Whittard of Chelsea Plc">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/171110-180539.jpg" alt="Whittard of Chelsea Plc">
                                 </a>
                             </li>
                             <li>
-                                <a href="/members/williamson-fine-teas-ltd" title="Williamson Fine Teas Ltd">
+                                <a href="members.php?member=williamson-fine-teas-ltd" title="Williamson Fine Teas Ltd">
                                     <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/020610-173436.jpg" alt="Williamson Fine Teas Ltd">
                                 </a>
                             </li>
@@ -262,12 +262,12 @@
                         <li><a href="industry-partners.php">Industry Partners</a></li>
                         <li><a href="key-contacts.php">Key Contact &amp; Profiles</a></li>
                         <li><a href="members-directory.php">Members Directory</a></li>
-                        <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
-                        <li><a href="/operating-groups">Operating Groups &amp; Mandates</a></li>
+                        <li><a href="rules-regulations.php">Member's Rules &amp; regulations</a></li>
+                        <li><a href="operating-groups.php">Operating Groups &amp; Mandates</a></li>
                     </ul>
                 </li>
-                <li><a href="/circulars">Circulars</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="circulars.php">Circulars</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </div>

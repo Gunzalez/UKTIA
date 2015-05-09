@@ -2,10 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>UK Tea &amp; Infusions Association - Member</title>
+    <title>UK Tea &amp; Infusions Association - Rules &amp; Regulations</title>
     <?php include('includes/static-resources.php'); ?>
 </head>
-<body class="member">
+<body class="rules-regulations">
 
     <div class="page">
 
@@ -56,12 +56,12 @@
                             <li><a href="faqs.php">FAQs</a></li>
                             <li><a href="industry-partners.php">Industry Partners</a></li>
                             <li><a href="key-contacts.php">Key Contact &amp; Profiles</a></li>
-                            <li class="active"><a href="members-directory.php">Members Directory</a></li>
-                            <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
-                            <li class="last"><a href="/operating-groups">Operating Groups &amp; Mandates</a></li>
+                            <li><a href="members-directory.php">Members Directory</a></li>
+                            <li class="active"><a href="rules-regulations.php">Member's Rules &amp; regulations</a></li>
+                            <li class="last"><a href="operating-groups.php">Operating Groups &amp; Mandates</a></li>
                         </ul>
                     </li>
-                    <li class="last option-four"><a href="/circulars">Circulars</a></li>
+                    <li class="last option-four"><a href="circulars.php">Circulars</a></li>
                 </ul>
             </div>
 
@@ -74,39 +74,14 @@
                 <div class="wide left">
                     <div class="copy-padding">
 
+                        <h2>Rules &amp; Regulations</h2>
+                        <p>A set of rules and regulations exist to ensure that the organisation operates within the principles and purpose for which the organisation was formed.</p>
+                        <p>The rules and regulations also act to protect the collective and individual interests of members, and to ensure that behaviour and business practices from its members are commensurate with the aims and standards expected of a professional industry body.</p>
 
-                        <h2>Members Directory</h2>
-                        <h3>Bettys &amp; Taylors of Harrogate</h3>
-
-                        <div class="directory">
-
-                            <div class="member-detail">
-
-                                <p>Bettys and Taylors of Harrogate is an independent family business based in the heart of Yorkshire. Taylors of Harrogate blends and packs more than 50 different speciality teas, including Yorkshire Tea.</p>
-                                <p>We even blend a tea to suit your water, so that you get the same Yorkshire Tea taste whether your water is soft or hard. You can also enjoy many of our teas in the traditional elegant surroundings of our six Bettys Cafe Tea Rooms based in Yorkshire. A real treat.</p>
-
-                                <h4>Address</h4>
-                                <p>Plumpton Park<br />
-                                    Harrogate<br />
-                                    North Yorkshire<br />
-                                    <a href="http://maps.google.co.uk/maps?q=HG2 7LD" title="" target="_blank">HG2 7LD</a></p>
-
-                                <h4>Katy Squire</h4>
-                                <p><strong>Phone:</strong> 01423 814 000<br />
-                                    <strong>Web:</strong> <a href="http://www.bettys.co.uk" target="_blank">www.bettys.co.uk</a></p>
-                                <p><a href="members-directory.php" title="Go back...">Back to member list</a></p>
-
-                            </div>
-
-                            <div class="member-logo">
-                                <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/bettyslogo.jpg" alt="Bettys &amp; Taylors of Harrogate">
-                            </div>
-
-                        </div>
-
-
-
-                        <div class="cboth"></div>
+                        <h3>Files to download</h3>
+                        <p><a href="#" target="_blank">United Kingdom Tea &amp; Infusions Association Rules</a> - Rules and Regulations (Final Draft - May 2014)</p>
+                        <p><a href="#" target="_blank">Application Form for UKTIA Membership - PART 1</a> - Application Form - Part 1 - Membership of the United Kingdom Tea &amp; Infusions Association is open to any firm, company or corporation registered in the United Kingdom and trading tea or, any company allied to the tea trade or, any producer country Tea Board or Association</p>
+                        <p><a href="#" target="_blank">Application Form for UKTIA Membership - PART 2</a> - Application Form - Part 2 - Membership of the United Kingdom Tea &amp; Infusions Association is open to any firm, company or corporation registered in the United Kingdom and trading tea or, any company allied to the tea trade or, any producer country Tea Board or Association</p>
                     </div>
                 </div>
 
@@ -115,7 +90,6 @@
                     <?php include('includes/essential-reading-logged-in.php'); ?>
 
                     <?php include('includes/member-updates-logged-in.php'); ?>
-
 
                 </div>
                 <div class="cboth"></div>
@@ -163,12 +137,12 @@
                         <li><a href="industry-partners.php">Industry Partners</a></li>
                         <li><a href="key-contacts.php">Key Contact &amp; Profiles</a></li>
                         <li><a href="members-directory.php">Members Directory</a></li>
-                        <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
-                        <li><a href="/operating-groups">Operating Groups &amp; Mandates</a></li>
+                        <li><a href="rules-regulations.php">Member's Rules &amp; regulations</a></li>
+                        <li><a href="operating-groups.php">Operating Groups &amp; Mandates</a></li>
                     </ul>
                 </li>
-                <li><a href="/circulars">Circulars</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="circulars.php">Circulars</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </div>

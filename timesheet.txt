@@ -23,11 +23,14 @@ Access to FDF, Annual Reports, Crisis Response (all 100%)                       
 FAQs and refactor                                                                        2.0 hrs
 Key contacts & Profile + directory                                                       2.0 hrs
 Members page done                                                                        0.75 hrs
+Regulations page, Mandates page                                                          2.0 hrs
 
 
 Todos
 ==================================================================================================
 Opacity of description hover icons stages
+Opacity on member logos
+Get reverse double arrow thingie, for back links
 
 
 Issues

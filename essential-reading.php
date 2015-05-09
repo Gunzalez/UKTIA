@@ -57,11 +57,11 @@
                             <li><a href="industry-partners.php">Industry Partners</a></li>
                             <li><a href="key-contacts.php">Key Contact &amp; Profiles</a></li>
                             <li><a href="members-directory.php">Members Directory</a></li>
-                            <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
-                            <li class="last"><a href="/operating-groups">Operating Groups &amp; Mandates</a></li>
+                            <li><a href="rules-regulations.php">Member's Rules &amp; regulations</a></li>
+                            <li class="last"><a href="operating-groups.php">Operating Groups &amp; Mandates</a></li>
                         </ul>
                     </li>
-                    <li class="last option-four"><a href="/circulars">Circulars</a></li>
+                    <li class="last option-four"><a href="circulars.php">Circulars</a></li>
                 </ul>
             </div>
 
@@ -79,53 +79,53 @@
                             <div class="entry">
                                 <h3>Conference Call</h3>
                                 <p>UKTIA TOG Contaminants Conference Call - 2.30pm Thursday 10th November 2015<br />
-                                    <a href="/actions-updates/article/contaminants conference-call">Read the full article</a></p>
+                                    <a href="/actions-updates/article/contaminants conference-call" class="big-cta">Read the full article »</a></p>
                             </div>
                             <div class="entry">
                                 <h3>Conference Call</h3>
                                 <p>UKTIA TOG Contaminants Conference Call - 2.30pm Thursday 1st October 2015<br />
-                                    <a href="/actions-updates/article/conference-call">Read the full article</a></p>
+                                    <a href="/actions-updates/article/conference-call" class="big-cta">Read the full article »</a></p>
                             </div>
                             <div class="entry">
                                 <h3> Conference Call</h3>
                                 <p>UKTIA TOG Contaminants Conference Call - 2.30pm Friday 12th June 2015<br />
-                                    <a href="/actions-updates/article/-conference-call">Read the full article</a></p>
+                                    <a href="/actions-updates/article/-conference-call" class="big-cta">Read the full article »</a></p>
                             </div>
                             <div class="entry">
                                 <h3>Contaminants Conference Call</h3>
                                 <p>UKTIA TOG Contaminants Conference Call - 2.30pm Thursday 14th May 2015<br />
-                                    <a href="/actions-updates/article/contaminants-conference-call">Read the full article</a></p>
+                                    <a href="/actions-updates/article/contaminants-conference-call" class="big-cta">Read the full article »</a></p>
                             </div>
                             <div class="entry">
                                 <h3> Contaminants Conference Call</h3>
                                 <p>UKTIA TOG Contaminants Conference Call - 10.30am Friday 20th March<br />
-                                    <a href="/actions-updates/article/-contaminants-conference-call">Read the full article</a></p>
+                                    <a href="/actions-updates/article/-contaminants-conference-call" class="big-cta">Read the full article »</a></p>
                             </div>
                             <div class="entry">
                                 <h3>UKTIA Technical Operating Group &amp; RSWG Meetings</h3>
                                 <p>UKTIA Technical Operating Group & RSWG Meetings Friday 20th November 2015.<br />
-                                    <a href="/actions-updates/article/uktia-technical-operating-group-rswg-meetings">Read the full article</a></p>
+                                    <a href="/actions-updates/article/uktia-technical-operating-group-rswg-meetings" class="big-cta">Read the full article »</a></p>
                             </div>
                             <div class="entry">
                                 <h3>UKTIA TOG Meeting</h3>
                                 <p>UKTIA Technical Operating Group Meeting Friday 11th September 2015 at the FDF offices.<br />
-                                    <a href="/actions-updates/article/uktia-tog-meeting">Read the full article</a></p>
+                                    <a href="/actions-updates/article/uktia-tog-meeting" class="big-cta">Read the full article »</a></p>
                             </div>
                             <div class="entry">
                                 <h3>UKTIA Technical Operating Group Meeting</h3>
                                 <p>UKTIA Technical Operating Group Meeting Friday 24th April 2015 at the FDF offices<br />
-                                    <a href="/actions-updates/article/uktia-technical-operating-group-meeting">Read the full article</a></p>
+                                    <a href="/actions-updates/article/uktia-technical-operating-group-meeting" class="big-cta">Read the full article »</a></p>
                             </div>
                             <div class="entry">
                                 <h3>UKTIA Executive Board Meeting</h3>
                                 <p>UKTIA Executive Board Meeting Wednesday 9th December 2015 at the FDF offices.
                                     <br />
-                                    <a href="/actions-updates/article/uktia-executive-board-meeting">Read the full article</a></p>
+                                    <a href="/actions-updates/article/uktia-executive-board-meeting" class="big-cta">Read the full article »</a></p>
                             </div>
                             <div class="entry">
                                 <h3>UKTIA Executive Board Meeting </h3>
                                 <p>UKTIA Executive Board Meeting Wednesday 16th September 2015 at the FDF offices.<br />
-                                    <a href="/actions-updates/article/uktia-executive-board-meeting-">Read the full article</a></p>
+                                    <a href="/actions-updates/article/uktia-executive-board-meeting-" class="big-cta">Read the full article »</a></p>
                             </div>
 
                             <div class="pagination">
@@ -201,12 +201,12 @@
                         <li><a href="industry-partners.php">Industry Partners</a></li>
                         <li><a href="key-contacts.php">Key Contact &amp; Profiles</a></li>
                         <li><a href="members-directory.php">Members Directory</a></li>
-                        <li><a href="/rules-regulation">Member's Rules &amp; regulations</a></li>
-                        <li><a href="/operating-groups">Operating Groups &amp; Mandates</a></li>
+                        <li><a href="rules-regulations.php">Member's Rules &amp; regulations</a></li>
+                        <li><a href="operating-groups.php">Operating Groups &amp; Mandates</a></li>
                     </ul>
                 </li>
-                <li><a href="/circulars">Circulars</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="circulars.php">Circulars</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </div>

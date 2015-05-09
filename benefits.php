@@ -306,7 +306,7 @@
                 <li><a href="log-in.php">The Pulse</a></li>
                 <li><a href="log-in.php">Membership Reference Info</a></li>
                 <li><a href="log-in.php">Circulars</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
     </div>
