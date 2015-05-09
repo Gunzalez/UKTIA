@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
 <head>
-    <title>UK Tea &amp; Infusions Association - Essential Reading</title>
+    <title>UK Tea &amp; Infusions Association - Site map</title>
     <?php include('includes/static-resources.php'); ?>
 </head>
-<body class="essential-reading">
+<body class="site-map">
 
     <div class="page">
 
@@ -40,9 +40,9 @@
                             <li class="last"><a href="index.php">Members Log-out</a></li>
                         </ul>
                     </li>
-                    <li class="option-two has-dropdown active"><a href="pulse.php">The Pulse</a>
+                    <li class="option-two has-dropdown"><a href="pulse.php">The Pulse</a>
                         <ul>
-                            <li class="first active"><a href="essential-reading.php">Essential Reading</a></li>
+                            <li class="first"><a href="essential-reading.php">Essential Reading</a></li>
                             <li><a href="video-update.php">Video Update</a></li>
                             <li class="last"><a href="press.php">Tea in the Press</a></li>
                         </ul>
@@ -73,84 +73,18 @@
                 <div class="wide left">
                     <div class="copy-padding">
 
-                        <h2>Essential Reading</h2>
-                        <div class="entries">
-                            <div class="entry">
-                                <h3>Conference Call</h3>
-                                <p>UKTIA TOG Contaminants Conference Call - 2.30pm Thursday 10th November 2015<br />
-                                    <a href="/actions-updates/article/contaminants conference-call" class="big-cta">Read the full article »</a></p>
-                            </div>
-                            <div class="entry">
-                                <h3>Conference Call</h3>
-                                <p>UKTIA TOG Contaminants Conference Call - 2.30pm Thursday 1st October 2015<br />
-                                    <a href="/actions-updates/article/conference-call" class="big-cta">Read the full article »</a></p>
-                            </div>
-                            <div class="entry">
-                                <h3> Conference Call</h3>
-                                <p>UKTIA TOG Contaminants Conference Call - 2.30pm Friday 12th June 2015<br />
-                                    <a href="/actions-updates/article/-conference-call" class="big-cta">Read the full article »</a></p>
-                            </div>
-                            <div class="entry">
-                                <h3>Contaminants Conference Call</h3>
-                                <p>UKTIA TOG Contaminants Conference Call - 2.30pm Thursday 14th May 2015<br />
-                                    <a href="/actions-updates/article/contaminants-conference-call" class="big-cta">Read the full article »</a></p>
-                            </div>
-                            <div class="entry">
-                                <h3> Contaminants Conference Call</h3>
-                                <p>UKTIA TOG Contaminants Conference Call - 10.30am Friday 20th March<br />
-                                    <a href="/actions-updates/article/-contaminants-conference-call" class="big-cta">Read the full article »</a></p>
-                            </div>
-                            <div class="entry">
-                                <h3>UKTIA Technical Operating Group &amp; RSWG Meetings</h3>
-                                <p>UKTIA Technical Operating Group & RSWG Meetings Friday 20th November 2015.<br />
-                                    <a href="/actions-updates/article/uktia-technical-operating-group-rswg-meetings" class="big-cta">Read the full article »</a></p>
-                            </div>
-                            <div class="entry">
-                                <h3>UKTIA TOG Meeting</h3>
-                                <p>UKTIA Technical Operating Group Meeting Friday 11th September 2015 at the FDF offices.<br />
-                                    <a href="/actions-updates/article/uktia-tog-meeting" class="big-cta">Read the full article »</a></p>
-                            </div>
-                            <div class="entry">
-                                <h3>UKTIA Technical Operating Group Meeting</h3>
-                                <p>UKTIA Technical Operating Group Meeting Friday 24th April 2015 at the FDF offices<br />
-                                    <a href="/actions-updates/article/uktia-technical-operating-group-meeting" class="big-cta">Read the full article »</a></p>
-                            </div>
-                            <div class="entry">
-                                <h3>UKTIA Executive Board Meeting</h3>
-                                <p>UKTIA Executive Board Meeting Wednesday 9th December 2015 at the FDF offices.
-                                    <br />
-                                    <a href="/actions-updates/article/uktia-executive-board-meeting" class="big-cta">Read the full article »</a></p>
-                            </div>
-                            <div class="entry">
-                                <h3>UKTIA Executive Board Meeting </h3>
-                                <p>UKTIA Executive Board Meeting Wednesday 16th September 2015 at the FDF offices.<br />
-                                    <a href="/actions-updates/article/uktia-executive-board-meeting-" class="big-cta">Read the full article »</a></p>
-                            </div>
+                        <h2>Site map</h2>
 
-                            <div class="pagination">
-                                <ul class="paged-nav">
-                                    <li><a href="/essential-reading/page/1" data-page="1">First</a></li>
-                                    <li class="selected"><a href="/essential-reading/page/1/" class="selected" data-page="1">1</a></li>
-                                    <li><a href="/essential-reading/page/2/" data-page="2">2</a></li>
-                                    <li><a href="/essential-reading/page/3/" data-page="3">3</a></li>
-                                    <li><a href="/essential-reading/page/4/" data-page="4">4</a></li>
-                                    <li><a href="/essential-reading/page/4/" data-page="4">Last</a></li>
-                                </ul>
-                            </div>
-
-                            <a href="#" class="archive">View the archive »</a>
+                        <div style="height: 760px">
 
                         </div>
-                        
-                        
-                        
 
                     </div>
                 </div>
 
                 <div class="narrow right">
 
-                    <?php include('includes/member-updates-logged-in.php'); ?>
+                    <?php include('includes/essential-reading-logged-in.php'); ?>
 
                     <?php include('includes/tea-in-the-press.php'); ?>
 

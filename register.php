@@ -25,9 +25,9 @@
             <ul class="aux-navigation">
                 <li class="tw"><a href="https://twitter.com/ukteacouncil" title="Twitter" target="_blank">Twitter</a></li>
                 <li class="first"><a href="log-in.php" title="Log-in">Log-in</a></li>
-                <li><a href="/site-map" title="Sitemap">Sitemap</a></li>
-                <li><a href="/terms-conditions" title="Terms &amp; Conditions">T&amp;Cs</a></li>
-                <li class="last"><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a></li>
+                <li><a href="site-map.php" title="Sitemap">Sitemap</a></li>
+                <li><a href="terms-conditions.php" title="Terms &amp; Conditions">T&amp;Cs</a></li>
+                <li class="last"><a href="privacy-policy.php" title="Privacy Policy">Privacy Policy</a></li>
             </ul>
 
             <?php include('includes/search-box.php'); ?>
@@ -124,7 +124,7 @@
         <nav id="mobile-navigation" class="mobile-navigation-list">
             <ul>
                 <li>
-                    <form id="search" class="search" method="post" action="/search-results">
+                    <form id="search" class="search" method="post" action="search-results.php">
                         <div class="row">
                             <label class="label" for="term">Search</label>
                             <input class="term" type="text" id="term" name="term" value="">

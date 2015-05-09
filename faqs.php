@@ -25,9 +25,9 @@
             <ul class="aux-navigation">
                 <li class="tw"><a href="https://twitter.com/ukteacouncil" title="Twitter" target="_blank">Twitter</a></li>
                 <li><a href="index.php" title="Log-out">Log-out</a></li>
-                <li class="first"><a href="/site-map" title="Sitemap">Sitemap</a></li>
-                <li><a href="/terms-conditions" title="Terms &amp; Conditions">T&amp;Cs</a></li>
-                <li class="last"><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a></li>
+                <li class="first"><a href="site-map.php" title="Sitemap">Sitemap</a></li>
+                <li><a href="terms-conditions.php" title="Terms &amp; Conditions">T&amp;Cs</a></li>
+                <li class="last"><a href="privacy-policy.php" title="Privacy Policy">Privacy Policy</a></li>
             </ul>
 
             <?php include('includes/search-box.php'); ?>
@@ -88,13 +88,9 @@
                                     <dt>Publish date:</dt>
                                     <dd>03/04/2013</dd>
                                 </dl>
-                                <p>
-                                    No, after the decaffeination process a fractional level of caffeine remains in the dry leaf. The European tea trade operates to a standard of 0.2g per 100g.</p>
-                                <p>
-                                    Three methods exist for extracting caffeine. Di Choloromethylene (solvent), Ethyl Acetate (organic solvent) and Super Critical Co2 (high temperature under pressure). All methods are governed by legal limits. &nbsp; &nbsp; &nbsp; &nbsp;</p>
-                                <p>
-                                    The European Union standard for solvent residues in tea is a maximum of 5ppm. Tests show that tea imported to the UK typically has detectable levels of between two and three ppm in the dry leaf. Furthermore, &quot;The brewing process renders solvent residues virtually undetectable&quot;.</p>
-
+                                <p>No, after the decaffeination process a fractional level of caffeine remains in the dry leaf. The European tea trade operates to a standard of 0.2g per 100g.</p>
+                                <p>Three methods exist for extracting caffeine. Di Choloromethylene (solvent), Ethyl Acetate (organic solvent) and Super Critical Co2 (high temperature under pressure). All methods are governed by legal limits.</p>
+                                <p>The European Union standard for solvent residues in tea is a maximum of 5ppm. Tests show that tea imported to the UK typically has detectable levels of between two and three ppm in the dry leaf. Furthermore, &quot;The brewing process renders solvent residues virtually undetectable&quot;.</p>
 
                             </div>
 
@@ -197,7 +193,7 @@
         <nav id="mobile-navigation" class="mobile-navigation-list">
             <ul>
                 <li>
-                    <form id="search" class="search" method="post" action="/search-results">
+                    <form id="search" class="search" method="post" action="search-results.php">
                         <div class="row">
                             <label class="label" for="term">Search</label>
                             <input class="term" type="text" id="term" name="term" value="">
