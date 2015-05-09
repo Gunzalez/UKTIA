@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <meta name="keywords" content="Keywords go here" />
 <meta name="description" content="Description goes here" />
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />

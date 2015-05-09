@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
     <title>UK Tea &amp; Infusions Association - Pulse</title>
     <meta name="keywords" content="Keywords go here" />
     <meta name="description" content="Description goes here" />

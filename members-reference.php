@@ -1,11 +1,10 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
     <title>UK Tea &amp; Infusions Association - Members Reference Information</title>
     <?php include('includes/static-resources.php'); ?>
 </head>
-<body class="members-reference.php">
+<body class="members-reference">
 
     <div class="page">
 

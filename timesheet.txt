@@ -24,13 +24,13 @@ FAQs and refactor                                                               
 Key contacts & Profile + directory                                                       2.0 hrs
 Members page done                                                                        0.75 hrs
 Regulations page, Mandates page                                                          2.0 hrs
+Minor fixes and refactor                                                                 0.5 hrs
 
 
 Todos
 ==================================================================================================
 Opacity of description hover icons stages
-Opacity on member logos
-Get reverse double arrow thingie, for back links
+Video updates page
 
 
 Issues

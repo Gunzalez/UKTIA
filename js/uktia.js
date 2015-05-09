@@ -170,8 +170,20 @@
     uktia.content = {
         $tables: $('.stripped-table'),
         $descriptions: $('#circular-descriptions'),
+        $memberIcons: $('ul.tea-members'),
 
         init: function(){
+
+            // cosmetic
+            $(this.$memberIcons).each(function(index, obj){
+                var $membersList = $(obj);
+                $('li', $membersList).each(function(i, li){
+                    var $url = $('a', $(li)).attr('href');
+                    $(li).on('click', function(){
+                        location.assign($url);
+                    })
+                })
+            });
 
             $(this.$tables).each(function(i, obj){
                 var $table = $(obj);
@@ -198,7 +210,7 @@
                         $screen.html(definition);
                     };
 
-                // touch devices
+                // for touch devices
                 if(uktia.environment.isTouchDevice()) {
                     eventTrigger = 'click';
                     resetText = 'Click on icons for descriptions';

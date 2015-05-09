@@ -1138,6 +1138,7 @@ img {
 }
 .body ol ol, .body ol ul, .body ul ol, .body ul ul {
   margin-top: 5px;
+  padding-bottom: 0;
 }
 .body .tea-members {
   margin: 0;

@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
     <title>UK Tea &amp; Infusions Association - Frequently Asked Questions</title>
     <?php include('includes/static-resources.php'); ?>
 </head>

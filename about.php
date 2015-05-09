@@ -1,11 +1,10 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
     <title>UK Tea &amp; Infusions Association - About UKTIA</title>
     <?php include('includes/static-resources.php'); ?>
 </head>
-<body class="register">
+<body class="about">
 
     <div class="page">
 

@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
     <title>UK Tea &amp; Infusions Association - Access to FDF website</title>
     <?php include('includes/static-resources.php'); ?>
 </head>
