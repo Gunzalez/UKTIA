@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
 <head>
-    <title>UK Tea &amp; Infusions Association - _template</title>
+    <title>UK Tea &amp; Infusions Association - Circulars aka Actions &amp; Updates</title>
     <?php include('includes/static-resources.php'); ?>
 </head>
-<body class="_template">
+<body class="circulars">
 
     <div class="page">
 
@@ -47,7 +47,7 @@
                             <li class="last"><a href="press.php">Tea in the Press</a></li>
                         </ul>
                     </li>
-                    <li class="option-three has-dropdown active"><a href="members-reference.php">Membership Reference Info</a>
+                    <li class="option-three has-dropdown"><a href="members-reference.php">Membership Reference Info</a>
                         <ul>
                             <li class="first"><a href="fdf-access.php">Access to FDF Website</a></li>
                             <li><a href="annual-reports.php">Annual reports</a></li>
@@ -60,7 +60,7 @@
                             <li class="last"><a href="operating-groups.php">Operating Groups &amp; Mandates</a></li>
                         </ul>
                     </li>
-                    <li class="last option-four"><a href="circulars.php">Circulars</a></li>
+                    <li class="last option-four active"><a href="circulars.php">Circulars</a></li>
                 </ul>
             </div>
 
@@ -70,63 +70,19 @@
         <div class="body">
 
             <div class="section">
-                <div class="wide left">
-                    <div class="copy-padding">
+                <div class="copy-padding">
 
-                        <h2>Page title</h2>
-
+                    <h2>Search for documents</h2>
 
 
-                        <a href="#" class="download">
-                            <span class="text">Download</span><span class="arrow"></span>
-                        </a>
-                        <div class="cboth"></div>
-
-                        <?php include('includes/member-updates-logged-in.php'); ?>
-
-                        <?php include('includes/tea-in-the-press.php'); ?>
-
-                        <?php include('includes/essential-reading-logged-in.php'); ?>
-
-                    </div>
-                </div>
-
-                <div class="narrow right">
-
-                    <?php include('includes/member-updates-logged-in.php'); ?>
-
-                    <?php include('includes/tea-in-the-press.php'); ?>
-
-                    <?php include('includes/essential-reading-logged-in.php'); ?>
-
-                    <?php include('includes/member-updates.php'); ?>
-
-                    <?php include('includes/essential-reading.php'); ?>
-
-                    <div class="listings latest-updates">
-                        <h3>Your latest updates:</h3>
-                        <ul>
-                            <li>
-                                <img src="uploaded/icon-circular-10-large.png" alt="" width="45" height="45">
-                                <p><strong>Positionus, nisi inttements updated:</strong> 13/11/12</p>
-                                <p>Vestibuis urabitur semti stique m tincidunt egestas. <a href="article.php">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-circular-12-large.png" alt="" width="45" height="45">
-                                <p><strong>Tus Minus, nisi intgs Minutes updated:</strong> 04/09/14</p>
-                                <p>Pocahuntis Beats to the mixNullanulla trtisnt egestas. <a href="article.php">More</a></p>
-                            </li>
-                            <li>
-                                <img src="uploaded/icon-circular-13-large.png" alt="" width="45" height="45">
-                                <p><strong>Fusce rhoncus, nisi interdum efficitur posuere</strong> 04/09/14</p>
-                                <p>Duis enim lectus, ullamcorper ac ultricieectus, ullam. <a href="article.php">More</a></p>
-                            </li>
-                        </ul>
-                    </div>
 
 
 
                 </div>
+
+
+
+
                 <div class="cboth"></div>
             </div>
         </div><!-- .body -->
