@@ -304,7 +304,7 @@
                                     <li><a href="/essential-reading/page/4/" data-page="4">Last</a></li>
                                 </ul>
                             </div>
-                            <a href="#" class="archive">View the archive »</a>
+
                         </div>
 
 

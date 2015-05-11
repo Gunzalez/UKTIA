@@ -100,7 +100,7 @@
                                 <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/bettyslogo.jpg" alt="Bettys &amp; Taylors of Harrogate">
                             </div>
 
-                            <p><a href="members-directory.php" class="big-cta" title="Go back...">« Back to member list</a></p>
+                            <p><a href="members-directory.php" class="big-cta">&#171; Back to Members Directory</a></p>
 
                         </div>
 

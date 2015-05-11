@@ -171,11 +171,12 @@
         $tables: $('.stripped-table'),
         $descriptions: $('#circular-descriptions'),
         $memberIcons: $('ul.tea-members'),
+        $filterForm: $('.filter-form'),
 
         init: function(){
 
             // cosmetic
-            $(this.$memberIcons).each(function(index, obj){
+            $(this.$memberIcons).each(function(i, obj){
                 var $membersList = $(obj);
                 $('li', $membersList).each(function(i, li){
                     var $url = $('a', $(li)).attr('href');
@@ -185,12 +186,14 @@
                 })
             });
 
+            // stripped tables
             $(this.$tables).each(function(i, obj){
                 var $table = $(obj);
                 $('tr:odd',$table).addClass('odd');
                 $table.attr('cellpadding','0').attr('cellspacing','0');
             });
 
+            // circular descriptions
             if(this.$descriptions.length > 0){
                 var $html = this.$descriptions,
                     $screen = $('.screen', $html),
@@ -199,13 +202,13 @@
                     resetText = 'Roll over icons for descriptions',
                     resetAllDataTerms = function(){
                         $screen.html(resetText);
-                        $('dt', $iconsList).removeClass('active');
+                        $('dt', $iconsList).removeAttr('class');
                     },
                     setThisDataTerm = function(dtObj){
                         var term = $(dtObj).attr('data-term'),
                             definition = $('dd[data-definition="'+term+'"]', $iconsList).html();
 
-                        $('dt', $iconsList).removeClass('active');
+                        $('dt', $iconsList).removeAttr('class');
                         $(dtObj).addClass('active');
                         $screen.html(definition);
                     };
@@ -225,6 +228,68 @@
                 });
 
                 resetAllDataTerms();
+            }
+
+            // advanced fields
+            if(this.$filterForm.length > 0){
+                var $html = this.$filterForm,
+                    $slideOutButton = $('.show-button', $html),
+                    $slideInButton = $('.hide-button', $html),
+                    $advancedFields = $('.advanced-fields', $html),
+                    isBusy = false,
+                    slideSpeed = 250,
+
+                    // topic & sub-topic
+                    $topicSelect = $('#topic', $html),
+                    $subTopicSelectContainer = $('.sub-topic', $html);
+
+                $topicSelect.on('change', function(){
+
+                    // todo: obviously use real criteria
+                    var value = $topicSelect.val();
+                    if(value == 21 || value == 5 || value == 11 || value == 10 || value == 2 || value == 4){
+
+                        $('select', $subTopicSelectContainer).empty();
+                        $('select', $subTopicSelectContainer).append('<option value="all"> View all </option>');
+                        $('select', $subTopicSelectContainer).append('<option value="15"> Darjeeling </option></select>');
+
+                        $subTopicSelectContainer.removeClass('hidden');
+                    } else {
+                        $subTopicSelectContainer.addClass('hidden');
+                    }
+                });
+
+                $slideOutButton.on('click',function(evt){
+                    evt.preventDefault();
+                    if(!isBusy){
+                        isBusy = true;
+                        $slideOutButton.parents('.show-hide-buttons').hide().addClass('opened');
+                        $advancedFields.animate({
+                            width: '500px'
+                        }, slideSpeed, 'swing', function(){
+                            $slideOutButton.parents('.show-hide-buttons').show();
+                            isBusy = false;
+                        });
+                    }
+                    //$advancedFields.css('width','500px');
+                    //$slideOutButton.parents('.show-hide-buttons').addClass('opened');
+                });
+
+                $slideInButton.on('click',function(evt){
+                    evt.preventDefault();
+                    if(!isBusy){
+                        isBusy = true;
+                        $slideOutButton.parents('.show-hide-buttons').hide().removeClass('opened');
+                        $advancedFields.animate({
+                            width: '0'
+                        }, slideSpeed, 'swing', function(){
+                            $slideOutButton.parents('.show-hide-buttons').show();
+                            isBusy = false;
+                        });
+                    }
+                    //$advancedFields.css('width','0');
+                    //$slideOutButton.parents('.show-hide-buttons').removeClass('opened');
+                });
             }
 
         },

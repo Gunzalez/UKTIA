@@ -93,17 +93,17 @@
                                 <li class="first">
                                     <p class="title">UKTIA/20/15 - THIE Circular 01-2015</p>
                                     <p class="sub-title">Viewed on 11/02/2015 at 1:09pm</p>
-                                    <a class="link" href="/actions-updates/article/uktia2015-thie-circular-012015-perchlorate">View again »</a>
+                                    <a class="link" href="/actions-updates/article/uktia2015-thie-circular-012015-perchlorate">View again &#187;</a>
                                 </li>
                                 <li>
                                     <p class="title">European Tea Committee Technical...</p>
                                     <p class="sub-title">Viewed on 18/02/2014 at 8:29pm</p>
-                                    <a class="link" href="/actions-updates/article/european-tea-committee-technical-committee">View again »</a>
+                                    <a class="link" href="/actions-updates/article/european-tea-committee-technical-committee">View again &#187;</a>
                                 </li>
                                 <li class="last">
                                     <p class="title">Imports Controls from China - Request...</p>
                                     <p class="sub-title">Viewed on 02/05/2013 at 12:23pm</p>
-                                    <a class="link" href="/actions-updates/article/imports-controls-from-china-request-for-data">View again »</a>
+                                    <a class="link" href="/actions-updates/article/imports-controls-from-china-request-for-data">View again &#187;</a>
                                 </li>
                             </ul>
                         </div>
@@ -111,7 +111,7 @@
                         <div class="video-update">
                             <div class="heading">
                                 <h3>UKTIA video update:</h3>
-                                <a href="/video-update/archive">View archive »</a>
+                                <a href="/video-update/archive">View archive &#187;</a>
                                 <div class="cboth"></div>
                             </div>
                             <div class="video">
@@ -135,7 +135,7 @@
                                 <tr class="navigation">
                                     <th class="prev-month">
                                         <a href="?m=3&amp;y=2015">
-                                            «
+                                            &#171;
                                         </a>
                                     </th>
                                     <th colspan="5" class="current-month">
@@ -143,7 +143,7 @@
                                     </th>
                                     <th class="next-month">
                                         <a href="?m=5&amp;y=2015">
-                                            »
+                                            &#187;
                                         </a>
                                     </th>
                                 </tr>
@@ -359,45 +359,8 @@
             </div>
 
             <div class="section">
-            <div id="circular-descriptions" class="descriptions">
-                <h2>Circular icons explained</h2>
-                <div class="instruction">Roll over icons for descriptions</div>
-                <div class="screen"></div>
-                <dl>
-                    <dt style="background: url('uploaded/icon-circular-1.png') 0 0 no-repeat" data-term="description-1">Coffee</dt>
-                    <dd data-definition="description-1">Black hot drink</dd>
-                    <dt style="background: url('uploaded/icon-circular-2.png') 0 0 no-repeat" data-term="description-2">Coffee</dt>
-                    <dd data-definition="description-2">White cold drink</dd>
-                    <dt style="background: url('uploaded/icon-circular-3.png') 0 0 no-repeat" data-term="description-3">Coffee</dt>
-                    <dd data-definition="description-3">Smokey Bacon</dd>
-                    <dt style="background: url('uploaded/icon-circular-4.png') 0 0 no-repeat" data-term="description-4">Coffee</dt>
-                    <dd data-definition="description-4">Age of Ultron</dd>
-                    <dt style="background: url('uploaded/icon-circular-5.png') 0 0 no-repeat" data-term="description-5">Coffee</dt>
-                    <dd data-definition="description-5">Watching Antman</dd>
-                    <dt style="background: url('uploaded/icon-circular-6.png') 0 0 no-repeat" data-term="description-6">Coffee</dt>
-                    <dd data-definition="description-6">Sings songs of Machete</dd>
-                    <dt style="background: url('uploaded/icon-circular-7.png') 0 0 no-repeat" data-term="description-7">Coffee</dt>
-                    <dd data-definition="description-7">Wireless Keyboard</dd>
-                    <dt style="background: url('uploaded/icon-circular-8.png') 0 0 no-repeat" data-term="description-8">Coffee</dt>
-                    <dd data-definition="description-8">I hate Chelsea FC</dd>
-                    <dt style="background: url('uploaded/icon-circular-9.png') 0 0 no-repeat" data-term="description-9">Coffee</dt>
-                    <dd data-definition="description-9">Chicken and spice!</dd>
-                    <dt style="background: url('uploaded/icon-circular-10.png') 0 0 no-repeat" data-term="description-10">Coffee</dt>
-                    <dd data-definition="description-10">Nigerian food</dd>
-                    <dt style="background: url('uploaded/icon-circular-11.png') 0 0 no-repeat" data-term="description-11">Coffee</dt>
-                    <dd data-definition="description-11">Must learn iOS</dd>
-                    <dt style="background: url('uploaded/icon-circular-12.png') 0 0 no-repeat" data-term="description-12">Coffee</dt>
-                    <dd data-definition="description-12">So tired today</dd>
-                    <dt style="background: url('uploaded/icon-circular-13.png') 0 0 no-repeat" data-term="description-13">Coffee</dt>
-                    <dd data-definition="description-13">I am the only Segun</dd>
-                    <dt style="background: url('uploaded/icon-circular-14.png') 0 0 no-repeat" data-term="description-14">Coffee</dt>
-                    <dd data-definition="description-14">Oh my neck!</dd>
-                    <dt style="background: url('uploaded/icon-circular-15.png') 0 0 no-repeat" data-term="description-15">Coffee</dt>
-                    <dd data-definition="description-15">Very accessible</dd>
-                </dl>
+                <?php include('includes/circulars-explained.php'); ?>
             </div>
-            <div class="cboth"></div>
-        </div>
 
             <div class="section">
                 <div class="wide left">

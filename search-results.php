@@ -1,10 +1,9 @@
 <?php
-$term = 'blank';
+$term = '';
 if(isset($_POST['term'])){
-    $term = $_POST['term'];
+   $term = $_POST['term'];
 }
 ?>
-
 
 <!doctype html>
 <html>
