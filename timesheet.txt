@@ -26,15 +26,15 @@ Members page done                                                               
 Regulations page, Mandates page                                                          2.0 hrs
 Minor fixes and refactor                                                                 0.5 hrs
 Circular form, desktop only                                                              7.0 hrs
+CSS Animation Circular form, and Mobile done too now                                     4.0 hrs
 
 
 Todos
 ==================================================================================================
-Opacity of description hover icons stages
 Video updates page
 Search page
 Put member logo on members page
-Gap at top of firefox page *
+
 
 
 Issues

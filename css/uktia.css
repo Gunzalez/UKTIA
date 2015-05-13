@@ -1266,6 +1266,10 @@ img {
   position: relative;
   overflow: hidden;
   width: 0;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .body .filter-form .advanced-fields .container {
   position: absolute;
@@ -1274,7 +1278,13 @@ img {
   width: 500px;
   height: 210px;
   float: none;
-  background: none;
+}
+.body .filter-form .advanced-fields.opened {
+  width: 500px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .body .filter-form label {
   float: left;
@@ -1315,9 +1325,6 @@ img {
 .body .filter-form .show-hide-buttons.opened .hide-button {
   display: block;
 }
-.body .filter-form .show-hide-buttons .span {
-  display: block;
-}
 .body .filter-form .text, .body .filter-form select {
   float: left;
   margin-bottom: 10px;
@@ -1325,9 +1332,6 @@ img {
   font-size: 0.9em;
   padding: 3px 2px;
   border: none;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
   box-sizing: border-box;
   color: #444444;
 }
@@ -1547,6 +1551,9 @@ img {
   .body .copy-padding .listings {
     padding: 0;
   }
+  .body .copy-padding.full-width {
+    padding-right: 15px;
+  }
   .body .calendar-box {
     margin: 0 15px;
   }
@@ -1595,6 +1602,78 @@ img {
   .body .directory .member-logo {
     width: 100px;
     text-align: right;
+  }
+  .body .filter-form h2 {
+    float: none;
+  }
+  .body .filter-form .instructions {
+    float: none;
+    font-size: 0.85em;
+    padding-top: 0;
+    padding-bottom: 15px;
+  }
+  .body .filter-form .fields {
+    margin: 0 -15px;
+    width: 644px;
+  }
+  .body .filter-form .legend {
+    height: 175px;
+    width: 50%;
+  }
+  .body .filter-form .legend.topics {
+    border-right: none;
+  }
+  .body .filter-form .legend.keyword {
+    border-left: none;
+    height: 190px;
+  }
+  .body .filter-form .legend.checkboxes {
+    height: 190px;
+  }
+  .body .filter-form .advanced-fields {
+    height: 0;
+    width: 644px;
+  }
+  .body .filter-form .advanced-fields .container {
+    border-top: 2px dotted #ffffff;
+    bottom: 0;
+    right: 0;
+    width: 644px;
+    height: 190px;
+    float: none;
+    background: none;
+  }
+  .body .filter-form .advanced-fields.opened {
+    height: 190px;
+    width: 644px;
+  }
+  .body .filter-form .show-hide-buttons .hide-button {
+    background: url("../images/arrow-slide-left.png") right 14px no-repeat;
+    padding-right: 15px;
+  }
+  .body .filter-form .show-hide-buttons .show-button {
+    background: url("../images/arrow-slide-right.png") right 14px no-repeat;
+    padding-right: 15px;
+  }
+  .body .filter-form .show-hide-buttons.hidden {
+    display: block;
+  }
+  .body .filter-form .row {
+    width: 100%;
+    position: relative;
+    padding-bottom: 6px;
+  }
+  .body .filter-form .row input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+  }
+  .body .filter-form .row label {
+    margin-left: 20px;
+    width: 275px;
+    font-size: 0.9em;
+    cursor: pointer;
   }
 
   .footer .company-info {
@@ -1794,6 +1873,47 @@ img {
   .body .tea-members li {
     width: 33.33337%;
   }
+  .body .filter-form {
+    margin: 0;
+  }
+  .body .filter-form .fields {
+    margin: 0;
+    width: 100%;
+  }
+  .body .filter-form .legend.checkboxes {
+    width: 50%;
+  }
+  .body .filter-form .container {
+    width: 100%;
+  }
+  .body .filter-form .row label {
+    width: auto;
+  }
+  .body .filter-form .advanced-fields {
+    width: 100%;
+  }
+  .body .filter-form .advanced-fields .container {
+    width: 100%;
+  }
+  .body .filter-form .advanced-fields.opened {
+    width: 100%;
+  }
+  .body .filter-form .submit {
+    position: static;
+    background: none;
+    padding-bottom: 0;
+    float: right;
+    margin-top: -37px;
+  }
+  .body .filter-form .submit .button {
+    padding: 8px 50px 8px 15px;
+    display: block;
+    width: auto;
+    background: url("../images/button-indicator.png") right center no-repeat #926641;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
 }
 @media only screen and (max-width: 600px) {
   .back-to-top a {
@@ -1962,6 +2082,40 @@ img {
   }
   .body .directory .member-logo {
     display: none;
+  }
+  .body .filter-form .legend {
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+  }
+  .body .filter-form .legend.checkboxes {
+    width: 100%;
+  }
+  .body .filter-form .legend.keyword {
+    height: auto;
+    padding-bottom: 0;
+  }
+  .body .filter-form .instructions {
+    font-size: 0.9em;
+  }
+  .body .filter-form .advanced-fields.opened {
+    height: 270px;
+  }
+  .body .filter-form select {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 6px;
+  }
+  .body .filter-form .container {
+    padding-top: 10px;
+  }
+  .body .filter-form .text {
+    font-size: 1.1em;
+    padding: 6px 8px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
   }
 
   .footer .company-info p {

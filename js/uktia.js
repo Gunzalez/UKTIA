@@ -249,6 +249,7 @@
                     var value = $topicSelect.val();
                     if(value == 21 || value == 5 || value == 11 || value == 10 || value == 2 || value == 4){
 
+                        // fake data
                         $('select', $subTopicSelectContainer).empty();
                         $('select', $subTopicSelectContainer).append('<option value="all"> View all </option>');
                         $('select', $subTopicSelectContainer).append('<option value="15"> Darjeeling </option></select>');
@@ -259,39 +260,22 @@
                     }
                 });
 
+                $advancedFields.on('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(e){
+                    $slideOutButton.parents('.show-hide-buttons').removeClass('hidden');
+                });
+
                 $slideOutButton.on('click',function(evt){
                     evt.preventDefault();
-                    if(!isBusy){
-                        isBusy = true;
-                        $slideOutButton.parents('.show-hide-buttons').hide().addClass('opened');
-                        $advancedFields.animate({
-                            width: '500px'
-                        }, slideSpeed, 'swing', function(){
-                            $slideOutButton.parents('.show-hide-buttons').show();
-                            isBusy = false;
-                        });
-                    }
-                    //$advancedFields.css('width','500px');
-                    //$slideOutButton.parents('.show-hide-buttons').addClass('opened');
+                    $slideOutButton.parents('.show-hide-buttons').addClass('hidden').addClass('opened');
+                    $advancedFields.addClass('opened');
                 });
 
                 $slideInButton.on('click',function(evt){
                     evt.preventDefault();
-                    if(!isBusy){
-                        isBusy = true;
-                        $slideOutButton.parents('.show-hide-buttons').hide().removeClass('opened');
-                        $advancedFields.animate({
-                            width: '0'
-                        }, slideSpeed, 'swing', function(){
-                            $slideOutButton.parents('.show-hide-buttons').show();
-                            isBusy = false;
-                        });
-                    }
-                    //$advancedFields.css('width','0');
-                    //$slideOutButton.parents('.show-hide-buttons').removeClass('opened');
+                    $slideOutButton.parents('.show-hide-buttons').addClass('hidden').removeClass('opened');
+                    $advancedFields.removeClass('opened');
                 });
             }
-
         },
         resize: function(){}
     };
