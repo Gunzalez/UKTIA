@@ -71,7 +71,6 @@
 
             <div class="section">
                 <div class="copy-padding full-width">
-
                     <form id="filter-form" name="filter-form" class="filter-form" action="#" method="post">
                         <h2>Search for documents</h2>
                         <p class="instructions">Please select which filters you require below. Note the more filters you select, the more accurate your results will be.</p>
@@ -182,7 +181,7 @@
                         </div>
 
                         <div class="submit">
-                            <button type="submit" id="get_updates" class="submit-search button">Search</button>
+                            <button type="submit" id="get-updates" class="submit-search button">Search</button>
                         </div>
 
                         <div class="cboth"></div>
@@ -193,6 +192,88 @@
 
             <div class="section">
                 <?php include('includes/circulars-explained.php'); ?>
+            </div>
+
+
+            <div class="section">
+
+                <div id="searching">
+                    <div class="spinner"></div>
+                </div>
+
+                <div id="search-results" class="entries circulars">
+                    <h3 class="title">Search results</h3>
+
+                    <div class="entry">
+                        <div class="category">
+                            <img src="uploaded/icon-update.png" width="45" height="45" alt="Meetings">
+                        </div>
+                        <div class="details">
+                            <h4><a href="/actions-updates/article/uktia-executive-board-meeting">UKTIA Executive Board Meeting</a></h4>
+                            <dl>
+                                <dt>Categories:</dt>
+                                <dd>Meeting dates &amp; agendas / Meetings &amp; Admin <span class="separator">/</span> Meeting dates &amp; agendas</dd>
+                                <dt>Abstract:</dt>
+                                <dd>UKTIA Executive Board Meeting Wednesday 9th December 2015 at the FDF offices.</dd>
+                            </dl>
+                        </div>
+                        <div class="meta-data">
+                            <dl>
+                                <dt>Article Date:</dt>
+                                <dd>09/12/2015</dd>
+                                <dt>Added By:</dt>
+                                <dd>FDF Admin</dd>
+                                <dt>Attached Document:</dt>
+                                <dd>NO</dd>
+                            </dl>
+                        </div>
+                        <a href="#" class="read-document"><span>View document</span></a>
+                        <div class="cboth"></div>
+                    </div>
+
+                    <div class="entry">
+                        <div class="category">
+                            <img src="uploaded/icon-update.png" width="45" height="45" alt="Meetings">
+                        </div>
+                        <div class="details">
+                            <h4><a href="/actions-updates/article/uktia-technical-operating-group-rswg-meetings">UKTIA Technical Operating Group &amp; RSWG Meetings</a></h4>
+                            <dl>
+                                <dt>Categories:</dt>
+                                <dd>Meeting dates &amp; agendas / Meetings &amp; Admin <span class="separator">/</span> Meeting dates &amp; agendas</dd>
+                                <dt>Abstract:</dt>
+                                <dd>UKTIA Executive Board Meeting Wednesday 9th December 2015 at the FDF offices.</dd>
+                            </dl>
+                        </div>
+                        <div class="meta-data">
+                            <dl>
+                                <dt>Article Date:</dt>
+                                <dd>09/12/2015</dd>
+                                <dt>Added By:</dt>
+                                <dd>FDF Admin</dd>
+                                <dt>Attached Document:</dt>
+                                <dd>NO</dd>
+                            </dl>
+                        </div>
+                        <a href="#" class="read-document"><span>View document</span></a>
+                        <div class="cboth"></div>
+                    </div>
+
+                    <div class="pagination">
+                        <ul class="paged-nav">
+                            <li><a href="#" data-page="1">First</a></li>
+                            <li class="selected"><a href="#" class="selected" data-page="1">1</a></li>
+                            <li><a href="#" data-page="2">2</a></li>
+                            <li><a href="#" data-page="3">3</a></li>
+                            <li><a href="#" data-page="4">4</a></li>
+                            <li><a href="#" data-page="5">5</a></li>
+                            <li><a href="#" data-page="6">6</a></li>
+                            <li><a href="#" data-page="7">7</a></li>
+                            <li><a href="#" data-page="7">Last</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
             </div>
 
         </div><!-- .body -->

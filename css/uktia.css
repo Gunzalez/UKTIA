@@ -90,6 +90,50 @@ img {
   display: none;
 }
 
+.spinner {
+  width: 30px;
+  height: 30px;
+  background-color: #6a9433;
+  margin: 100px auto;
+  -webkit-animation: rotateplane 1.2s infinite ease-in-out;
+  animation: rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes rotateplane {
+  0% {
+    -webkit-transform: perspective(120px);
+  }
+
+  50% {
+    -webkit-transform: perspective(120px) rotateY(180deg);
+  }
+
+  100% {
+    -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg);
+  }
+}
+
+@keyframes rotateplane {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+
+  50% {
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+
+  100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+#search-results, #searching {
+  display: none;
+}
+
 .mobile-navigation-list .search {
   padding: 0 20px 20px 20px;
 }
@@ -814,7 +858,7 @@ img {
   width: 100%;
   position: relative;
 }
-.body .descriptions h2 {
+.body .descriptions .title {
   padding: 10px;
   float: left;
 }
@@ -1145,6 +1189,69 @@ img {
   display: inline-block;
   padding: 1px 2px;
 }
+.body .entries a {
+  color: #0066cc;
+}
+.body .entries a:hover {
+  text-decoration: none;
+}
+.body .entries.circulars .title {
+  padding: 10px;
+}
+.body .entries.circulars .entry {
+  background: #f1f0f0;
+  margin-bottom: 30px;
+  padding: 10px;
+  position: relative;
+}
+.body .entries.circulars .category {
+  float: left;
+  width: 75px;
+}
+.body .entries.circulars .details {
+  float: left;
+  width: 600px;
+  border-right: 2px dotted #444444;
+  border-left: 2px dotted #444444;
+  padding: 0 15px;
+  min-height: 90px;
+  box-sizing: border-box;
+}
+.body .entries.circulars .meta-data {
+  float: left;
+  width: 210px;
+  margin-left: 15px;
+}
+.body .entries.circulars .read-document {
+  position: absolute;
+  right: -11px;
+  bottom: -20px;
+  display: block;
+  color: #ffffff;
+  font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+  padding-bottom: 9px;
+  background: url("../images/corner-brown-right.png") bottom right no-repeat;
+  text-decoration: none;
+}
+.body .entries.circulars .read-document span {
+  background: #926641;
+  display: block;
+  padding: 10px 18px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
+}
+.body .entries.circulars .read-document:hover span {
+  background: #aa7d57;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
 .body ol, .body ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -1211,7 +1318,7 @@ img {
 }
 .body .filter-form {
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .body .filter-form h2 {
   float: left;
@@ -1334,6 +1441,8 @@ img {
   border: none;
   box-sizing: border-box;
   color: #444444;
+  -webkit-appearance: none;
+  background-color: #ffffff;
 }
 .body .filter-form .row {
   width: 100%;
@@ -1375,6 +1484,17 @@ img {
   -moz-box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
   background: url("../images/submit-three.png") right 6px no-repeat #926641;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.body .filter-form .submit .button:hover {
+  background: url("../images/submit-three.png") right 6px no-repeat #aa7d57;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .footer {
@@ -1554,9 +1674,6 @@ img {
   .body .copy-padding.full-width {
     padding-right: 15px;
   }
-  .body .calendar-box {
-    margin: 0 15px;
-  }
   .body .calendar-box td {
     padding: 12px 4px;
     font-size: 1.1em;
@@ -1571,9 +1688,8 @@ img {
   .body .descriptions {
     float: left;
     width: auto;
-    margin: 0 15px;
   }
-  .body .descriptions h2 {
+  .body .descriptions .title {
     float: none;
   }
   .body .descriptions .instruction {
@@ -1674,6 +1790,17 @@ img {
     width: 275px;
     font-size: 0.9em;
     cursor: pointer;
+  }
+  .body .entries.circulars .category {
+    width: 75px;
+  }
+  .body .entries.circulars .details {
+    width: 330px;
+    padding: 0 15px;
+    min-height: 130px;
+  }
+  .body .entries.circulars .meta-data {
+    width: 200px;
   }
 
   .footer .company-info {
@@ -1914,6 +2041,58 @@ img {
     -moz-box-shadow: none;
     box-shadow: none;
   }
+  .body .filter-form .submit .button:hover {
+    background: url("../images/button-indicator.png") right center no-repeat #aa7d57;
+  }
+  .body .descriptions {
+    margin: 0 15px;
+  }
+  .body .entries.circulars {
+    margin: 0 15px;
+  }
+  .body .entries.circulars .entry {
+    background: #f1f0f0;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative;
+  }
+  .body .entries.circulars .category {
+    float: none;
+    width: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+  }
+  .body .entries.circulars .details {
+    float: none;
+    width: auto;
+    border-right: none;
+    border-left: 2px dotted #444444;
+    padding: 0 0 0 15px;
+    min-height: inherit;
+    margin-left: 65px;
+  }
+  .body .entries.circulars .meta-data {
+    float: none;
+    width: auto;
+    margin-left: 65px;
+    padding-left: 15px;
+    border-left: 2px dotted #444444;
+    margin-bottom: 15px;
+  }
+  .body .entries.circulars .read-document {
+    position: static;
+    display: inline-block;
+    float: right;
+    background: none;
+    padding-bottom: 0;
+  }
+  .body .entries.circulars .read-document span {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
 }
 @media only screen and (max-width: 600px) {
   .back-to-top a {
@@ -2046,7 +2225,7 @@ img {
     float: none;
     padding-left: 0;
   }
-  .body .descriptions h2 {
+  .body .descriptions .title {
     font-size: 1.5em;
   }
   .body .descriptions .screen {

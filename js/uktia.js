@@ -241,7 +241,24 @@
 
                     // topic & sub-topic
                     $topicSelect = $('#topic', $html),
-                    $subTopicSelectContainer = $('.sub-topic', $html);
+                    $subTopicSelectContainer = $('.sub-topic', $html),
+
+                    // simulating search spinner
+                    $submitButton = $('#get-updates', $html),
+                    $searchScreen = $('#searching'),
+                    $resultsScreen = $('#search-results');
+
+                $submitButton.on('click', function(evt){
+                    evt.preventDefault();
+                    $resultsScreen.hide();
+                    $searchScreen.show();
+                    $('html,body').animate({scrollTop: $('.footer').offset().top},'slow');
+                    var countDown = setTimeout(function () {
+                        $resultsScreen.show();
+                        $searchScreen.hide();
+                        clearTimeout(countDown);
+                    }, 4000);
+                });
 
                 $topicSelect.on('change', function(){
 

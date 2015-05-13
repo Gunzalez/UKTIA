@@ -27,6 +27,7 @@ Regulations page, Mandates page                                                 
 Minor fixes and refactor                                                                 0.5 hrs
 Circular form, desktop only                                                              7.0 hrs
 CSS Animation Circular form, and Mobile done too now                                     4.0 hrs
+Circulars page now complete, plus minor refactor                                         3.0 hrs
 
 
 Todos
@@ -34,6 +35,7 @@ Todos
 Video updates page
 Search page
 Put member logo on members page
+fix select padding issue on mobile
 
 
 

@@ -1,5 +1,5 @@
 <div id="circular-descriptions" class="descriptions">
-    <h2>Circular icons explained</h2>
+    <h3 class="title">Circular icons explained</h3>
     <div class="instruction">Roll over icons for descriptions</div>
     <div class="screen"></div>
     <dl>
