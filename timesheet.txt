@@ -32,10 +32,11 @@ Circulars page now complete, plus minor refactor                                
 
 Todos
 ==================================================================================================
-Video updates page
-Search page
-Put member logo on members page
-fix select padding issue on mobile
+Do video updates page
+Do search page
+See about putting member logo on members page
+Fix dropdown select padding issue on mobile
+Align filter form submit button
 
 
 
