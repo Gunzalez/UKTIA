@@ -639,12 +639,14 @@ img {
   float: left;
   padding-top: 4px;
 }
-.body .copy-padding .input {
+.body .copy-padding .input,
+.body .copy-padding select {
   width: 200px;
   float: left;
   border: 1px solid #cccccc;
   padding: 3px 4px;
   box-sizing: border-box;
+  font-family: "Arial", "Helvetica", "Verdana", "sans-serif";
 }
 .body .copy-padding .go-button {
   margin: -4px 0 0 0;
@@ -1341,7 +1343,6 @@ img {
   clear: both;
   background: #f1f0f0;
   margin: 0 -10px;
-  float: left;
   width: 920px;
 }
 .body .filter-form .container {
@@ -1754,13 +1755,14 @@ img {
     border-top: 2px dotted #ffffff;
     bottom: 0;
     right: 0;
+    top: auto;
     width: 644px;
     height: 190px;
     float: none;
     background: none;
   }
   .body .filter-form .advanced-fields.opened {
-    height: 190px;
+    height: 192px;
     width: 644px;
   }
   .body .filter-form .show-hide-buttons .hide-button {
@@ -2028,13 +2030,14 @@ img {
   .body .filter-form .submit {
     position: static;
     background: none;
-    padding-bottom: 0;
-    float: right;
-    margin-top: -37px;
+    padding: 10px;
+    text-align: right;
+    margin-top: -40px;
+    background: #f1f0f0;
   }
   .body .filter-form .submit .button {
     padding: 8px 50px 8px 15px;
-    display: block;
+    display: inline-block;
     width: auto;
     background: url("../images/button-indicator.png") right center no-repeat #926641;
     -webkit-box-shadow: none;
@@ -2043,6 +2046,22 @@ img {
   }
   .body .filter-form .submit .button:hover {
     background: url("../images/button-indicator.png") right center no-repeat #aa7d57;
+  }
+  .body .filter-form .text {
+    font-size: 1.1em;
+    padding: 6px 8px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+  }
+  .body .filter-form label {
+    margin-bottom: 2px;
+  }
+  .body .filter-form select {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 6px;
   }
   .body .descriptions {
     margin: 0 15px;
@@ -2160,7 +2179,7 @@ img {
   .body .copy-padding .form .row.checkbox label {
     display: block;
   }
-  .body .copy-padding .form .input {
+  .body .copy-padding .form .input, .body .copy-padding .form select {
     width: 100%;
     float: none;
     font-size: 1.1em;
@@ -2241,7 +2260,7 @@ img {
     margin: 1px 2px;
   }
   .body .descriptions dt.active {
-    border: 2px solid #6a9433;
+    border: 2px solid #f1f0f0;
   }
   .body .entries .entry {
     padding-bottom: 5px;
@@ -2257,10 +2276,17 @@ img {
   }
   .body .directory .member-detail {
     margin-right: 0;
-    float: none;
   }
   .body .directory .member-logo {
-    display: none;
+    position: static;
+    float: right;
+    padding-top: 5px;
+  }
+  .body .directory .member-logo img {
+    width: 100px;
+  }
+  .body .directory .member-address {
+    padding-right: 120px;
   }
   .body .filter-form .legend {
     width: 100%;
@@ -2277,24 +2303,21 @@ img {
   .body .filter-form .instructions {
     font-size: 0.9em;
   }
-  .body .filter-form .advanced-fields.opened {
+  .body .filter-form .advanced-fields .container {
     height: 270px;
   }
-  .body .filter-form select {
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    padding: 6px;
+  .body .filter-form .advanced-fields.opened {
+    height: 282px;
+  }
+  .body .filter-form .advanced-fields.opened .container {
+    height: 270px;
   }
   .body .filter-form .container {
     padding-top: 10px;
   }
-  .body .filter-form .text {
+  .body .filter-form .show-hide-buttons a {
     font-size: 1.1em;
-    padding: 6px 8px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
+    font-weight: normal;
   }
 
   .footer .company-info p {

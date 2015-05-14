@@ -80,10 +80,15 @@
                         <div class="directory">
 
                             <div class="member-detail">
-
                                 <p>Bettys and Taylors of Harrogate is an independent family business based in the heart of Yorkshire. Taylors of Harrogate blends and packs more than 50 different speciality teas, including Yorkshire Tea.</p>
                                 <p>We even blend a tea to suit your water, so that you get the same Yorkshire Tea taste whether your water is soft or hard. You can also enjoy many of our teas in the traditional elegant surroundings of our six Bettys Cafe Tea Rooms based in Yorkshire. A real treat.</p>
+                            </div>
 
+                            <div class="member-logo">
+                                <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/bettyslogo.jpg" alt="Bettys &amp; Taylors of Harrogate">
+                            </div>
+
+                            <div class="member-address">
                                 <h4>Address</h4>
                                 <p>Plumpton Park<br />
                                     Harrogate<br />
@@ -93,11 +98,6 @@
                                 <h4>Katy Squire</h4>
                                 <p><strong>Phone:</strong> 01423 814 000<br />
                                     <strong>Web:</strong> <a href="http://www.bettys.co.uk" target="_blank">www.bettys.co.uk</a></p>
-
-                            </div>
-
-                            <div class="member-logo">
-                                <img src="http://www.tea.co.uk/assets/uploads/tea_directory/logos/bettyslogo.jpg" alt="Bettys &amp; Taylors of Harrogate">
                             </div>
 
                             <p><a href="members-directory.php" class="big-cta">&#171; Back to Members Directory</a></p>

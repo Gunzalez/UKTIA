@@ -93,12 +93,12 @@
             <div class="section">
                 <div class="form-login">
                     <h3>Members Area <span></span></h3>
-                    <form id="login-form" name="login-form" action="pulse.php" method="post" class="form validator" novalidate="novalidate">
+                    <form id="login-form" name="login-form" action="pulse.php" method="post" class="form">
                         <h4>Please login to access Members info:</h4>
                         <label for="email">Email</label>
-                        <input type="email" class="input" name="email" id="email" placeholder="Email" value="" required="required">
+                        <input type="email" class="input" name="email" id="email" placeholder="Email" value="">
                         <label for="phrase">Password</label>
-                        <input type="password" class="input" name="phrase" id="phrase" placeholder="Password" value="" required="required">
+                        <input type="password" class="input" name="phrase" id="phrase" placeholder="Password" value="">
                         <label for="go">&nbsp;</label>
                         <input type="submit" id="go" value="submit" class="go-button">
                     </form>

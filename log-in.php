@@ -72,22 +72,22 @@
                         <p>Log-in to the UK Tea &amp; Infusions Association Members Extranet to gain access to the information on this site. If you have not registered already, please <a href="register.php" title="Click here to register for access to the UK Tea Council Members Extranet website...">register here</a>.</p>
                         <p>If you have forgotten your login details, please <a href="/log-in/password-reminder" title="Click here to go to the password reminder page...">click here to retrieve your password</a>.</p>
 
-                        <form id="login-form" name="login-form" action="pulse.php" method="post" class="form validator" novalidate="novalidate">
+                        <form id="login-form" name="login-form" action="pulse.php" method="post" class="form">
                             <h3>Please login to access members info:</h3>
                             <div class="row">
                                 <label for="email">Email</label>
-                                <input type="email" class="input" name="email" id="email" placeholder="Email" value="" required="required">
+                                <input type="email" class="input" name="email" id="email" placeholder="Email" value="">
                             </div>
                             <div class="row">
                                 <label for="phrase">Password</label>
-                                <input type="password" class="input" name="phrase" id="phrase" placeholder="Password" value="" required="required">
+                                <input type="password" class="input" name="phrase" id="phrase" placeholder="Password" value="">
                             </div>
                             <div class="row last">
                                 <input type="submit" id="go" value="submit" class="go-button">
                             </div>
                         </form>
 
-                        <p><a href="/log-in/password-reminder">Forgot password?</a></p>
+                        <p><a href="/log-in/password-reminder" class="big-cta">Forgot password?</a></p>
 
 
                         <div class="cboth"></div>

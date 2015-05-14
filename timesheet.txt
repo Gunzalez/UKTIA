@@ -30,13 +30,23 @@ CSS Animation Circular form, and Mobile done too now                            
 Circulars page now complete, plus minor refactor                                         3.0 hrs
 
 
+Todos now done, part 1
+==================================================================================================
+DONE - Do search page
+DONE - Fix dropdown select padding issue on mobile
+DONE - Align filter form submit button
+DONE - See about putting member logo on members page
+{2.5 hrs}
+
+
+
 Todos
 ==================================================================================================
 Do video updates page
-Do search page
-See about putting member logo on members page
-Fix dropdown select padding issue on mobile
-Align filter form submit button
+
+
+
+
 
 
 
@@ -45,5 +55,9 @@ Issues
 
 
 
+
+
+
 Better with PHP
 ==================================================================================================
+

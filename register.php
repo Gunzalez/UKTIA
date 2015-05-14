@@ -65,27 +65,27 @@
                         <p>Register with the UK Tea &amp; Infusions Association to gain access to the restricted members information on this site.</p>
                         <p>Find out more about UK Tea &amp; Infusions Association <a href="benefits.php">Membership Benefits and Membership Criteria.</a></p>
 
-                        <form id="register-form" name="register-form" action="#" method="post" class="form validator" novalidate="novalidate">
+                        <form id="register-form" name="register-form" action="#" method="post" class="form">
                             <h3>Register to access members info:</h3>
                             <div class="row">
                                 <label for="firstname">Firstname *</label>
-                                <input type="text" class="input" name="firstname" id="firstname" placeholder="Firstname" value="" required="required">
+                                <input type="text" class="input" name="firstname" id="firstname" placeholder="Firstname" value="">
                             </div>
                             <div class="row">
                                 <label for="Lastname">Lastname *</label>
-                                <input type="text" class="input" name="lastname" id="lastname" placeholder="Lastname" value="" required="required">
+                                <input type="text" class="input" name="lastname" id="lastname" placeholder="Lastname" value="">
                             </div>
                             <div class="row">
                                 <label for="companyName">Company name *</label>
-                                <input type="text" class="input" name="companyName" id="companyName" placeholder="Company name" value="" required="required">
+                                <input type="text" class="input" name="companyName" id="companyName" placeholder="Company name" value="">
                             </div>
                             <div class="row">
                                 <label for="email">Email *</label>
-                                <input type="email" class="input" name="email" id="email" placeholder="Email" value="" required="required">
+                                <input type="email" class="input" name="email" id="email" placeholder="Email" value="">
                             </div>
                             <div class="row">
                                 <label for="phrase">Password *</label>
-                                <input type="password" class="input" name="phrase" id="phrase" placeholder="Password" value="" required="required">
+                                <input type="password" class="input" name="phrase" id="phrase" placeholder="Password" value="">
                             </div>
                             <div class="row checkbox">
                                 <input type="checkbox" id="notifications" name="notifications" value="1">

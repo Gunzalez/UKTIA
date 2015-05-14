@@ -81,10 +81,54 @@ if(isset($_POST['term'])){
                     <div class="copy-padding">
 
                         <h2>Search results</h2>
-                        <h4>Showing results for: <span class="search-term">"<?php echo $term; ?>"</span></h4>
 
+                        <form id="search-filter" name="search-filter" action="search-results.php" method="post" class="form">
+                            <h4>Showing results for: <span class="search-term">"<?php echo $term; ?>"</span></h4>
+                            <div class="row">
+                                <label for="email">Filter by</label>
+                                <input type="text" id="term" name="term" class="input" placeholder="Search term" value="<?php echo $term; ?>" />
+                            </div>
+                            <div class="row">
+                                <label for="section">Search in</label>
+                                <select id="section" name="section" class="select">
+                                    <option value="pages"> Pages </option>
+                                    <option value="essential"> Essential reading </option>
+                                    <option value="press"> Tea in the Press </option>
+                                    <option value="members"> UKTIA Members </option>
+                                    <option value="faqs"> FAQ's </option>
+                                </select>
+                            </div>
+                            <div class="row last">
+                                <input type="submit" id="go" value="submit" class="go-button">
+                            </div>
+                        </form>
 
+                        <div class="entries">
 
+                            <div class="entry">
+                                <h3>Contact</h3>
+                                <p>The United Kingdom Tea &amp; Infusions Association Ltd.
+                                Suite 10, Fourth Floor,
+                                Crown House,
+                                One Crown Square,
+                                Wokin
+                                GU21 6HR
+                                &nbsp;
+                                T:&nbsp;01483...<br><a href="#" class="big-cta">Read more &#187;</a></p>
+                            </div>
+
+                            <div class="entry">
+                                <h3>Operating Groups &amp; Mandates</h3>
+                                <p>UKTIA Executive Board Operating Mandate Members of the Executive Board are formally registered with Companies House as UKTIA Directors.
+                                    <br>The Directors are responsible for keeping...
+                                    <br><a href="#" class="big-cta">Read more &#187;</a></p>
+                            </div>
+
+                            <div class="entry">
+                                <p>There are not results to display.</p>
+                            </div>
+
+                        </div>
 
                     </div>
                 </div>

@@ -177,6 +177,7 @@
                                 <a href="#" class="show-button">Advanced search</a>
                                 <a href="#" class="hide-button">Less</a>
                             </div>
+                            <div class="cboth"></div>
 
                         </div>
 
@@ -210,6 +211,33 @@
                         </div>
                         <div class="details">
                             <h4><a href="/actions-updates/article/uktia-executive-board-meeting">UKTIA Executive Board Meeting</a></h4>
+                            <dl>
+                                <dt>Categories:</dt>
+                                <dd>Meeting dates &amp; agendas / Meetings &amp; Admin <span class="separator">/</span> Meeting dates &amp; agendas</dd>
+                                <dt>Abstract:</dt>
+                                <dd>UKTIA Executive Board Meeting Wednesday 9th December 2015 at the FDF offices.</dd>
+                            </dl>
+                        </div>
+                        <div class="meta-data">
+                            <dl>
+                                <dt>Article Date:</dt>
+                                <dd>09/12/2015</dd>
+                                <dt>Added By:</dt>
+                                <dd>FDF Admin</dd>
+                                <dt>Attached Document:</dt>
+                                <dd>NO</dd>
+                            </dl>
+                        </div>
+                        <a href="#" class="read-document"><span>View document</span></a>
+                        <div class="cboth"></div>
+                    </div>
+
+                    <div class="entry">
+                        <div class="category">
+                            <img src="uploaded/icon-update.png" width="45" height="45" alt="Meetings">
+                        </div>
+                        <div class="details">
+                            <h4><a href="/actions-updates/article/uktia-technical-operating-group-rswg-meetings">UKTIA Technical Operating Group &amp; RSWG Meetings</a></h4>
                             <dl>
                                 <dt>Categories:</dt>
                                 <dd>Meeting dates &amp; agendas / Meetings &amp; Admin <span class="separator">/</span> Meeting dates &amp; agendas</dd>
