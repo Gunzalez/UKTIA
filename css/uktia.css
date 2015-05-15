@@ -84,6 +84,14 @@ img {
   box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
 }
 
+select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background: url("../images/arrow-select.png") center right no-repeat;
+}
+
 .mobile .instruction,
 .mobile-navigation-button,
 .mobile-navigation {
@@ -147,9 +155,9 @@ img {
   width: 100%;
   border: none;
   margin-right: 60px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
   font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
   font-size: 1.1em;
   box-sizing: border-box;
@@ -1433,16 +1441,15 @@ img {
 .body .filter-form .show-hide-buttons.opened .hide-button {
   display: block;
 }
-.body .filter-form .text, .body .filter-form select {
+.body .filter-form .input, .body .filter-form select {
   float: left;
   margin-bottom: 10px;
   width: 100%;
   font-size: 0.9em;
-  padding: 3px 2px;
+  padding: 3px 4px;
   border: none;
   box-sizing: border-box;
   color: #444444;
-  -webkit-appearance: none;
   background-color: #ffffff;
 }
 .body .filter-form .row {
@@ -1462,7 +1469,7 @@ img {
   font-size: 0.9em;
   cursor: pointer;
 }
-.body .filter-form .text {
+.body .filter-form .input {
   padding: 3px 5px;
   clear: left;
 }
@@ -1489,6 +1496,7 @@ img {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  display: block;
 }
 .body .filter-form .submit .button:hover {
   background: url("../images/submit-three.png") right 6px no-repeat #aa7d57;
@@ -1766,11 +1774,11 @@ img {
     width: 644px;
   }
   .body .filter-form .show-hide-buttons .hide-button {
-    background: url("../images/arrow-slide-left.png") right 14px no-repeat;
+    background: url("../images/arrow-slide-up.png") right 14px no-repeat;
     padding-right: 15px;
   }
   .body .filter-form .show-hide-buttons .show-button {
-    background: url("../images/arrow-slide-right.png") right 14px no-repeat;
+    background: url("../images/arrow-slide-down.png") right 14px no-repeat;
     padding-right: 15px;
   }
   .body .filter-form .show-hide-buttons.hidden {
@@ -2047,20 +2055,14 @@ img {
   .body .filter-form .submit .button:hover {
     background: url("../images/button-indicator.png") right center no-repeat #aa7d57;
   }
-  .body .filter-form .text {
+  .body .filter-form .input {
     font-size: 1.1em;
     padding: 6px 8px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
   }
   .body .filter-form label {
     margin-bottom: 2px;
   }
   .body .filter-form select {
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
     padding: 6px;
   }
   .body .descriptions {
