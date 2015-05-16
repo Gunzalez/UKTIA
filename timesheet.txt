@@ -30,7 +30,7 @@ CSS Animation Circular form, and Mobile done too now                            
 Circulars page now complete, plus minor refactor                                         3.0 hrs
 
 
-Todos now done, part 1
+Now done, part 1
 ==================================================================================================
 DONE - Do search page
 DONE - Fix dropdown select padding issue on mobile
@@ -39,24 +39,28 @@ DONE - See about putting member logo on members page
 {2.5 hrs}
 
 
-Todos now done, part 2
+
+Now done, part 2
 ==================================================================================================
 DONE - Fix select padding on tablet
 DONE - Up and down arrows on Advances Search filters
 DONE - Add Ts & Cs and Privacy Policy links to mobile navigation
 Minor refactor
-{1.0hrs}
+{1.0 hrs}
 
+
+
+Now done, part 3
+==================================================================================================
+DONE - Do video updates page
+DONE - Password reminder page
+{2.0 hrs}
 
 
 Todos
 ==================================================================================================
-Do video updates page
-
-
-
 Won't Fix - Show and hide icon descriptions, hmm
-Can't Fix - Fix corner of submit button on mobile
+Can't Fix - Fix corner of submit button on iPad only
 
 
 

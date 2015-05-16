@@ -617,6 +617,8 @@ select {
   background: #f1f0f0;
   margin-bottom: 15px;
   float: left;
+  width: 100%;
+  box-sizing: border-box;
 }
 .body .copy-padding .row {
   float: left;
@@ -776,8 +778,7 @@ select {
 }
 .body .logged-in .video-responsive {
   position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 */
+  padding-bottom: 53%;
   padding-top: 25px;
   height: 0;
 }
@@ -1214,6 +1215,9 @@ select {
   padding: 10px;
   position: relative;
 }
+.body .entries.circulars .entry .title {
+  padding: 0 0 5px 0;
+}
 .body .entries.circulars .category {
   float: left;
   width: 75px;
@@ -1504,6 +1508,43 @@ select {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+}
+.body .video.full-width {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.body .video-responsive {
+  position: relative;
+  padding-bottom: 53%;
+  /* 16:9 I have no idea how this works, lol */
+  padding-top: 25px;
+  height: 0;
+}
+.body .video-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.body .video-description {
+  float: left;
+  width: 500px;
+}
+.body .video-description .optional-detail {
+  margin-top: -5px;
+}
+.body .archive-link {
+  float: right;
+  width: 110px;
+  text-align: right;
+}
+.body .archive-link a {
+  padding: 0;
+  display: inline-block;
+}
+.body .video-archives .title {
+  padding-bottom: 5px;
 }
 
 .footer {
@@ -2114,6 +2155,13 @@ select {
     -moz-box-shadow: none;
     box-shadow: none;
   }
+  .body .video-description {
+    float: none;
+    width: auto;
+  }
+  .body .archive-link {
+    display: none;
+  }
 }
 @media only screen and (max-width: 600px) {
   .back-to-top a {
@@ -2138,9 +2186,9 @@ select {
     box-sizing: border-box;
     font-size: 1.1em;
     padding: 6px 8px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
   }
   .body .form-login .go-button {
     margin: 0;
@@ -2186,9 +2234,9 @@ select {
     float: none;
     font-size: 1.1em;
     padding: 6px 8px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
   }
   .body .copy-padding .form .row {
     float: none;

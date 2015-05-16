@@ -67,7 +67,6 @@
         },
 
         resize : function(){
-            console.log(uktia.properties.windowWidth);
             uktia.navigation.reszie();
             uktia.content.resize();
         }
@@ -76,12 +75,6 @@
     uktia.navigation = {
         $html: $('#navigation-list'),
         $htmlMobile: $('nav#mobile-navigation'),
-
-        reszie: function(){
-            var self = this;
-            self.$htmlMobile.trigger("close.mm");
-            self.closeDropdowns();
-        },
 
         mobile: {
             init: function(){
@@ -164,7 +157,14 @@
                 // initiate mobile navigation
                 self.mobile.init();
             }
+        },
+
+        reszie: function(){
+            var self = this;
+            self.$htmlMobile.trigger("close.mm");
+            self.closeDropdowns();
         }
+
     };
 
     uktia.content = {
@@ -293,8 +293,25 @@
                     $advancedFields.removeClass('opened');
                 });
             }
+
+            // smooth anchor scrolling
+            $('a[href*=#]:not([href=#])').not($('#mobile-navigation-button')).click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top - 20
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
         },
-        resize: function(){}
+
+        resize: function(){
+            // nowt
+        }
     };
 
 	uktia.init = function(){
@@ -303,8 +320,8 @@
         uktia.environment.init();
         uktia.navigation.init();
         uktia.content.init();
-
-
+        // add init methods as needed
+        // ...
 
         // Resize triggers
 		$(window).on('resize',function(){
@@ -322,9 +339,10 @@
         $(window).trigger('resize');
 	};
 
-    // Main resize
     uktia.resize = function(){
         uktia.environment.resize();
+        // add resize methods as needed
+        // ...
     };
 
     // Main init

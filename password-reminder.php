@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
 <head>
-    <title>UK Tea &amp; Infusions Association - Members Log-in</title>
+    <title>UK Tea &amp; Infusions Association - Password reminder</title>
     <?php include('includes/static-resources.php'); ?>
 </head>
-<body class="log-in">
+<body class="password-reminder">
 
     <div class="page">
 
@@ -68,26 +68,19 @@
                     <div class="copy-padding">
 
 
-                        <h2>Members Log-in</h2>
-                        <p>Log-in to the UK Tea &amp; Infusions Association Members Extranet to gain access to the information on this site. If you have not registered already, please <a href="register.php" title="Click here to register for access to the UK Tea Council Members Extranet website...">register here</a>.</p>
-                        <p>If you have forgotten your login details, please <a href="password-reminder.php" title="Click here to go to the password reminder page...">click here to retrieve your password</a>.</p>
+                        <h2>Password reminder</h2>
+                        <p>Please provide your registered email address, and we will email your password.</p>
 
-                        <form id="login-form" name="login-form" action="pulse.php" method="post" class="form">
-                            <h3>Please login to access members info:</h3>
+                        <form id="login-form" name="login-form" action="#" method="post" class="form">
+                            <h3>Password will be sent to the entered email address.</h3>
                             <div class="row">
                                 <label for="email">Email</label>
                                 <input type="email" class="input" name="email" id="email" placeholder="Email" value="">
-                            </div>
-                            <div class="row">
-                                <label for="phrase">Password</label>
-                                <input type="password" class="input" name="phrase" id="phrase" placeholder="Password" value="">
                             </div>
                             <div class="row last">
                                 <input type="submit" id="go" value="submit" class="go-button">
                             </div>
                         </form>
-
-                        <p><a href="password-reminder.php" class="big-cta">Forgot password?</a></p>
 
 
                         <div class="cboth"></div>

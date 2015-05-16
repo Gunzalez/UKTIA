@@ -1,10 +1,53 @@
+<?php
+// default video to be shown
+$videoToPlay = array(
+    'id' => '125508172',
+    'title' => 'Mandatory: Title of video needs to go in here',
+    'description' => '<p>Optional: Some words for video description need to go into here, if available.</p>'
+);
+
+// list of archive videos
+$fakeVideoArray = array(
+    "AllowedVideoCode1" => array(
+        'id' => '12622016',
+        'title' => 'The Music Scene',
+        'description' => '<p>Ipsum ltricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet es</p>'
+    ),
+    "AllowedVideoCode2" => array(
+        'id' => '69467838',
+        'title' => 'Moderat "Bad Kingdom" | Monkeytown Rec.',
+        'description' => '<p>Quisqit amet est et sapiue sit amet est et sapien ullamcorper pharet</p>'
+
+    ),
+    "AllowedVideoCode3" => array(
+        'id' => '85142183',
+        'title' => 'Lorn - Until There Is No End (official video)',
+        'description' => '<p>Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.</p>'
+    ),
+    "AllowedVideoCode4" => array(
+    'id' => '55859709',
+    'title' => 'Rone - Bye Bye Macadam (Official Video)',
+    'description' => '<p>However you choose to approach content in your web work, the lowly lorem ipsum text has certainly inspired a myriad of similar versions.</p>'
+)
+);
+
+// only replace if provided query string (aka code) exists
+if(isset($_GET['video'])){
+    if (array_key_exists($_GET['video'], $fakeVideoArray)) {
+        $videoToPlay['id'] = $fakeVideoArray[$_GET['video']]['id'];
+        $videoToPlay['title'] = $fakeVideoArray[$_GET['video']]['title'];
+        $videoToPlay['description'] = $fakeVideoArray[$_GET['video']]['description'];
+    }
+}
+?>
+
 <!doctype html>
 <html>
 <head>
     <title>UK Tea &amp; Infusions Association - Video Update</title>
     <?php include('includes/static-resources.php'); ?>
 </head>
-<body class="essential-reading">
+<body class="video-update">
 
     <div class="page">
 
@@ -72,12 +115,45 @@
             <div class="section">
                 <div class="wide left">
                     <div class="copy-padding">
+
                         <h2>Video update</h2>
 
+                        <div class="video-description">
+                            <h3 class="title"><?php echo $videoToPlay['title']; ?></h3>
+                            <div class="optional-detail">
+                                <?php echo $videoToPlay['description']; ?>
+                            </div>
+                        </div>
 
+                        <div class="archive-link">
+                            <a href="#video-archives" class="big-cta">View archives &#187;</a>
+                        </div>
+                        <div class="cboth"></div>
 
+                        <div class="video full-width">
+                            <div class="video-responsive">
+                                <iframe src="http://player.vimeo.com/video/<?php echo $videoToPlay['id']; ?>?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="360" height="203" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
 
+                        <div id="video-archives" class="video-archives">
+                            <h3>Video archives</h3>
 
+                            <div class="entries">
+                                <?php
+                                foreach($fakeVideoArray as $key => $value) {
+                                    ?>
+                                    <div class="entry">
+                                        <h4 class="title"><a href="video-update.php?video=<?php echo $key; ?>"><?php echo $value['title']; ?></a></h4>
+                                        <div class="optional-detail">
+                                            <?php echo $value['description']; ?>
+                                        </div>
+                                    </div>
+                                <?php
+                                }
+                                ?>
+                            </div>
+                        </div>
 
 
 

@@ -109,18 +109,19 @@
                         </div>
 
                         <div class="video-update">
+
                             <div class="heading">
                                 <h3>UKTIA video update:</h3>
-                                <a href="/video-update/archive">View archive &#187;</a>
+                                <a href="video-update.php#video-archives">View archive &#187;</a>
                                 <div class="cboth"></div>
                             </div>
-                            <div class="video">
 
+                            <div class="video">
                                 <div class="video-responsive">
                                     <iframe src="http://player.vimeo.com/video/125508172?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="360" height="203" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
                                 </div>
-
                             </div>
+
                         </div>
 
                         <div class="cboth"></div>

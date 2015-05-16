@@ -210,7 +210,7 @@
                             <img src="uploaded/icon-update.png" width="45" height="45" alt="Meetings">
                         </div>
                         <div class="details">
-                            <h4><a href="/actions-updates/article/uktia-executive-board-meeting">UKTIA Executive Board Meeting</a></h4>
+                            <h4 class="title"><a href="/actions-updates/article/uktia-executive-board-meeting">UKTIA Executive Board Meeting</a></h4>
                             <dl>
                                 <dt>Categories:</dt>
                                 <dd>Meeting dates &amp; agendas / Meetings &amp; Admin <span class="separator">/</span> Meeting dates &amp; agendas</dd>
@@ -237,7 +237,7 @@
                             <img src="uploaded/icon-update.png" width="45" height="45" alt="Meetings">
                         </div>
                         <div class="details">
-                            <h4><a href="/actions-updates/article/uktia-technical-operating-group-rswg-meetings">UKTIA Technical Operating Group &amp; RSWG Meetings</a></h4>
+                            <h4 class="title"><a href="/actions-updates/article/uktia-technical-operating-group-rswg-meetings">UKTIA Technical Operating Group &amp; RSWG Meetings</a></h4>
                             <dl>
                                 <dt>Categories:</dt>
                                 <dd>Meeting dates &amp; agendas / Meetings &amp; Admin <span class="separator">/</span> Meeting dates &amp; agendas</dd>
@@ -264,7 +264,7 @@
                             <img src="uploaded/icon-update.png" width="45" height="45" alt="Meetings">
                         </div>
                         <div class="details">
-                            <h4><a href="/actions-updates/article/uktia-technical-operating-group-rswg-meetings">UKTIA Technical Operating Group &amp; RSWG Meetings</a></h4>
+                            <h4 class="title"><a href="/actions-updates/article/uktia-technical-operating-group-rswg-meetings">UKTIA Technical Operating Group &amp; RSWG Meetings</a></h4>
                             <dl>
                                 <dt>Categories:</dt>
                                 <dd>Meeting dates &amp; agendas / Meetings &amp; Admin <span class="separator">/</span> Meeting dates &amp; agendas</dd>
