@@ -22,6 +22,9 @@
             <li><a href="log-in.php">Membership Reference Info</a></li>
             <li><a href="log-in.php">Circulars</a></li>
             <li><a href="contact.php">Contact</a></li>
+            <li><a href="terms-conditions.php">Terms &amp; Conditions</a></li>
+            <li><a href="privacy-policy.php">Privacy Policy</a></li>
+            <li><a href="site-map.php">Site map</a></li>
         </ul>
     </nav>
 </div>
