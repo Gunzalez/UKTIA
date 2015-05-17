@@ -501,17 +501,20 @@ select {
   width: 160px;
   background-color: #926641;
   display: block;
-  -webkit-transition: background 0.2s;
-  -moz-transition: background 0.2s;
-  -o-transition: background 0.2s;
-  transition: background 0.2s;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  -o-transition: background 0.5s;
+  transition: background 0.5s;
+  -webkit-box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
 }
 .body .banner-register .button:hover span {
   background-color: #aa7d57;
-  -webkit-transition: background 0.2s;
-  -moz-transition: background 0.2s;
-  -o-transition: background 0.2s;
-  transition: background 0.2s;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  -o-transition: background 0.5s;
+  transition: background 0.5s;
 }
 .body .form-login {
   height: 46px;
@@ -1926,6 +1929,9 @@ select {
     display: block;
     width: auto;
     background: url("../images/button-indicator.png") right center no-repeat #926641;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
   }
   .body .respond {
     margin: 0 15px 20px 15px;
