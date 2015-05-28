@@ -12,15 +12,15 @@
 
             <a href="#mobile-navigation" id="mobile-navigation-button" class="mobile-navigation-button"><i class="fa fa-bars"></i></a>
 
-            <h1 class="logo">
+            <div class="logo">
                 <span>
                     <span>
-                        <a href="index.php">
-                            <img src="images/logo.png" alt="" />
-                        </a>
+                        <h1>
+                            <a href="index.php">UKTIA members</a>
+                        </h1>
                     </span>
                 </span>
-            </h1>
+            </div>
 
             <ul class="aux-navigation">
                 <li class="tw"><a href="https://twitter.com/ukteacouncil" title="Twitter" target="_blank">Twitter</a></li>
